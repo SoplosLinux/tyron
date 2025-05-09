@@ -1,0 +1,21 @@
+Origin: SoplosLinux
+Label: SoplosLinux
+Suite: stable
+Codename: stable
+Version: 1.0
+Date: Fri, 09 May 2025 02:57:33 UTC
+Architectures: amd64
+Components: main
+Description: Repositorio de SoplosLinux
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ ca5e942ddd4b78e48c213d3216e830af 144 main/binary-amd64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ a2dfe29c3f8057aeb00a7f2d8547589ad430832d 144 main/binary-amd64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 730e7f0c6581a39b0d66c97a1238d989f6e66df12fce1b1ecafe2dfbe5074384 144 main/binary-amd64/Release
