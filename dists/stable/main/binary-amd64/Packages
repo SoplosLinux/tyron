@@ -1,0 +1,14 @@
+Package: soplos-docklike
+Version: 1.0.0
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, dbus-x11, debhelper-compat, dh-python, gettext, gir1.2-gtk-3.0, python3-all, python3-cairo, python3-dbus, python3-gi, python3-setuptools, xfce4-docklike-plugin, xfce4-panel (>= 4.14) | xfce4-panel (<< 4.21), xfconf
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-docklike/soplos-docklike_1.0.0_all.deb
+Size: 278704
+SHA256: f9b8540ff34a892831576e03772be8851df6e661961c8bb0ce1610b8ea2a8657
+SHA1: 00afdc59f6ec790d040b5e7ad8c9e7cfd5c28319
+MD5sum: cbd148a8e61d94cf41639e26c5694c89
+Description: Docklike applications manager
+
