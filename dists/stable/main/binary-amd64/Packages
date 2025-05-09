@@ -32,20 +32,6 @@ Essential: yes
 Replaces: base-files
 Conflicts: base-files (<< 13.7)
 
-Package: soplos-repo-manager
-Version: 1.0.2
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, apt-utils, debhelper-compat, dh-python, dpkg, gir1.2-gtk-3.0, git, gnupg, python3-all, python3-apt, python3-gi, python3-git, python3-pip, python3-setuptools, reprepro, wget
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-repo-manager/soplos-repo-manager_1.0.2_all.deb
-Size: 433852
-SHA256: 25c7ef21e88c9d5fe2b009298ed62fa76a209fe681475ba70a83cdd77deff72e
-SHA1: 381020f5be3fbd1295ec18f812055b7d7063627c
-MD5sum: 50cd4b90edc7cf620dba43e520ee3f02
-Description: GitHub APT repository manager
-
 Package: soplos-wallpapers01
 Version: 1.0.0
 Architecture: all
