@@ -12,20 +12,6 @@ SHA1: 00afdc59f6ec790d040b5e7ad8c9e7cfd5c28319
 MD5sum: cbd148a8e61d94cf41639e26c5694c89
 Description: Docklike applications manager
 
-Package: soplos-plymouth-manager
-Version: 1.0.0
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, plymouth, plymouth-x11, polkit | policykit-1-gnome | policykit-1, procps, python3-all, python3-dbus, python3-gi, python3-pil | python3-pillow, python3-psutil, python3-setuptools, python3-xdg, scrot | imagemagick, tar, unzip
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_1.0.0_all.deb
-Size: 345340
-SHA256: bf0a3b0cbab6646417a15439536dfa524652c91aa290496d2501f1b56b23b053
-SHA1: 5fe71f5bc7c67cac9139c15f54b394983c9f6f21
-MD5sum: 063fe12bf8bfeb8c6cc2bfa402dc6f58
-Description: Plymouth themes manager
-
 Package: soplos-release
 Version: 0.0.3
 Architecture: all
