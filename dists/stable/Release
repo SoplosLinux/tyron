@@ -3,25 +3,25 @@ Label: SoplosLinux
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Fri, 09 May 2025 14:52:50 UTC
+Date: Fri, 09 May 2025 14:52:55 UTC
 Architectures: amd64
 Components: main
 Description: Repositorio de SoplosLinux
 MD5Sum:
- 05fb3722c80b486b8b2a742264fe4ef1 10066 main/dep11/Components-amd64.xml.gz
- 1c6d910b691ad21570af4ed055d072dc 802895 main/dep11/Icons-64x64.tar.gz
- 038361716f7ba5e9953aa8a028184e9e 7354 main/binary-amd64/Packages
- 93c9845d812073c3efdb9efca3b9f318 2443 main/binary-amd64/Packages.gz
+ 0ac7e017f68ce6959667c7aacd454f91 9974 main/dep11/Components-amd64.xml.gz
+ e54a50e873aa06cd475cde111f487c5a 802883 main/dep11/Icons-64x64.tar.gz
+ 8c16a92fe31a9f849929e94499e6fd2a 6817 main/binary-amd64/Packages
+ 5b73248653e0b50b52b3eea4a6d843bc 2255 main/binary-amd64/Packages.gz
  ca5e942ddd4b78e48c213d3216e830af 144 main/binary-amd64/Release
 SHA1:
- 36adcaf1577da2f4525955264139c822cfe1e699 10066 main/dep11/Components-amd64.xml.gz
- e481fa2801a2cc301d4d868d6566d8a72931371e 802895 main/dep11/Icons-64x64.tar.gz
- 138c49fc22e2929c36f4f587630ff65c51807802 7354 main/binary-amd64/Packages
- 240de8bc5860af4a394e95d5e8cb2a424b1ae444 2443 main/binary-amd64/Packages.gz
+ 37ca9d011ab53be68794672de55abab4511c6292 9974 main/dep11/Components-amd64.xml.gz
+ ec4d77985d55b089380ae054713e195225e11a2e 802883 main/dep11/Icons-64x64.tar.gz
+ 26c4d384dea55b7aca9ab7b48b3703755fa2b8b6 6817 main/binary-amd64/Packages
+ 08205ecd24e7eb0ea70afa5ecf62cb612e004b40 2255 main/binary-amd64/Packages.gz
  a2dfe29c3f8057aeb00a7f2d8547589ad430832d 144 main/binary-amd64/Release
 SHA256:
- cdb3b89e1342f96c96835b654b9564a7495c6510cda8a02881b86cf7e51c254b 10066 main/dep11/Components-amd64.xml.gz
- 65cf8bddaab6a5cce97475dd0cb9f754730d0c4fd6864de3d78a0911854a1b33 802895 main/dep11/Icons-64x64.tar.gz
- b3cbfc3a54118dfaee887619b38652f9969f6a74110929d2b77249252a9d2dd0 7354 main/binary-amd64/Packages
- 4d4995d9fd10b202aa716e4566344493c6ea58eba83b98cfbf57875b6e537d51 2443 main/binary-amd64/Packages.gz
+ 06d1ca392a04a6f3e3c1850d6916d2bd38f0a14a47c030ed11100e656bda1115 9974 main/dep11/Components-amd64.xml.gz
+ f88f54556d40c11b14b32a12d40efb7570680708b06e69f5bc9bb647978b8b51 802883 main/dep11/Icons-64x64.tar.gz
+ b12d8a28c5e4f7655312da4b98e86e096c82cebc66bd4ff6e4d31439bb99ff3c 6817 main/binary-amd64/Packages
+ a412a3fbde40ae92e260543fa62422bea7a4bf97fec5876b6e38ef6faf375dcd 2255 main/binary-amd64/Packages.gz
  730e7f0c6581a39b0d66c97a1238d989f6e66df12fce1b1ecafe2dfbe5074384 144 main/binary-amd64/Release
