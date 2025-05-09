@@ -6,41 +6,41 @@ Label: SoplosLinux
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Fri, 09 May 2025 19:18:42 UTC
+Date: Fri, 09 May 2025 19:24:46 UTC
 Architectures: amd64
 Components: main
 Description: Repositorio de SoplosLinux
 MD5Sum:
- 1cdbb2a1a30eaeb26cfefd3ab90f6a5b 637 main/dep11/Components-amd64.xml.gz
- eec86a7a4c9726e39f6a397460768915 194 main/dep11/Icons-64x64.tar.gz
- 935916ae10d5a583092398a9461855a0 1839 main/binary-amd64/Packages
- 3636b9e7df99969c20a649d08651d7db 810 main/binary-amd64/Packages.gz
+ 872ddd15afd4b85b8cbd08669cf9739a 7002 main/dep11/Components-amd64.xml.gz
+ 71d74ddc78c84996c61334b148b9b8f7 543793 main/dep11/Icons-64x64.tar.gz
+ 9fb20825d101ac6d03dba834e9befbef 6021 main/binary-amd64/Packages
+ 28294ac9fd618844923d620e2c820c0c 2067 main/binary-amd64/Packages.gz
  ca5e942ddd4b78e48c213d3216e830af 144 main/binary-amd64/Release
 SHA1:
- 62f9b7987a3a3945a8659b06a4c37768b03443d7 637 main/dep11/Components-amd64.xml.gz
- 46c8d22109911815e687f6b7603b8e07222f942e 194 main/dep11/Icons-64x64.tar.gz
- 903c0cd6ec12a0aed5d1430eba375a77e7a3ca66 1839 main/binary-amd64/Packages
- 94ee98150eaeec4ac8cab7631286c49c58620045 810 main/binary-amd64/Packages.gz
+ 0715240315e6f9e77a8af33c055d979f60cf7138 7002 main/dep11/Components-amd64.xml.gz
+ c36213661d61784ce7a4055c8d9b95888b3f520f 543793 main/dep11/Icons-64x64.tar.gz
+ de5e4ffd40f47bd048c02a9c75a7b623672b7522 6021 main/binary-amd64/Packages
+ b6c458471118dcc9bde2f7889a71754b3011f755 2067 main/binary-amd64/Packages.gz
  a2dfe29c3f8057aeb00a7f2d8547589ad430832d 144 main/binary-amd64/Release
 SHA256:
- d88cb53e532bde3d17117163875d8a6e4149d06cd0578de3540e4e7f3a57f896 637 main/dep11/Components-amd64.xml.gz
- 4d19786d2f2031784bf8aba9a7031c55b4602524f1eb778640e7f4e88a733aa7 194 main/dep11/Icons-64x64.tar.gz
- 7039589ba4c46f4dd25e76aa8191695e1161064c8bf9e6cec57ab645a0651d31 1839 main/binary-amd64/Packages
- 813894e96e5437fc87ad937cd8c87ea83824056cae23a7125b7cf75753c5dd07 810 main/binary-amd64/Packages.gz
+ 5a8a6e15dce546fffe4a57818a4313ea735357f32a2c954e3318e2d6a483bf73 7002 main/dep11/Components-amd64.xml.gz
+ be2df76509498983b0133244b3d1f5ffb6a872120d26b4444b05647004a174a0 543793 main/dep11/Icons-64x64.tar.gz
+ 11582d6fade07c9775b74da4b9d196fbae3d6292022980109a7dfb87763eabbf 6021 main/binary-amd64/Packages
+ c96a39c2941faa031e7a1e2e6651f17f7665e631b195740b91dd075792631005 2067 main/binary-amd64/Packages.gz
  730e7f0c6581a39b0d66c97a1238d989f6e66df12fce1b1ecafe2dfbe5074384 144 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEELjMdiIje1E5m/0C9OyP2YT2tHCkFAmgeVRIACgkQOyP2YT2t
-HClQIg//b0sfippmkqwwqyKuQimTpj/A+DYNn1vMrtkvkAb/LCzyk1Bfa+A+i5Ew
-o9wz3RWHYQ3CCPf5U5M0bOC3RXx5woJ6jbdBbIHX0LOMb0n8rRP0+HzAsaEfiT3R
-4ZINQKItg/EktM2zSEJmpqIoFH3vWk4ZVS90P82fZoxO99ardU7LUjose+Mat6Z2
-MAtvTgJyceQaUt+/y5YrEqL+KBoKBbfaXQAnu4NaTxpmWFuQH8gsFpTSIXUh+AAM
-1WO+bCiGbd917a5PehhcQddeMEK4YLisTu1aoHj0ppys0Vndg/9y4Sw6jH9sc7Bj
-6rcLfKWUHutb7UeXngjstlmU5z4xm6qmUCbTOJWEYJPcZg5ggj8MM8cjkpbIki8d
-FfW2aZHt8JtAd2RWs4WjnySe23vzNfLfD+48Ef4AgTn+CkdpDdIOPa2DsSFzT/n1
-17EzfxC6UDB81Htmx+c8/7S/EvNmf+6jbdlT9+fHPGZxXszLPSRL24FR0wckPdwy
-7SxPOV0bgl9YBSTNmjBZ6uO50Oka5M4TyqFhSSR4+ocJbDCiFKrxe3/PHZSsM20a
-5sjtZ4T3CbS7c5zFNFPP2X+1PkDUyzJ+/4MT0mMD2l8KGtrM1s6KnrtYSm8yEdjC
-7eoNPolxB/UsjKStgU0CoLn9sUp2nlInBzWhkFpGHHlpE3aITMY=
-=wVi4
+iQIzBAEBCgAdFiEELjMdiIje1E5m/0C9OyP2YT2tHCkFAmgeVn4ACgkQOyP2YT2t
+HClzHw/9EOszgPTGRtMrDsIsG0LJQcQgkoonKeCl5wfckOTSCqs94xQM/6ETqUNI
+1CeuNRiIyJ5/qIxSoQbwREL5c6Q7S0vNNIIJR7ChfA2UECTcvhV59NJ9mCCkR2Uu
+YAL9Lozq8VQc/lQ11cdxk19oreU+tvArRtAAEdMQbki34Ki2k/b5zlUYROxsW9p+
+DH6wYLNsS+z0wtm8508mTBygQ//euqMFBZVNZ1bpp3xRh+Q7UJI290L4LaOpOycT
+JVqsgmBhmYMIVRAFBkRXjxZPzSSC5//YIid25l2Qq3LseRXiPrmKuzGYUShVwNvD
+irX8YLuo+U4EaN83TgEI52o/gcR15mubS2Qzdh0hk//n2wWjD/s5dqOcvKIRjK7w
+GOF/JCbJFfc42pL1cA6YNmFebe79B4O0sAFvLiC7iI8MzyGOXMbYYYDr+9/O4EfQ
+N/U8MUzV1UfX5avGmphJcZI2H9WOxGQxK/vjjazdBK1dmO15hOYRHnT9COVV1+kW
+ncDevhZP+IqajOLZxbuyYRjM7/Kqb6/4oLnqJEFBQRa9zhhOhC8HA4eT4DRC4coP
+s58RT52VgzK0LUOzUhPxiaex7CWHbbsD9Mn9jiWQznOguwsybx+syRLhl9XuHSsd
+RDH4GtVDlSn9aW6csR5Fp6iK/5mJrlaqhn7tkg3jKzcd6IFZgiM=
+=wxk7
 -----END PGP SIGNATURE-----
