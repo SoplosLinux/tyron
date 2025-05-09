@@ -74,20 +74,6 @@ SHA1: 381020f5be3fbd1295ec18f812055b7d7063627c
 MD5sum: 50cd4b90edc7cf620dba43e520ee3f02
 Description: GitHub APT repository manager
 
-Package: soplos-theme-manager
-Version: 1.0.0
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, appstream, debhelper-compat, gir1.2-gtk-3.0 | python3-gi-cairo, libnotify-bin | notify-osd, mugshot | gnome-control-center | unity-control-center, python3, python3-cairo | python-cairo, python3-dbus | python-dbus, python3-gi (>= 3.20) | python-gi (>= 3.20), python3-psutil | python-psutil, python3-setuptools, python3-xlib | python-xlib, scrot | gnome-screenshot | imagemagick, wmctrl, xdg-utils, xfce4-panel | xfce4-panel-gtk3, xfconf, xfdesktop4 | xfdesktop
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-theme-manager/soplos-theme-manager_1.0.0_all.deb
-Size: 18608104
-SHA256: 72efe302fefd9c406ac3d9c15015783112053ae54a5ed089758cc3a6298765b1
-SHA1: a25806f71b6c08935d3cca03e9fa28542520de60
-MD5sum: ea891e2fb8d80c4f3fb2d64608a1b932
-Description: Xfce themes manager
-
 Package: soplos-wallpapers01
 Version: 1.0.0
 Architecture: all
