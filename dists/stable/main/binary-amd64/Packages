@@ -131,6 +131,21 @@ Description: Fondos de pantalla para SopLOS
  Este paquete contiene una colección de fondos de pantalla 
  para el sistema operativo Soplos Linux Tyron.
 
+Package: soplos-wallpapers02
+Version: 1.0.0
+Architecture: all
+Maintainer: SopLOS <info@soploslinux.com>
+Priority: optional
+Section: x11
+Filename: pool/main/s/soplos-wallpapers02/soplos-wallpapers02_1.0.0_all.deb
+Size: 32270536
+SHA256: a7300673e8bf6541276b7dec35d1a6c94cac192b432058739819bffd01ab3eb4
+SHA1: b11480b41a5e86ff092eb23e2506a9e9f006059b
+MD5sum: 040287cbcb8c641c3d220ea6b675cc03
+Description: Fondos de pantalla para SopLOS
+ Este paquete contiene una colección de fondos de pantalla 
+ para el sistema operativo Soplos Linux Tyron.
+
 Package: soplos-welcome
 Version: 1.0.0
 Architecture: all
