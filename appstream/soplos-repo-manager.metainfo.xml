@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.soplos.repomanager.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Soplos Repo Manager</name>
+  <name xml:lang="es">Gestor de Repositorios Soplos</name>
+  <name xml:lang="fr">Gestionnaire de dépôts Soplos</name>
+  <name xml:lang="pt">Gerenciador de Repositórios Soplos</name>
+  <name xml:lang="de">Soplos Repository-Manager</name>
+  <name xml:lang="it">Gestore Repository Soplos</name>
+  <name xml:lang="ru">Менеджер репозиториев Soplos</name>
+  <name xml:lang="ro">Manager Depozit Soplos</name>
+  
+  <summary>APT repository manager for Soplos Linux</summary>
+  <summary xml:lang="es">Gestor de repositorios APT para Soplos Linux</summary>
+  <summary xml:lang="fr">Gestionnaire de dépôts APT pour Soplos Linux</summary>
+  <summary xml:lang="pt">Gerenciador de repositórios APT para Soplos Linux</summary>
+  <summary xml:lang="de">APT-Repository-Manager für Soplos Linux</summary>
+  <summary xml:lang="it">Gestore repository APT per Soplos Linux</summary>
+  <summary xml:lang="ru">Менеджер репозиториев APT для Soplos Linux</summary>
+  <summary xml:lang="ro">Manager depozit APT pentru Soplos Linux</summary>
+
+  <description>
+    <p>A graphical tool to manage APT repositories, sign packages with GPG keys, and synchronize with GitHub.</p>
+    <p xml:lang="es">Una herramienta gráfica para gestionar repositorios APT, firmar paquetes con claves GPG y sincronizar con GitHub.</p>
+    <p xml:lang="fr">Un outil graphique pour gérer les dépôts APT, signer les paquets avec des clés GPG et synchroniser avec GitHub.</p>
+    <p xml:lang="pt">Uma ferramenta gráfica para gerenciar repositórios APT, assinar pacotes com chaves GPG e sincronizar com GitHub.</p>
+    <p xml:lang="de">Ein grafisches Tool zur Verwaltung von APT-Repositories, zum Signieren von Paketen mit GPG-Schlüsseln und zur Synchronisierung mit GitHub.</p>
+    <p xml:lang="it">Uno strumento grafico per gestire i repository APT, firmare pacchetti con chiavi GPG e sincronizzare con GitHub.</p>
+    <p xml:lang="ru">Графический инструмент для управления репозиториями APT, подписи пакетов с помощью ключей GPG и синхронизации с GitHub.</p>
+    <p xml:lang="ro">Un instrument grafic pentru gestionarea depozitelor APT, semnarea pachetelor cu chei GPG și sincronizarea cu GitHub.</p>
+    
+    <p>Features include package management, GPG signing, GitHub synchronization, installation script generation, and profile management.</p>
+    <p xml:lang="es">Las características incluyen gestión de paquetes, firma GPG, sincronización con GitHub, generación de scripts de instalación y gestión de perfiles.</p>
+    <p xml:lang="fr">Les fonctionnalités comprennent la gestion des paquets, la signature GPG, la synchronisation GitHub, la génération de scripts d'installation et la gestion des profils.</p>
+    <p xml:lang="pt">Os recursos incluem gerenciamento de pacotes, assinatura GPG, sincronização com GitHub, geração de scripts de instalação e gerenciamento de perfis.</p>
+    <p xml:lang="de">Zu den Funktionen gehören Paketverwaltung, GPG-Signierung, GitHub-Synchronisierung, Generierung von Installationsskripten und Profilverwaltung.</p>
+    <p xml:lang="it">Le funzionalità includono gestione dei pacchetti, firma GPG, sincronizzazione GitHub, generazione di script di installazione e gestione dei profili.</p>
+    <p xml:lang="ru">Функции включают управление пакетами, подпись GPG, синхронизацию с GitHub, создание установочных скриптов и управление профилями.</p>
+    <p xml:lang="ro">Caracteristicile includ gestionarea pachetelor, semnarea GPG, sincronizarea GitHub, generarea scripturilor de instalare și gestionarea profilurilor.</p>
+  </description>
+
+  <launchable type="desktop-id">com.soplos.repomanager.desktop</launchable>
+
+  <icon type="stock">com.soplos.repomanager</icon>
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-repo-manager/icons/com.soplos.repomanager.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window of Soplos Repo Manager</caption>
+      <caption xml:lang="es">Ventana principal del Gestor de Repositorios Soplos</caption>
+      <caption xml:lang="fr">Fenêtre principale du Gestionnaire de dépôts Soplos</caption>
+      <caption xml:lang="pt">Janela principal do Gerenciador de Repositórios Soplos</caption>
+      <caption xml:lang="de">Hauptfenster des Soplos Repository-Managers</caption>
+      <caption xml:lang="it">Finestra principale del Gestore Repository Soplos</caption>
+      <caption xml:lang="ru">Главное окно Менеджера репозиториев Soplos</caption>
+      <caption xml:lang="ro">Fereastra principală a Managerului de Depozit Soplos</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-manager/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Repository configuration settings</caption>
+      <caption xml:lang="es">Configuración de repositorios</caption>
+      <caption xml:lang="fr">Paramètres de configuration du dépôt</caption>
+      <caption xml:lang="pt">Configurações do repositório</caption>
+      <caption xml:lang="de">Repository-Konfigurationseinstellungen</caption>
+      <caption xml:lang="it">Impostazioni di configurazione del repository</caption>
+      <caption xml:lang="ru">Настройки конфигурации репозитория</caption>
+      <caption xml:lang="ro">Setări de configurare a depozitului</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-manager/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Package management interface</caption>
+      <caption xml:lang="es">Interfaz de gestión de paquetes</caption>
+      <caption xml:lang="fr">Interface de gestion des paquets</caption>
+      <caption xml:lang="pt">Interface de gerenciamento de pacotes</caption>
+      <caption xml:lang="de">Paketverwaltungsschnittstelle</caption>
+      <caption xml:lang="it">Interfaccia di gestione pacchetti</caption>
+      <caption xml:lang="ru">Интерфейс управления пакетами</caption>
+      <caption xml:lang="ro">Interfață de gestionare a pachetelor</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-manager/screenshots/screenshot3.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soploslinux.com</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="help">https://soploslinux.com</url>
+
+  <provides>
+    <binary>soplos-repo-manager</binary>
+  </provides>
+
+  <categories>
+    <category>System</category>
+    <category>PackageManager</category>
+    <category>Settings</category>
+  </categories>
+
+  <developer id="com.soploslinux">
+    <name>Soplos Linux Team</name>
+    <name xml:lang="es">Equipo de Soplos Linux</name>
+    <name xml:lang="fr">Équipe Soplos Linux</name>
+    <name xml:lang="pt">Equipe Soplos Linux</name>
+    <name xml:lang="de">Soplos Linux Team</name>
+    <name xml:lang="it">Team Soplos Linux</name>
+    <name xml:lang="ru">Команда Soplos Linux</name>
+    <name xml:lang="ro">Echipa Soplos Linux</name>
+    <url>https://soploslinux.com</url>
+  </developer>
+  
+  <update_contact>info@soplos.org</update_contact>
+  
+  <releases>
+    <release version="1.0.0" date="2025-05-08" type="stable">
+      <description>
+        <p>Initial release</p>
+        <p xml:lang="es">Versión inicial</p>
+        <p xml:lang="fr">Version initiale</p>
+        <p xml:lang="pt">Versão inicial</p>
+        <p xml:lang="de">Erste Version</p>
+        <p xml:lang="it">Versione iniziale</p>
+        <p xml:lang="ru">Начальная версия</p>
+        <p xml:lang="ro">Versiune inițială</p>
+      </description>
+    </release>
+  </releases>
+  
+  <content_rating type="oars-1.1" />
+</component>
