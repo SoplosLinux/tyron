@@ -116,6 +116,36 @@ SHA1: a25806f71b6c08935d3cca03e9fa28542520de60
 MD5sum: ea891e2fb8d80c4f3fb2d64608a1b932
 Description: Xfce themes manager
 
+Package: soplos-wallpapers01
+Version: 1.0.0
+Architecture: all
+Maintainer: SopLOS <info@soploslinux.com>
+Priority: optional
+Section: x11
+Filename: pool/main/s/soplos-wallpapers01/soplos-wallpapers01_1.0.0_all.deb
+Size: 34258368
+SHA256: bf1365cbe0ef6c256155a76ddec5ddf58181ebc0b4b4cbfb24f4cf49745e0380
+SHA1: af8110e5cb67bad3542c1dac55bf347e60ca5c63
+MD5sum: 86a5d4d193e36968d13a263e0fd0fa5f
+Description: Fondos de pantalla para SopLOS
+ Este paquete contiene una colección de fondos de pantalla 
+ para el sistema operativo Soplos Linux Tyron.
+
+Package: soplos-wallpapers02
+Version: 1.0.0
+Architecture: all
+Maintainer: SopLOS <info@soploslinux.com>
+Priority: optional
+Section: x11
+Filename: pool/main/s/soplos-wallpapers02/soplos-wallpapers02_1.0.0_all.deb
+Size: 32270108
+SHA256: 53751e770295a011b01c52fdac51ff00ab71c02d8762b02fde893504a947b9a1
+SHA1: ca376689811f3e1bcc06b6a5b0e19fcaa5d0aa92
+MD5sum: 7633b35410ed0e13fb0969cfca6c7dbc
+Description: Fondos de pantalla para SopLOS
+ Este paquete contiene una colección de fondos de pantalla 
+ para el sistema operativo Soplos Linux Tyron.
+
 Package: soplos-welcome
 Version: 1.0.0
 Architecture: all
