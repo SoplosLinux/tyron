@@ -104,3 +104,31 @@ Description: Fondos de pantalla para SopLOS
  Este paquete contiene una colección de fondos de pantalla 
  para el sistema operativo Soplos Linux Tyron.
 
+Package: soplos-welcome
+Version: 1.0.0
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-psutil, python3-setuptools, python3-xlib, wget
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-welcome/soplos-welcome_1.0.0_all.deb
+Size: 14970900
+SHA256: 7d8146615e236231a7026e4c5e7411ed39a72612ba57fe3e949f55197f752b26
+SHA1: a87065c07d86303f9efda90453cc3fd5d577f919
+MD5sum: 66d2779c99f441d182354bfc3a2c4d8f
+Description: Welcome to Soplos Linux
+
+Package: soplos-welcome-live
+Version: 1.0.0
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-setuptools
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_1.0.0_all.deb
+Size: 506064
+SHA256: 1e6c0b38913f588e55e6552e01a17ab126b8cd0b3a59e85c696c01bf1ab81475
+SHA1: 4d3957691bf6edf2f205ef924135bc450dfa5cb0
+MD5sum: 90b553c6d2566dd801e57cbf175a0ca2
+Description: Welcome to Soplos Linux Live
+

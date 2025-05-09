@@ -6,41 +6,41 @@ Label: SoplosLinux
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Fri, 09 May 2025 20:01:21 UTC
+Date: Fri, 09 May 2025 20:01:37 UTC
 Architectures: amd64
 Components: main
 Description: Repositorio de SoplosLinux
 MD5Sum:
- 4beb41f16e21df5057633bce8911e6ec 4939 main/dep11/Components-amd64.xml.gz
- e1796e8a28b6b50242f1d0b5ab78f85d 356791 main/dep11/Icons-64x64.tar.gz
- 2cd5c1e7bf4e49b70b4a3f8c980b8121 4869 main/binary-amd64/Packages
- 65e129d89a83f2835675bc4ace51fe62 1791 main/binary-amd64/Packages.gz
+ 133cc07ba52f2ca7dade3d75f2f5c7ab 7002 main/dep11/Components-amd64.xml.gz
+ 9a29bda0ad7009ed8ed3267dc0bbc8ca 543786 main/dep11/Icons-64x64.tar.gz
+ bb73bd60d8ddb8a31634e2bc5699b95a 6021 main/binary-amd64/Packages
+ e425e6c957093ebd01677ef711e8f69d 2063 main/binary-amd64/Packages.gz
  ca5e942ddd4b78e48c213d3216e830af 144 main/binary-amd64/Release
 SHA1:
- 2615ab8d1e1f725140ad09274328b8eb16e71030 4939 main/dep11/Components-amd64.xml.gz
- 4ce49f4776acf8560ef9b1cd04d2f75916f34f31 356791 main/dep11/Icons-64x64.tar.gz
- 7d766ee409a7936a007d8032db2a3816d25418aa 4869 main/binary-amd64/Packages
- 0bd811fe67b903bec580ce55e208cf20cffb0377 1791 main/binary-amd64/Packages.gz
+ 4a76da3a41d2ef4bd3db7ef4fe6faa647bed3090 7002 main/dep11/Components-amd64.xml.gz
+ 6b2abe524ca172a0b1c3b99d1edb59453f048e46 543786 main/dep11/Icons-64x64.tar.gz
+ b6674db73d96bd1be62eabd1aeb2413a3522e79a 6021 main/binary-amd64/Packages
+ 1cae4a27c976dd9a582fcfb804a0ad68de34bd58 2063 main/binary-amd64/Packages.gz
  a2dfe29c3f8057aeb00a7f2d8547589ad430832d 144 main/binary-amd64/Release
 SHA256:
- 54c18ce684641accc7fdb8da02bf9993261f3016ea5c840f3b53267b81b9dcad 4939 main/dep11/Components-amd64.xml.gz
- 0e6decbbc225ef9126e3b9492c72ad7b8986bd143b5d80d4abce37d3363cb3c9 356791 main/dep11/Icons-64x64.tar.gz
- 56acbffcfa073bcca519ebeb43d4b6158709a1d5e0496d81b3eeab911942fdc3 4869 main/binary-amd64/Packages
- af3461fe68aef051e02d644d2bde8035c29a19c88928db490f23b88ad454972f 1791 main/binary-amd64/Packages.gz
+ fa9c3b38c1ee547ac1dd91571230cf05656d3c8bf0871190a771974420b4ecf5 7002 main/dep11/Components-amd64.xml.gz
+ 9e233a51348ceb9aec55d11848d7e58360055b0202762fd39d243e3441714838 543786 main/dep11/Icons-64x64.tar.gz
+ 1e27227e38a606420f1dc58fd744f85924536405f88e9cdc85a501fd1f569ef2 6021 main/binary-amd64/Packages
+ f4d72f77f0bed9126b1c522d897653533604ddcb6cea0c116016fa0510e527a9 2063 main/binary-amd64/Packages.gz
  730e7f0c6581a39b0d66c97a1238d989f6e66df12fce1b1ecafe2dfbe5074384 144 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEELjMdiIje1E5m/0C9OyP2YT2tHCkFAmgeXxIACgkQOyP2YT2t
-HCnl7w//fNP0KvaY2htPVE1TLRfWVPoYEDrOBiie1dWqXWR8UY6NeQ8QqrPWi1SX
-nOA7j0R0a4ZkBivxfGD8y1i2Fghnwdw4fDIa2UpCY0kn1pitJvb2qsS8BCYR3YjO
-AIknza9CVYfKkwsu0WmfHrB8sGtbj9edlyq0dZx6HiV3KH8Okpjorqz8os7StRHV
-vnBhVgRqcJ6YEoe/uhztn3VQTgcinWAiRIdcpXU/p2LGnhAo5A1P5h9GtuAgxGNP
-d055scedB4NKtgj/y+nZlNdvYaCtKLaR0rlWy3V6UA+CjnP80VrPMl/OdPoXAO3b
-d5+2C+xwhwrLFazMKlqdT393Iv5WyJClcx8ln2I1BR0bweGEmG6r1EW6NOQ1fpo6
-XJSLD7Waf7My/Tntj88ruAMrGSZ52ZZjdch8ZMnF6POvCnh01fFTEcZ5fPH8Lqxg
-MluNN+dK2WY7rMW8yaVfdBv47ScyFoouyrDGWvJXQIwHY/ElTeHW0BdNs82VgOIi
-SXFYw7BXWzoGh+6LomArteFsGTO6KKFR1JVvCsAXzS+h4tndns0Lact0zsip29NU
-Rai9Ksf4+VZL9tByC17J5YRRLSYIwaTx+215PU9V/7YceRzvvF8rhdbtNu9v+HxH
-RPybNoxLr8pO0sufVWPUk94hVHBL+mGpUaswIoZy8gga85SGZYs=
-=h4ii
+iQIzBAEBCgAdFiEELjMdiIje1E5m/0C9OyP2YT2tHCkFAmgeXyEACgkQOyP2YT2t
+HClgxA//dERByktZD1iYA41WyZLKynfrX9UaahIw1W5w6Bmr+bRpng41qJeQL1jk
+dq5ZBhe/M4+1uoYnjr72RDf8PWtTymXfW+mrQXjWKAcUQhlCviAaOza8UNQis8WC
+PrWmZWJLnVper7rmHBnSFZ6ZWMhm2+WhtggbfEwfy5isXi7QXfWeuloXd1qYvFd3
+q/8hejLtkJsFgQbcRn6y2QJvLfE7w6Rc1LOavA7hXRo3XryYV2lC4kJlByEKCZdZ
+3R7RLcAZwFoqVVMPts+4GbQCyt06UTAaj+ntqYwyK4CyNbHAZyr3sa92ENTSSRSF
+/ZNWSlsNHh0E8caG5oQBExFf1kWoB2QcqDMOG77IUiQlrtYUPO0rQL4pU6xR1/2r
+CHf1dSqdI98qYecywFko+EXQCsIe+FLCIj1hs51hhsoKU33SSfw8GQdNkUXaZQvu
+gpQovGrmcnFSR2cweeePicPa8sweDP1PRUlTe3AqqSHu9NojZxBTwKqYBBPk+2hf
+pdV/gwxPTJMMLXKG11oGKTRnxShaXZVz1pcUW8eIYycnBMeDjcN4JqatEcPGmLzG
+TO4lRIFNBDqfIkwVbeIdhM5k6KMdTopjtlxrGTlZplvTJeOhcYk2GY+WQZZLvjWf
+uXs+RDIQEYU6r/HltonXGGV0OTF5P+z4QKG2MotTHn/rkYt4kzQ=
+=851l
 -----END PGP SIGNATURE-----
