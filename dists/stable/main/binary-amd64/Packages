@@ -40,20 +40,6 @@ SHA1: 5724019a1b0d5735dd08a17d3a718f0a7898df4a
 MD5sum: f6c3c28c9fa9742da2a1cc3bcc86836c
 Description: Linux live ISO builder
 
-Package: soplos-packager
-Version: 1.0.0
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, appstream, debhelper-compat, dh-python, dpkg-dev, gir1.2-gtk-3.0, libgtk-3-0, make, policykit-1 | pkexec, python3, python3-all, python3-gi, python3-setuptools, python3-xlib
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-packager/soplos-packager_1.0.0_all.deb
-Size: 318724
-SHA256: a3c481384b262248d93cbd8048634b891fc61241d2018713374984692043ec02
-SHA1: 0b7fe9b404d38d58f3d7ea3917a3b78e7ffc2821
-MD5sum: 1c4ae62aedee661c806e5824079a2ad5
-Description: Applications packager to .deb
-
 Package: soplos-plymouth-manager
 Version: 1.0.0
 Architecture: all
