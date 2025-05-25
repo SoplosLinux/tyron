@@ -132,17 +132,3 @@ SHA1: 9f2379d24b5e4ce39ed11c47cdb3e6bf7a8a6c8a
 MD5sum: 65e43f776807e5f7dcba11e8d4001c28
 Description: Welcome to Soplos Linux
 
-Package: soplos-welcome-live
-Version: 1.0.1
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-setuptools
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_1.0.1_all.deb
-Size: 506056
-SHA256: 3b72beca6d57bcadd73c5b7a37a0d1815bdf252bdee8f5981a37258ecc7fe92f
-SHA1: 705bf267f2599bf798bf1b2bc76ee254ee40a2fe
-MD5sum: 113e68a0e886d47a004af63edf8cdecc
-Description: Welcome to Soplos Linux Live
-
