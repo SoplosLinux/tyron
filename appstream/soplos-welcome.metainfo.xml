@@ -36,7 +36,7 @@
 
   <icon type="stock">soplos-welcome</icon>
   <icon type="remote">
-    <url>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-welcome/icons/com.soplos.welcome.png</url>
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-welcome/icons/com.soplos.welcome.png</url>
   </icon>
 
   <screenshots>
@@ -49,7 +49,7 @@
       <caption xml:lang="it">Schermata principale di benvenuto</caption>
       <caption xml:lang="ru">Главный экран приветствия</caption>
       <caption xml:lang="ro">Ecran principal de întâmpinare</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot1.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot>
       <caption>Initial setup</caption>
@@ -60,7 +60,7 @@
       <caption xml:lang="it">Configurazione iniziale</caption>
       <caption xml:lang="ru">Начальная настройка</caption>
       <caption xml:lang="ro">Configurare inițială</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot2.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot2.png</image>
     </screenshot>
     <screenshot>
       <caption>Software installation</caption>
@@ -71,7 +71,7 @@
       <caption xml:lang="it">Installazione software</caption>
       <caption xml:lang="ru">Установка программного обеспечения</caption>
       <caption xml:lang="ro">Instalare software</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot3.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot3.png</image>
     </screenshot>
     <screenshot>
       <caption>System configuration</caption>
@@ -82,7 +82,7 @@
       <caption xml:lang="it">Configurazione del sistema</caption>
       <caption xml:lang="ru">Настройка системы</caption>
       <caption xml:lang="ro">Configurare sistem</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot4.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot4.png</image>
     </screenshot>
     <screenshot>
       <caption>Desktop customization</caption>
@@ -93,7 +93,7 @@
       <caption xml:lang="it">Personalizzazione del desktop</caption>
       <caption xml:lang="ru">Настройка рабочего стола</caption>
       <caption xml:lang="ro">Personalizare desktop</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot5.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot5.png</image>
     </screenshot>
     <screenshot>
       <caption>About Soplos Linux</caption>
@@ -104,12 +104,12 @@
       <caption xml:lang="it">Informazioni su Soplos Linux</caption>
       <caption xml:lang="ru">О Soplos Linux</caption>
       <caption xml:lang="ro">Despre Soplos Linux</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot6.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot6.png</image>
     </screenshot>
   </screenshots>
 
   <url type="homepage">https://soploslinux.com</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
   <url type="help">https://soploslinux.com</url>
 
   <developer id="com.soploslinux">

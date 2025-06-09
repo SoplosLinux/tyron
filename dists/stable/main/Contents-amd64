@@ -150,7 +150,6 @@ usr/share/soplos-plymouth-manager/src/strings.py	    utils/soplos-plymouth-manag
 usr/share/soplos-plymouth-manager/src/utils.py	    utils/soplos-plymouth-manager
 usr/share/soplos-plymouth-manager/src/ui/__init__.py	    utils/soplos-plymouth-manager
 usr/share/soplos-plymouth-manager/src/ui/widgets.py	    utils/soplos-plymouth-manager
-usr/share/soplos-welcome/Análisis de las Pestañas de Soplos Welco.md	    utils/soplos-welcome
 usr/share/soplos-welcome/LICENSE	    utils/soplos-welcome
 usr/share/soplos-welcome/README.md	    utils/soplos-welcome
 usr/share/soplos-welcome/__init__.py	    utils/soplos-welcome
