@@ -262,8 +262,6 @@ usr/share/soplos-welcome-live/ui/main_window.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/ui/welcome_tab.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/__init__.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/autostart.py	    utils/soplos-welcome-live
-usr/share/soplos-welcome-live/utils/desktop_detector.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/disable-numlockx.sh	    utils/soplos-welcome-live
+usr/share/soplos-welcome-live/utils/force_cleanup.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/numlockx_manager.py	    utils/soplos-welcome-live
-usr/share/soplos-welcome-live/utils/session_manager.py	    utils/soplos-welcome-live
-usr/share/soplos-welcome-live/utils/xdg_helper.py	    utils/soplos-welcome-live
