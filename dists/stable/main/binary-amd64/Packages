@@ -27,16 +27,16 @@ MD5sum: 9a508a458bb73c8b7292bb91a4c8d607
 Description: Plymouth themes manager
 
 Package: soplos-release
-Version: 0.0.4
+Version: 0.0.6
 Architecture: all
 Maintainer: Soplos Linux Team 
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.0.4_all.deb
-Size: 4028840
-SHA256: 4dc52b0cd6282dfc661870230b0deef8d002b661a5bc3e8f980f24ae9522437d
-SHA1: c77facb2f522cbd3acc56b1711dc6ecf71b5108c
-MD5sum: 935d418a54e1aa830ec7d041a320081b
+Filename: pool/main/s/soplos-release/soplos-release_0.0.6_all.deb
+Size: 4028820
+SHA256: 2141961e4574f83d7264db356925168d1ba706a5bdd697640fd131128a3d38bc
+SHA1: e74c010ca431821ee46b34f4667b368d41c7fc7b
+MD5sum: cb01301e551747828c5a0c702f060935
 Description: Información de lanzamiento de Soplos Linux (sistema interno)
  Contiene la información de lanzamiento y archivos de versión para Soplos Linux.
  Este paquete es esencial para la identificación del sistema operativo.
