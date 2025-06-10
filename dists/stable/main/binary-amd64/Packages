@@ -77,30 +77,30 @@ Description: Fondos de pantalla para SopLOS KDE
  para el sistema operativo Soplos Linux Tyson con entorno KDE.
 
 Package: soplos-welcome
-Version: 1.0.5
+Version: 1.0.6
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-psutil, python3-setuptools, python3-xlib, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome/soplos-welcome_1.0.5_all.deb
-Size: 14978492
-SHA256: a4f098d31e782d837652ed35227a7dcf7dc193aac59e1b6d6dac26fa8a12623b
-SHA1: ceba8ec8633a7585cbc5fd04c7d3c4dc63b62c3e
-MD5sum: 34070ec05316d5081abf56ad3601ae73
+Filename: pool/main/s/soplos-welcome/soplos-welcome_1.0.6_all.deb
+Size: 15028072
+SHA256: fd1cfa5829c0b47688c8817c9dd740dc51ddafa4bf299d81d430283a1ffacaf1
+SHA1: eb85c298502bb6d40f9126a61f97144dd1c27edd
+MD5sum: 0f15aa670565108b1962ca4375afe924
 Description: Welcome to Soplos Linux
 
 Package: soplos-welcome-live
-Version: 1.0.3
+Version: 1.0.4
 Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-setuptools
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, locales, python3-all, python3-gi, python3-psutil, python3-setuptools, x11-xkb-utils
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_1.0.3_all.deb
-Size: 513444
-SHA256: 9c6605bd9c52c0ca42d6c7161484fac351db74a2ae848f8530aa834d25ba42d7
-SHA1: b1a6d3631d1eb20d72b6f7aa44d2b877ed50b1ec
-MD5sum: de80d7384fbfb932af22d22808d8c0ca
+Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_1.0.4_all.deb
+Size: 516380
+SHA256: a804441a185dd37deebadd27c4597bcb5f93fa33da1ed5915a2d7c44fef5ea85
+SHA1: 80542cbb4a593a87d7fa4f19233f8f608ddefd1f
+MD5sum: d1b28c27b4bee749b2187ef14d1ad21a
 Description: Welcome to Soplos Linux Live
 

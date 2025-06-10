@@ -164,6 +164,7 @@ usr/share/soplos-welcome/assets/icons/soplos-logo.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/brave.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/chrome.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/chromium.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/browsers/epiphany.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/falkon.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/firefox.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/librewolf.png	    utils/soplos-welcome
@@ -202,6 +203,7 @@ usr/share/soplos-welcome/assets/icons/multimedia/lmms.png	    utils/soplos-welco
 usr/share/soplos-welcome/assets/icons/multimedia/mpv.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/obs-studio.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/openshot.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/multimedia/shotcut.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/vlc.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/flatpak.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/gdebi.png	    utils/soplos-welcome

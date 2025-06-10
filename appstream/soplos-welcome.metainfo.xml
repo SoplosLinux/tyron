@@ -137,6 +137,64 @@
   </provides>
 
   <releases>
+    <release version="1.0.6" date="2025-01-20">
+      <description>
+        <p>Software Center improvements and browser updates</p>
+        <p xml:lang="es">Mejoras del Centro de Software y actualizaciones de navegadores</p>
+        <p xml:lang="fr">Améliorations du Centre de Logiciels et mises à jour des navigateurs</p>
+        <p xml:lang="pt">Melhorias do Centro de Software e atualizações de navegadores</p>
+        <p xml:lang="de">Verbesserungen des Software-Centers und Browser-Updates</p>
+        <p xml:lang="it">Miglioramenti del Centro Software e aggiornamenti browser</p>
+        <p xml:lang="ru">Улучшения Центра ПО и обновления браузеров</p>
+        <p xml:lang="ro">Îmbunătățiri Centru Software și actualizări browsere</p>
+        <ul>
+          <li>Software Center now detects if programs are installed</li>
+          <li xml:lang="es">El Centro de Software ahora detecta si los programas están instalados</li>
+          <li xml:lang="fr">Le Centre de Logiciels détecte maintenant si les programmes sont installés</li>
+          <li xml:lang="pt">O Centro de Software agora detecta se os programas estão instalados</li>
+          <li xml:lang="de">Software-Center erkennt jetzt, ob Programme installiert sind</li>
+          <li xml:lang="it">Il Centro Software ora rileva se i programmi sono installati</li>
+          <li xml:lang="ru">Центр ПО теперь определяет установленные программы</li>
+          <li xml:lang="ro">Centrul Software acum detectează dacă programele sunt instalate</li>
+          
+          <li>Replaced Midori with Epiphany (GNOME Web) as lightweight browser option</li>
+          <li xml:lang="es">Reemplazado Midori con Epiphany (GNOME Web) como opción de navegador ligero</li>
+          <li xml:lang="fr">Remplacé Midori par Epiphany (GNOME Web) comme option de navigateur léger</li>
+          <li xml:lang="pt">Substituído Midori por Epiphany (GNOME Web) como opção de navegador leve</li>
+          <li xml:lang="de">Midori durch Epiphany (GNOME Web) als leichtgewichtige Browser-Option ersetzt</li>
+          <li xml:lang="it">Sostituito Midori con Epiphany (GNOME Web) come opzione browser leggero</li>
+          <li xml:lang="ru">Заменен Midori на Epiphany (GNOME Web) как легкий браузер</li>
+          <li xml:lang="ro">Înlocuit Midori cu Epiphany (GNOME Web) ca opțiune browser ușor</li>
+          
+          <li>Replaced DaVinci Resolve with Shotcut for video editing</li>
+          <li xml:lang="es">Reemplazado DaVinci Resolve con Shotcut para edición de video</li>
+          <li xml:lang="fr">Remplacé DaVinci Resolve par Shotcut pour l'édition vidéo</li>
+          <li xml:lang="pt">Substituído DaVinci Resolve por Shotcut para edição de vídeo</li>
+          <li xml:lang="de">DaVinci Resolve durch Shotcut für Videobearbeitung ersetzt</li>
+          <li xml:lang="it">Sostituito DaVinci Resolve con Shotcut per l'editing video</li>
+          <li xml:lang="ru">Заменен DaVinci Resolve на Shotcut для видеомонтажа</li>
+          <li xml:lang="ro">Înlocuit DaVinci Resolve cu Shotcut pentru editare video</li>
+          
+          <li>Enhanced Drivers Center with improved hardware detection</li>
+          <li xml:lang="es">Centro de Controladores mejorado con detección de hardware optimizada</li>
+          <li xml:lang="fr">Centre de Pilotes amélioré avec détection matérielle optimisée</li>
+          <li xml:lang="pt">Centro de Drivers aprimorado com detecção de hardware melhorada</li>
+          <li xml:lang="de">Verbessertes Treiber-Center mit optimierter Hardware-Erkennung</li>
+          <li xml:lang="it">Centro Driver migliorato con rilevamento hardware ottimizzato</li>
+          <li xml:lang="ru">Улучшен Центр драйверов с оптимизированным обнаружением оборудования</li>
+          <li xml:lang="ro">Centrul de Drivere îmbunătățit cu detectare hardware optimizată</li>
+          
+          <li>Improved hardware scanning functionality</li>
+          <li xml:lang="es">Funcionalidad de escaneo de hardware mejorada</li>
+          <li xml:lang="fr">Fonctionnalité d'analyse matérielle améliorée</li>
+          <li xml:lang="pt">Funcionalidade de escaneamento de hardware melhorada</li>
+          <li xml:lang="de">Verbesserte Hardware-Scan-Funktionalität</li>
+          <li xml:lang="it">Funzionalità di scansione hardware migliorata</li>
+          <li xml:lang="ru">Улучшена функциональность сканирования оборудования</li>
+          <li xml:lang="ro">Funcționalitate de scanare hardware îmbunătățită</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0" date="2025-05-08">
       <description>
         <p>Initial release</p>
