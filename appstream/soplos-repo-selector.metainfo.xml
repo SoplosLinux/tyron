@@ -12,24 +12,24 @@
   <name xml:lang="ru">Селектор репозиториев Soplos</name>
   <name xml:lang="ro">Selector Depozite Soplos</name>
   
-  <summary>Repository manager for Soplos Linux</summary>
-  <summary xml:lang="es">Gestor de repositorios para Soplos Linux</summary>
-  <summary xml:lang="fr">Gestionnaire de dépôts pour Soplos Linux</summary>
-  <summary xml:lang="pt">Gerenciador de repositórios para Soplos Linux</summary>
-  <summary xml:lang="de">Repository-Manager für Soplos Linux</summary>
-  <summary xml:lang="it">Gestore repository per Soplos Linux</summary>
-  <summary xml:lang="ru">Менеджер репозиториев для Soplos Linux</summary>
-  <summary xml:lang="ro">Manager de depozite pentru Soplos Linux</summary>
+  <summary>Repository manager for Soplos Linux with multilingual support</summary>
+  <summary xml:lang="es">Gestor de repositorios para Soplos Linux con soporte multiidioma</summary>
+  <summary xml:lang="fr">Gestionnaire de dépôts pour Soplos Linux avec support multilingue</summary>
+  <summary xml:lang="pt">Gerenciador de repositórios para Soplos Linux com suporte multilíngue</summary>
+  <summary xml:lang="de">Repository-Manager für Soplos Linux mit mehrsprachiger Unterstützung</summary>
+  <summary xml:lang="it">Gestore repository per Soplos Linux con supporto multilingue</summary>
+  <summary xml:lang="ru">Менеджер репозиториев для Soplos Linux с многоязычной поддержкой</summary>
+  <summary xml:lang="ro">Manager de depozite pentru Soplos Linux cu suport multilingv</summary>
 
   <description>
-    <p>A graphical tool to manage APT repositories in Debian-based systems, with features to find the fastest mirrors and manage GPG keys.</p>
-    <p xml:lang="es">Una herramienta gráfica para gestionar los repositorios APT en sistemas basados en Debian, con funciones para encontrar los servidores más rápidos y gestionar claves GPG.</p>
-    <p xml:lang="fr">Un outil graphique pour gérer les dépôts APT dans les systèmes basés sur Debian, avec des fonctionnalités pour trouver les miroirs les plus rapides et gérer les clés GPG.</p>
-    <p xml:lang="pt">Uma ferramenta gráfica para gerenciar repositórios APT em sistemas baseados em Debian, com recursos para encontrar os mirrors mais rápidos e gerenciar chaves GPG.</p>
-    <p xml:lang="de">Ein grafisches Tool zur Verwaltung von APT-Repositories in Debian-basierten Systemen, mit Funktionen zum Auffinden der schnellsten Spiegelserver und zur Verwaltung von GPG-Schlüsseln.</p>
-    <p xml:lang="it">Uno strumento grafico per gestire i repository APT nei sistemi basati su Debian, con funzionalità per trovare i mirror più veloci e gestire le chiavi GPG.</p>
-    <p xml:lang="ru">Графический инструмент для управления репозиториями APT в системах на базе Debian, с функциями поиска самых быстрых зеркал и управления ключами GPG.</p>
-    <p xml:lang="ro">Un instrument grafic pentru gestionarea depozitelor APT în sistemele bazate pe Debian, cu funcții pentru găsirea celor mai rapide servere mirror și gestionarea cheilor GPG.</p>
+    <p>A graphical tool to manage APT repositories in Debian-based systems, with features to find the fastest mirrors and manage GPG keys. Now with complete multilingual support for 8 languages and predefined distribution templates.</p>
+    <p xml:lang="es">Una herramienta gráfica para gestionar los repositorios APT en sistemas basados en Debian, con funciones para encontrar los servidores más rápidos y gestionar claves GPG. Ahora con soporte multiidioma completo para 8 idiomas y plantillas de distribución predefinidas.</p>
+    <p xml:lang="fr">Un outil graphique pour gérer les dépôts APT dans les systèmes basés sur Debian, avec des fonctionnalités pour trouver les miroirs les plus rapides et gérer les clés GPG. Maintenant avec support multilingue complet pour 8 langues et modèles de distribution prédéfinis.</p>
+    <p xml:lang="pt">Uma ferramenta gráfica para gerenciar repositórios APT em sistemas baseados em Debian, com recursos para encontrar os mirrors mais rápidos e gerenciar chaves GPG. Agora com suporte multilíngue completo para 8 idiomas e modelos de distribuição predefinidos.</p>
+    <p xml:lang="de">Ein grafisches Tool zur Verwaltung von APT-Repositories in Debian-basierten Systemen, mit Funktionen zum Auffinden der schnellsten Spiegelserver und zur Verwaltung von GPG-Schlüsseln. Jetzt mit vollständiger mehrsprachiger Unterstützung für 8 Sprachen und vordefinierten Distributionsvorlagen.</p>
+    <p xml:lang="it">Uno strumento grafico per gestire i repository APT nei sistemi basati su Debian, con funzionalità per trovare i mirror più veloci e gestire le chiavi GPG. Ora con supporto multilingue completo per 8 lingue e modelli di distribuzione predefiniti.</p>
+    <p xml:lang="ru">Графический инструмент для управления репозиториями APT в системах на базе Debian, с функциями поиска самых быстрых зеркал и управления ключами GPG. Теперь с полной многоязычной поддержкой для 8 языков и предопределенными шаблонами дистрибутивов.</p>
+    <p xml:lang="ro">Un instrument grafic pentru gestionarea depozitelor APT în sistemele bazate pe Debian, cu funcții pentru găsirea celor mai rapide servere mirror și gestionarea cheilor GPG. Acum cu suport multilingv complet pentru 8 limbi și șabloane de distribuție predefinite.</p>
   </description>
 
   <launchable type="desktop-id">com.soplos.reposelector.desktop</launchable>
@@ -52,14 +52,14 @@
       <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot>
-      <caption>Finding fastest repositories</caption>
-      <caption xml:lang="es">Búsqueda de repositorios más rápidos</caption>
-      <caption xml:lang="fr">Recherche des dépôts les plus rapides</caption>
-      <caption xml:lang="pt">Encontrando repositórios mais rápidos</caption>
-      <caption xml:lang="de">Suche nach den schnellsten Repositories</caption>
-      <caption xml:lang="it">Ricerca dei repository più veloci</caption>
-      <caption xml:lang="ru">Поиск самых быстрых репозиториев</caption>
-      <caption xml:lang="ro">Găsirea celor mai rapide depozite</caption>
+      <caption>Finding fastest repositories with multilingual interface</caption>
+      <caption xml:lang="es">Búsqueda de repositorios más rápidos con interfaz multiidioma</caption>
+      <caption xml:lang="fr">Recherche des dépôts les plus rapides avec interface multilingue</caption>
+      <caption xml:lang="pt">Encontrando repositórios mais rápidos com interface multilíngue</caption>
+      <caption xml:lang="de">Suche nach den schnellsten Repositories mit mehrsprachiger Oberfläche</caption>
+      <caption xml:lang="it">Ricerca dei repository più veloci con interfaccia multilingue</caption>
+      <caption xml:lang="ru">Поиск самых быстрых репозиториев с многоязычным интерфейсом</caption>
+      <caption xml:lang="ro">Găsirea celor mai rapide depozite cu interfață multilingvă</caption>
       <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/screenshots/screenshot2.png</image>
     </screenshot>
     <screenshot>
@@ -74,14 +74,14 @@
       <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/screenshots/screenshot3.png</image>
     </screenshot>
     <screenshot>
-      <caption>Adding and editing repositories</caption>
-      <caption xml:lang="es">Añadir y editar repositorios</caption>
-      <caption xml:lang="fr">Ajout et édition de dépôts</caption>
-      <caption xml:lang="pt">Adicionando e editando repositórios</caption>
-      <caption xml:lang="de">Hinzufügen und Bearbeiten von Repositories</caption>
-      <caption xml:lang="it">Aggiunta e modifica di repository</caption>
-      <caption xml:lang="ru">Добавление и редактирование репозиториев</caption>
-      <caption xml:lang="ro">Adăugarea și editarea depozitelor</caption>
+      <caption>Adding and editing repositories with distribution templates</caption>
+      <caption xml:lang="es">Añadir y editar repositorios con plantillas de distribución</caption>
+      <caption xml:lang="fr">Ajout et édition de dépôts avec modèles de distribution</caption>
+      <caption xml:lang="pt">Adicionando e editando repositórios com modelos de distribuição</caption>
+      <caption xml:lang="de">Hinzufügen und Bearbeiten von Repositories mit Distributionsvorlagen</caption>
+      <caption xml:lang="it">Aggiunta e modifica di repository con modelli di distribuzione</caption>
+      <caption xml:lang="ru">Добавление и редактирование репозиториев с шаблонами дистрибутивов</caption>
+      <caption xml:lang="ro">Adăugarea și editarea depozitelor cu șabloane de distribuție</caption>
       <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/screenshots/screenshot4.png</image>
     </screenshot>
   </screenshots>
@@ -110,6 +110,9 @@
     <keyword>soplos</keyword>
     <keyword>packages</keyword>
     <keyword>software</keyword>
+    <keyword>multilingual</keyword>
+    <keyword>i18n</keyword>
+    <keyword>templates</keyword>
   </keywords>
 
   <provides>
@@ -117,6 +120,52 @@
   </provides>
 
   <releases>
+    <release version="1.0.1" date="2025-01-15">
+      <description>
+        <p>Multilingual support and distribution templates</p>
+        <p xml:lang="es">Soporte multiidioma y plantillas de distribución</p>
+        <p xml:lang="fr">Support multilingue et modèles de distribution</p>
+        <p xml:lang="pt">Suporte multilíngue e modelos de distribuição</p>
+        <p xml:lang="de">Mehrsprachige Unterstützung und Distributionsvorlagen</p>
+        <p xml:lang="it">Supporto multilingue e modelli di distribuzione</p>
+        <p xml:lang="ru">Многоязычная поддержка и шаблоны дистрибутивов</p>
+        <p xml:lang="ro">Suport multilingv și șabloane de distribuție</p>
+        <ul>
+          <li>Complete internationalization system with 8 languages</li>
+          <li xml:lang="es">Sistema completo de internacionalización con 8 idiomas</li>
+          <li xml:lang="fr">Système d'internationalisation complet avec 8 langues</li>
+          <li xml:lang="pt">Sistema completo de internacionalização com 8 idiomas</li>
+          <li xml:lang="de">Vollständiges Internationalisierungssystem mit 8 Sprachen</li>
+          <li xml:lang="it">Sistema completo di internazionalizzazione con 8 lingue</li>
+          <li xml:lang="ru">Полная система интернационализации с 8 языками</li>
+          <li xml:lang="ro">Sistem complet de internaționalizare cu 8 limbi</li>
+          <li>Predefined distribution templates (Debian Stable, Testing/Trixie, Sid/Unstable, Soplos Linux Tyron)</li>
+          <li xml:lang="es">Plantillas de distribución predefinidas (Debian Stable, Testing/Trixie, Sid/Unstable, Soplos Linux Tyron)</li>
+          <li xml:lang="fr">Modèles de distribution prédéfinis (Debian Stable, Testing/Trixie, Sid/Unstable, Soplos Linux Tyron)</li>
+          <li xml:lang="pt">Modelos de distribuição predefinidos (Debian Stable, Testing/Trixie, Sid/Unstable, Soplos Linux Tyron)</li>
+          <li xml:lang="de">Vordefinierte Distributionsvorlagen (Debian Stable, Testing/Trixie, Sid/Unstable, Soplos Linux Tyron)</li>
+          <li xml:lang="it">Modelli di distribuzione predefiniti (Debian Stable, Testing/Trixie, Sid/Unstable, Soplos Linux Tyron)</li>
+          <li xml:lang="ru">Предопределенные шаблоны дистрибутивов (Debian Stable, Testing/Trixie, Sid/Unstable, Soplos Linux Tyron)</li>
+          <li xml:lang="ro">Șabloane de distribuție predefinite (Debian Stable, Testing/Trixie, Sid/Unstable, Soplos Linux Tyron)</li>
+          <li>Automatic system language detection</li>
+          <li xml:lang="es">Detección automática del idioma del sistema</li>
+          <li xml:lang="fr">Détection automatique de la langue du système</li>
+          <li xml:lang="pt">Detecção automática do idioma do sistema</li>
+          <li xml:lang="de">Automatische Erkennung der Systemsprache</li>
+          <li xml:lang="it">Rilevamento automatico della lingua del sistema</li>
+          <li xml:lang="ru">Автоматическое определение языка системы</li>
+          <li xml:lang="ro">Detectarea automată a limbii sistemului</li>
+          <li>Improved user interface with better translations</li>
+          <li xml:lang="es">Interfaz de usuario mejorada con mejores traducciones</li>
+          <li xml:lang="fr">Interface utilisateur améliorée avec de meilleures traductions</li>
+          <li xml:lang="pt">Interface de usuário melhorada com melhores traduções</li>
+          <li xml:lang="de">Verbesserte Benutzeroberfläche mit besseren Übersetzungen</li>
+          <li xml:lang="it">Interfaccia utente migliorata con traduzioni migliori</li>
+          <li xml:lang="ru">Улучшенный пользовательский интерфейс с лучшими переводами</li>
+          <li xml:lang="ro">Interfață de utilizator îmbunătățită cu traduceri mai bune</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0" date="2025-05-08">
       <description>
         <p>Initial release</p>
@@ -139,4 +188,15 @@
     <category>PackageManager</category>
     <category>Utility</category>
   </categories>
+
+  <languages>
+    <lang percentage="100">es</lang>
+    <lang percentage="100">en</lang>
+    <lang percentage="100">fr</lang>
+    <lang percentage="100">pt</lang>
+    <lang percentage="100">de</lang>
+    <lang percentage="100">it</lang>
+    <lang percentage="100">ru</lang>
+    <lang percentage="100">ro</lang>
+  </languages>
 </component>
