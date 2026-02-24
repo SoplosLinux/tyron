@@ -3,40 +3,40 @@ Label: SoplosLinux
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Tue, 24 Feb 2026 16:01:47 UTC
+Date: Tue, 24 Feb 2026 16:05:59 UTC
 Architectures: amd64
 Components: main
 Description: Repositorio de SoplosLinux
 MD5Sum:
- 9c89399653bfed00fee0a91ac038668f 11507 main/binary-amd64/Packages
- b6e74724a0db0ebc63992825508c6665 3945 main/binary-amd64/Packages.gz
+ 1aa7a6e2bf8e89c55c66fb9acb9784a5 12145 main/binary-amd64/Packages
+ ec7717ad059a8f9493867f2c29252403 4092 main/binary-amd64/Packages.gz
  ca5e942ddd4b78e48c213d3216e830af 144 main/binary-amd64/Release
- 18ade57983b36ee5c7655c1e662b17a8 54606 main/Contents-amd64
- 7d69088a7a3e192558c063ea13919855 4209 main/Contents-amd64.gz
- 3941a77b752001db1483216ca53184d0 18288 main/dep11/Components-amd64.yml.gz
- 7c783c9bd00239bd3450eabdbe9fb078 76070 main/dep11/Components-amd64.yml
- 7204487cab801a4410e5ce571c27a939 51200 main/dep11/icons-48x48.tar
- 5bcf67f91a754233047de8a5a07f1e63 71680 main/dep11/icons-64x64.tar
- f70366dce31d8f384035b5d2674d8c37 174080 main/dep11/icons-128x128.tar
+ 5cf9cb0a3ff171a776c145b2f454b06c 69926 main/Contents-amd64
+ 714379aa9d0763445fa125a8aabb2a64 5530 main/Contents-amd64.gz
+ 53caf34cb92fb7a5257e9962e5d6366f 19551 main/dep11/Components-amd64.yml.gz
+ 3a93548eb4a191222ac1e1901b896091 82237 main/dep11/Components-amd64.yml
+ 941c40b1fa9511ddeb40cd73f66c67f4 61440 main/dep11/icons-48x48.tar
+ 169555c2dc57ef3638923353a020eabc 81920 main/dep11/icons-64x64.tar
+ 6dd19ee530a76882040f16181a2b1f79 194560 main/dep11/icons-128x128.tar
 SHA1:
- da8e7c8315d55ee3f291c7cc890db1469e227492 11507 main/binary-amd64/Packages
- 29c4c27c03935f00b623f092787ecda8367217f8 3945 main/binary-amd64/Packages.gz
+ 71bb653237b00c51cdc835577afd282c42aa3ad8 12145 main/binary-amd64/Packages
+ 72f5431d4cfa14691161aec86e35521fe73e6fb4 4092 main/binary-amd64/Packages.gz
  a2dfe29c3f8057aeb00a7f2d8547589ad430832d 144 main/binary-amd64/Release
- ab082c2ac6d315f24c710bf84423f9d19922d6b3 54606 main/Contents-amd64
- b35c845cb490d5ecca18f9a39ad897df1cdf2d8c 4209 main/Contents-amd64.gz
- 1195917f4c92889d426d104cab5a7f666cb35d94 18288 main/dep11/Components-amd64.yml.gz
- e3f7e0018cf5892a694e36ede7784540d489b454 76070 main/dep11/Components-amd64.yml
- 2a43de0841f189441d7e970c90dd14dca65daa8f 51200 main/dep11/icons-48x48.tar
- 27b658b05927c6feaaad5a6650becd7482dc0fca 71680 main/dep11/icons-64x64.tar
- 905a4babd24bec3b844497a10354459ca558b4d2 174080 main/dep11/icons-128x128.tar
+ f46d4bd3765a017bf7e05c7554ff6fc8ba5d9bf9 69926 main/Contents-amd64
+ e89db6d02b7e1d87b26148f5e83f664f56002977 5530 main/Contents-amd64.gz
+ 5aac0a75be5d0143cd7c34500d4352ac9b9310c9 19551 main/dep11/Components-amd64.yml.gz
+ 1a701c3bf4b7a9a62372beb952522c514d3a208e 82237 main/dep11/Components-amd64.yml
+ 0d9f03fd3a3cc7dbaddf824e0e3edaaaba063d4a 61440 main/dep11/icons-48x48.tar
+ b639e91f14d6084ba260a14167497ba711ecb847 81920 main/dep11/icons-64x64.tar
+ 730b3f36c6dd7b254ca92fa83f2f4fd870bbae62 194560 main/dep11/icons-128x128.tar
 SHA256:
- 1e30125a483d55819072bcc7f90246d1f418ede0694da98dd8bce4f2071a8748 11507 main/binary-amd64/Packages
- b27437559f0b946a3dfa8b21e5061e74f70ab1edacfa2a51ec45638db2c403dc 3945 main/binary-amd64/Packages.gz
+ a158bd4e7c54bd9ff88f83cd3ed21f7586c1dd3e64066ee1c0c0323c697cdf5c 12145 main/binary-amd64/Packages
+ 3e30596f05d7c8cf39c10bfa251b8de4c8f1f647aa0a88fef07ff9dab5095ed3 4092 main/binary-amd64/Packages.gz
  730e7f0c6581a39b0d66c97a1238d989f6e66df12fce1b1ecafe2dfbe5074384 144 main/binary-amd64/Release
- c9ea2d1cca069d21ebe45d1138819d7c9a9ec253d9f399c234e1b69fd03085c1 54606 main/Contents-amd64
- f666066d500fd076e3e5e7b0bfaefc466147905945a450f127e31c49ed9f18f2 4209 main/Contents-amd64.gz
- e233409f71dc266ba702ca95eb4b23f73dad7387e5de733c8163a1c572cf9f3d 18288 main/dep11/Components-amd64.yml.gz
- b9a1f01a81ec842f5d7a6a7c70bdf0f48db488ad85a2e5160e42bfadd54bd5ac 76070 main/dep11/Components-amd64.yml
- c714921717b165149a8c9b6b31885bd970cddfd0ff85615b35dac2bdac3cca59 51200 main/dep11/icons-48x48.tar
- 4da8a9b04f158d7c3a54d0e55d144f4f6a8c84fcdfcff54adf08f9e307ba29a0 71680 main/dep11/icons-64x64.tar
- 5895920bc75db46672b5ef0570c98a152558c3619f3b6f188871249ab579cd1b 174080 main/dep11/icons-128x128.tar
+ 64f2d8a8854ec7db9c32a889fa4f8ee71e89c70aa05d7a1935613a1443508b6c 69926 main/Contents-amd64
+ 1af614b01a0bca3e0e6e5bb530404cfc72cd98065ee19005d1c052aa586d6fd0 5530 main/Contents-amd64.gz
+ 9ea6c2e5fcdb3e4b57d13323cae410340f6fbb6add85e593b56baebd1f78903d 19551 main/dep11/Components-amd64.yml.gz
+ 2ba50f3f12231f2009d2e2d26fcce5dabb0290c7abc0de33567003da81b63b65 82237 main/dep11/Components-amd64.yml
+ a15f2d24845c0892209a44d70b80d93621716f651640f4281431c0bcb827631e 61440 main/dep11/icons-48x48.tar
+ 0aa6bcefe1675f3a8cfd024377bac4fd4be104739c99130c86ec7fe7df3a40ad 81920 main/dep11/icons-64x64.tar
+ 506704ac714f9ddd1c29bc32fa773162eadd9077e744917fc4330bf50f0be3a2 194560 main/dep11/icons-128x128.tar
