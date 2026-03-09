@@ -264,6 +264,7 @@ usr/share/plymouth/themes/soplos/005.png	    misc/soplos-plymouth-theme
 usr/share/plymouth/themes/soplos/README.md	    misc/soplos-plymouth-theme
 usr/share/plymouth/themes/soplos/soplos.plymouth	    misc/soplos-plymouth-theme
 usr/share/plymouth/themes/soplos/soplos.script	    misc/soplos-plymouth-theme
+usr/share/polkit-1/rules.d/10-soplos-packagekit.rules	    admin/soplos-release
 usr/share/soplos-docklike/CHANGELOG.md	    utils/soplos-docklike
 usr/share/soplos-docklike/LICENSE	    utils/soplos-docklike
 usr/share/soplos-docklike/README.md	    utils/soplos-docklike
