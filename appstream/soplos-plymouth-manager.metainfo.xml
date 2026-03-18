@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.soplos.plymouthmanager.desktop</id>
+  <id>org.soplos.plymouthmanager</id>
   <pkgname>soplos-plymouth-manager</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
-  <project_group>com.soploslinux</project_group>
+  <project_group>org.soplos</project_group>
   <name>Soplos Plymouth Manager</name>
   <name xml:lang="es">Gestor Plymouth Soplos</name>
   <name xml:lang="fr">Gestionnaire Plymouth Soplos</name>
@@ -24,8 +24,8 @@
   <summary xml:lang="ro">Manager de teme Plymouth pentru Soplos Linux</summary>
 
   <description>
-    <p>A simple and intuitive Plymouth theme manager that allows you to preview, install and apply boot splash themes easily.</p>
-    <p xml:lang="es">Un gestor de temas Plymouth simple e intuitivo que te permite previsualizar, instalar y aplicar temas de arranque fácilmente.</p>
+    <p>A simple and intuitive Plymouth theme manager that allows you to preview, install, and apply boot splash themes easily. Fully compatible with X11 and Wayland environments.</p>
+    <p xml:lang="es">Un gestor de temas Plymouth simple e intuitivo que te permite previsualizar, instalar y aplicar temas de arranque fácilmente. Totalmente compatible con entornos X11 y Wayland.</p>
     <p xml:lang="fr">Un gestionnaire de thèmes Plymouth simple et intuitif qui vous permet de prévisualiser, installer et appliquer des thèmes de démarrage facilement.</p>
     <p xml:lang="pt">Um gerenciador de temas Plymouth simples e intuitivo que permite visualizar, instalar e aplicar temas de inicialização facilmente.</p>
     <p xml:lang="de">Ein einfacher und intuitiver Plymouth-Theme-Manager, mit dem Sie Boot-Splash-Themes einfach vorschauen, installieren und anwenden können.</p>
@@ -103,11 +103,11 @@
     <locale>ro</locale>
   </translation>
 
-  <launchable type="desktop-id">com.soplos.plymouthmanager.desktop</launchable>
+  <launchable type="desktop-id">org.soplos.plymouthmanager.desktop</launchable>
 
-  <icon type="stock">soplos-plymouth-manager</icon>
+  <icon type="stock">org.soplos.plymouthmanager</icon>
   <icon type="remote">
-    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-plymouth-manager/icons/com.soplos.plymouthmanager.png</url>
+    <url>https://raw.githubusercontent.com/SoplosLinux/soplos-plymouth-manager/main/assets/icons/org.soplos.plymouthmanager.png</url>
   </icon>
 
   <screenshots>
@@ -120,38 +120,28 @@
       <caption xml:lang="it">Interfaccia e selettore di temi</caption>
       <caption xml:lang="ru">Интерфейс и селектор тем</caption>
       <caption xml:lang="ro">Interfață și selector de teme</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-plymouth-manager/screenshots/screenshot1.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-plymouth-manager/main/assets/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot>
-      <caption>Applying theme</caption>
-      <caption xml:lang="es">Aplicando tema</caption>
-      <caption xml:lang="fr">Application du thème</caption>
-      <caption xml:lang="pt">Aplicando tema</caption>
-      <caption xml:lang="de">Theme wird angewendet</caption>
-      <caption xml:lang="it">Applicazione del tema</caption>
-      <caption xml:lang="ru">Применение темы</caption>
-      <caption xml:lang="ro">Se aplică tema</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-plymouth-manager/screenshots/screenshot2.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Theme preview</caption>
-      <caption xml:lang="es">Vista previa de un tema</caption>
-      <caption xml:lang="fr">Aperçu d'un thème</caption>
-      <caption xml:lang="pt">Prévia de um tema</caption>
-      <caption xml:lang="de">Vorschau eines Themes</caption>
-      <caption xml:lang="it">Anteprima di un tema</caption>
-      <caption xml:lang="ru">Предварительный просмотр темы</caption>
-      <caption xml:lang="ro">Previzualizare unei teme</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-plymouth-manager/screenshots/screenshot3.png</image>
+      <caption>Applying and previewing theme</caption>
+      <caption xml:lang="es">Aplicando y previsualizando tema</caption>
+      <caption xml:lang="fr">Application et aperçu du thème</caption>
+      <caption xml:lang="pt">Aplicando e visualizando tema</caption>
+      <caption xml:lang="de">Theme anwenden und vorschauen</caption>
+      <caption xml:lang="it">Applicazione e anteprima del tema</caption>
+      <caption xml:lang="ru">Применение и просмотр темы</caption>
+      <caption xml:lang="ro">Aplicarea și previzualizarea temei</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-plymouth-manager/main/assets/screenshots/screenshot2.png</image>
     </screenshot>
   </screenshots>
 
-  <url type="homepage">https://soploslinux.com</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="homepage">https://soplos.org/</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-plymouth-manager/issues</url>
+  <url type="help">https://soplos.org/wiki</url>
   <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
-  <url type="contact">https://soploslinux.com/foros/</url>
+  <url type="contact">https://soplos.org/</url>
 
-  <developer id="com.soploslinux">
+  <developer id="org.soplos">
     <name>Sergi Perich</name>
     <name xml:lang="en">Sergi Perich</name>
     <name xml:lang="es">Sergi Perich</name>
@@ -161,7 +151,7 @@
     <name xml:lang="it">Sergi Perich</name>
     <name xml:lang="ru">Sergi Perich</name>
     <name xml:lang="ro">Sergi Perich</name>
-    <url type="homepage">https://soploslinux.com</url>
+    <url type="homepage">https://soplos.org/</url>
   </developer>
 
   <provides>
@@ -169,6 +159,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.0" date="2026-03-18">
+      <description>
+        <p>Version 2.0.0 - Complete modular architecture refactor with dynamic theme detection (no hardcoded lists), robust installer for nested archives, enhanced progress reporting, and full Wayland support. Includes unified environment sensing, robust KDE dark theme detection, unified single-password prompts for TTY, advanced GNOME and KDE previews (Wayland/TTY), and standard-compliant logging.</p>
+        <p xml:lang="es">Versión 2.0.0 - Refactorización modular completa con detección dinámica de temas (sin listas fijas), instalador robusto para archivos anidados, reporte de progreso mejorado y soporte total para Wayland. Incluye detección unificada de entorno, detección robusta del tema oscuro en KDE, prompts de una sola contraseña para TTY, vistas previas avanzadas en GNOME y KDE (Wayland/TTY) y registro de logs estandarizado.</p>
+        <p xml:lang="fr">Version 2.0.0 - Refonte modulaire complète avec détection dynamique des thèmes (pas de listes codées en dur), installateur robuste pour les archives imbriquées, rapport de progression amélioré et support Wayland complet. Comprend la détection d'environnement unifiée, une détection robuste du thème sombre KDE, des invites à mot de passe unique pour TTY, des aperçus GNOME et KDE avancés (Wayland/TTY) et des journaux conformes.</p>
+        <p xml:lang="pt">Versão 2.0.0 - Refatoração modular completa com detecção dinâmica de temas (sem listas fixas), instalador robusto para arquivos aninhados, relatório de progresso aprimorado e suporte total para Wayland. Inclui detecção de ambiente unificada, detecção robusta do tema escuro do KDE, prompts de senha única para TTY, visualizações avançadas do GNOME e KDE (Wayland/TTY) e logs padronizados.</p>
+        <p xml:lang="de">Version 2.0.0 - Vollständige modulare Refaktorierung mit dynamischer Themenerkennung (keine hardcodierten Listen), robuster Installer für verschachtelte Archive, verbesserte Fortschrittsanzeige und volle Wayland-Unterstützung. Enthält eine einheitliche Umgebungserkennung, robuste KDE-Dark-Theme-Erkennung, einheitliche Passwortabfragen für TTY, erweiterte GNOME- und KDE-Vorschauen (Wayland/TTY) und eine standardkonforme Protokollierung.</p>
+        <p xml:lang="it">Versione 2.0.0 - Refactoring modulare completo con rilevamento dinamico dei temi (senza liste fisse), installatore robusto per archivi nidificati, report di avanzamento migliorato e supporto Wayland completo. Include il rilevamento dell'ambiente unificato, il rilevamento robusto del tema scuro KDE, prompt a password singola per TTY, anteprime GNOME e KDE avanzate (Wayland/TTY) e log conformi agli standard.</p>
+        <p xml:lang="ru">Версия 2.0.0 - Полный модульный рефакторинг с динамическим обнаружением тем (без захардкорженных списков), надежным установщиком для вложенных архивов, улучшенным отображением прогресса и полной поддержкой Wayland. Включает унифицированное обнаружение среды, надежное определение темной темы KDE, единые запросы пароля для TTY, расширенные превью GNOME и KDE (Wayland/TTY) и стандартные логи.</p>
+        <p xml:lang="ro">Versiunea 2.0.0 - Refactorizare modulară completă cu detecție dinamică a temelor (fără liste fixe), instalator robust pentru arhive imbricate, raportare îmbunătățită a progresului și suport complet pentru Wayland. Include detecția unificată a mediului, detecția robustă a temei întunecate KDE, solicitări cu o singură parolă pentru TTY, previzualizări GNOME și KDE avansate (Wayland/TTY) și jurnalizare standardizată.</p>
+      </description>
+    </release>
     <release version="1.0.4" date="2025-07-27">
       <description>
         <p>Cambio de icono del programa.</p>
@@ -184,19 +186,15 @@
     </release>
     <release version="1.0.3" date="2025-07-18">
       <description>
-        <p>Actualización de metainfo para cumplir con AppStream/DEP-11.</p>
-        <p xml:lang="es">Actualización de metainfo para cumplir con AppStream/DEP-11.</p>
-        <p xml:lang="en">Metainfo update for AppStream/DEP-11 compliance.</p>
-        <p xml:lang="fr">Mise à jour du metainfo pour la conformité AppStream/DEP-11.</p>
-        <p xml:lang="pt">Atualização do metainfo para conformidade AppStream/DEP-11.</p>
-        <p xml:lang="de">Metainfo-Aktualisierung für AppStream/DEP-11-Konformität.</p>
-        <p xml:lang="it">Aggiornamento del metainfo per la conformità AppStream/DEP-11.</p>
-        <p xml:lang="ru">Обновление метаинформации для соответствия AppStream/DEP-11.</p>
-        <p xml:lang="ro">Actualizare metainfo pentru conformitate AppStream/DEP-11.</p>
-        <ul>
-          <li>Renombrado de screenshots a screenshot1.png, screenshot2.png, etc.</li>
-          <li>Mejoras menores de documentación y metadatos.</li>
-        </ul>
+        <p>Actualización de metainfo para cumplir con AppStream/DEP-11. Renombrado de screenshots a screenshot1.png, screenshot2.png, etc. Mejoras menores de documentación y metadatos.</p>
+        <p xml:lang="es">Actualización de metainfo para cumplir con AppStream/DEP-11. Renombrado de screenshots a screenshot1.png, screenshot2.png, etc. Mejoras menores de documentación y metadatos.</p>
+        <p xml:lang="en">Metainfo update for AppStream/DEP-11 compliance. Renamed screenshots to screenshot1.png, screenshot2.png, etc. Minor documentation and metadata improvements.</p>
+        <p xml:lang="fr">Mise à jour du metainfo pour la conformité AppStream/DEP-11. Renommage des captures d'écran en screenshot1.png, screenshot2.png, etc. Améliorations mineures de la documentation et des métadonnées.</p>
+        <p xml:lang="pt">Atualização do metainfo para conformidade AppStream/DEP-11. Renomeação de screenshots para screenshot1.png, screenshot2.png, etc. Melhorias menores na documentação e metadados.</p>
+        <p xml:lang="de">Metainfo-Aktualisierung für AppStream/DEP-11-Konformität. Screenshots umbenannt in screenshot1.png, screenshot2.png, etc. Kleinere Verbesserungen an Dokumentation und Metadaten.</p>
+        <p xml:lang="it">Aggiornamento del metainfo per la conformità AppStream/DEP-11. Rinominati screenshot in screenshot1.png, screenshot2.png, etc. Miglioramenti minori alla documentazione e ai metadati.</p>
+        <p xml:lang="ru">Обновление метаинформации для соответствия AppStream/DEP-11. Скриншоты переименованы в screenshot1.png, screenshot2.png и т.д. Незначительные улучшения документации и метаданных.</p>
+        <p xml:lang="ro">Actualizare metainfo pentru conformitate AppStream/DEP-11. Capturile de ecran redenumite în screenshot1.png, screenshot2.png, etc. Îmbunătățiri minore ale documentației și metadatelor.</p>
       </description>
     </release>
     <release version="1.0.0" date="2025-05-08">
