@@ -88,6 +88,34 @@ SHA1: 745f03a6fab520d42771784b81b60603524f0285
 MD5sum: 86f457b421b2b575b7a45e047d1ff96c
 Description: Configure MSI keyboard RGB lighting
 
+Package: soplos-appimage
+Version: 1.0.0
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-setuptools
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-appimage/soplos-appimage_1.0.0_all.deb
+Size: 532612
+SHA256: 38c0f1f39a6d9cd548ccf7cf5601a6081c9bb0f2d2ac585745673c4c572767fe
+SHA1: 8b4efc9840345b7dfa55d17c7d54359b43e97cd6
+MD5sum: 80f5d0c5b08be0c4dd7c351a2728985e
+Description: Manage AppImage applications on Soplos Linux
+
+Package: soplos-appimage-manager
+Version: 1.0.0
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-setuptools
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-appimage-manager/soplos-appimage-manager_1.0.0_all.deb
+Size: 532300
+SHA256: d028caebb3e69eb7193121610158d6fd6d5ea46c3351f402ae2d15d5cc74d6dc
+SHA1: 7b11bb49ee9455728f6ff77fad336934935602ed
+MD5sum: f2853341bc31806e00988e542bb498db
+Description: Manage AppImage applications on Soplos Linux
+
 Package: soplos-docklike
 Version: 1.0.4
 Architecture: all
