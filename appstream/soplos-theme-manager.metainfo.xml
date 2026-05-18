@@ -1,113 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.soplos.thememanager.desktop</id>
+  <id>org.soplos.thememanager</id>
   <pkgname>soplos-theme-manager</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+</project_license>
-  <project_group>com.soploslinux</project_group>
-
+  <project_group>org.soplos</project_group>
   <name>Soplos Theme Manager</name>
   <name xml:lang="es">Gestor de Temas Soplos</name>
   <name xml:lang="fr">Gestionnaire de Thèmes Soplos</name>
   <name xml:lang="pt">Gerenciador de Temas Soplos</name>
-  <name xml:lang="de">Soplos Themen-Manager</name>
+  <name xml:lang="de">Soplos Theme-Manager</name>
   <name xml:lang="it">Gestore Temi Soplos</name>
-  <name xml:lang="ru">Менеджер тем Soplos</name>
-  <name xml:lang="ro">Manager Teme Soplos</name>
+  <name xml:lang="ru">Менеджер Тем Soplos</name>
+  <name xml:lang="ro">Manager de Teme Soplos</name>
 
-  <summary>Theme manager for Soplos Linux</summary>
-  <summary xml:lang="es">Gestor de temas para Soplos Linux</summary>
-  <summary xml:lang="fr">Gestionnaire de thèmes pour Soplos Linux</summary>
-  <summary xml:lang="pt">Gerenciador de temas para Soplos Linux</summary>
-  <summary xml:lang="de">Themen-Manager für Soplos Linux</summary>
-  <summary xml:lang="it">Gestore dei temi per Soplos Linux</summary>
-  <summary xml:lang="ru">Менеджер тем для Soplos Linux</summary>
-  <summary xml:lang="ro">Manager de teme pentru Soplos Linux</summary>
+  <summary>Desktop theme manager for Soplos Linux Tyron (XFCE)</summary>
+  <summary xml:lang="es">Gestor de temas de escritorio para Soplos Linux Tyron (XFCE)</summary>
+  <summary xml:lang="fr">Gestionnaire de thèmes de bureau pour Soplos Linux Tyron (XFCE)</summary>
+  <summary xml:lang="pt">Gerenciador de temas de área de trabalho para Soplos Linux Tyron (XFCE)</summary>
+  <summary xml:lang="de">Desktop-Theme-Manager für Soplos Linux Tyron (XFCE)</summary>
+  <summary xml:lang="it">Gestore dei temi del desktop per Soplos Linux Tyron (XFCE)</summary>
+  <summary xml:lang="ru">Менеджер тем рабочего стола для Soplos Linux Tyron (XFCE)</summary>
+  <summary xml:lang="ro">Manager de teme desktop pentru Soplos Linux Tyron (XFCE)</summary>
 
   <description>
-    <p>A simple and intuitive theme manager for Soplos Linux that allows you to create, save, and apply desktop themes easily.</p>
-    <p xml:lang="es">Un gestor de temas simple e intuitivo para Soplos Linux que te permite crear, guardar y aplicar temas de escritorio fácilmente.</p>
-    <p xml:lang="fr">Un gestionnaire de thèmes simple et intuitif pour Soplos Linux qui vous permet de créer, sauvegarder et appliquer des thèmes de bureau facilement.</p>
-    <p xml:lang="pt">Um gerenciador de temas simples e intuitivo para Soplos Linux que permite criar, salvar e aplicar temas de desktop facilmente.</p>
-    <p xml:lang="de">Ein einfacher und intuitiver Theme-Manager für Soplos Linux, mit dem Sie Desktop-Themes einfach erstellen, speichern und anwenden können.</p>
-    <p xml:lang="it">Un gestore di temi semplice e intuitivo per Soplos Linux che ti permette di creare, salvare e applicare temi desktop facilmente.</p>
-    <p xml:lang="ru">Простой и интуитивно понятный менеджер тем для Soplos Linux, который позволяет легко создавать, сохранять и применять темы рабочего стола.</p>
-    <p xml:lang="ro">Un manager de teme simplu și intuitiv pentru Soplos Linux care vă permite să creați, salvați și aplicați teme desktop cu ușurință.</p>
+    <p>A complete graphical tool to manage XFCE desktop themes in Soplos Linux Tyron. Apply, create, export and import full desktop themes including panel configuration, wallpaper, window decorations and GTK appearance. Also includes a wallpaper browser, avatar manager and panel dock configurator.</p>
+    <p xml:lang="es">Una herramienta gráfica completa para gestionar temas de escritorio XFCE en Soplos Linux Tyron. Aplica, crea, exporta e importa temas de escritorio completos incluyendo configuración del panel, fondo de pantalla, decoraciones de ventana y apariencia GTK. También incluye un navegador de fondos de pantalla, gestor de avatar y configurador del panel dock.</p>
+    <p xml:lang="fr">Un outil graphique complet pour gérer les thèmes de bureau XFCE dans Soplos Linux Tyron. Appliquez, créez, exportez et importez des thèmes de bureau complets incluant la configuration du panneau, le fond d'écran, les décorations de fenêtres et l'apparence GTK. Comprend également un navigateur de fonds d'écran, un gestionnaire d'avatar et un configurateur de panneau dock.</p>
+    <p xml:lang="pt">Uma ferramenta gráfica completa para gerenciar temas de área de trabalho XFCE no Soplos Linux Tyron. Aplique, crie, exporte e importe temas de área de trabalho completos incluindo configuração do painel, papel de parede, decorações de janela e aparência GTK. Também inclui um navegador de papéis de parede, gerenciador de avatar e configurador de painel dock.</p>
+    <p xml:lang="de">Ein vollständiges grafisches Werkzeug zur Verwaltung von XFCE-Desktop-Themes in Soplos Linux Tyron. Wenden Sie vollständige Desktop-Themes an, erstellen, exportieren und importieren Sie sie, einschließlich Panel-Konfiguration, Hintergrundbild, Fensterdekoration und GTK-Erscheinungsbild. Enthält auch einen Hintergrundbild-Browser, Avatar-Manager und Panel-Dock-Konfigurator.</p>
+    <p xml:lang="it">Uno strumento grafico completo per gestire i temi del desktop XFCE in Soplos Linux Tyron. Applica, crea, esporta e importa temi desktop completi inclusi configurazione del pannello, sfondo, decorazioni delle finestre e aspetto GTK. Include anche un browser di sfondi, un gestore di avatar e un configuratore del pannello dock.</p>
+    <p xml:lang="ru">Полный графический инструмент для управления темами рабочего стола XFCE в Soplos Linux Tyron. Применяйте, создавайте, экспортируйте и импортируйте полные темы рабочего стола, включая настройку панели, обои, оформление окон и внешний вид GTK. Также включает браузер обоев, менеджер аватаров и конфигуратор панели dock.</p>
+    <p xml:lang="ro">Un instrument grafic complet pentru gestionarea temelor desktop XFCE în Soplos Linux Tyron. Aplicați, creați, exportați și importați teme desktop complete, inclusiv configurarea panoului, fundalul, decorațiunile ferestrelor și aspectul GTK. Include, de asemenea, un browser de fundaluri, un manager de avatar și un configurator de panou dock.</p>
   </description>
 
   <categories>
+    <category>System</category>
     <category>Settings</category>
     <category>DesktopSettings</category>
-    <category>System</category>
     <category>Utility</category>
   </categories>
 
   <requires>
     <id>python3</id>
     <id>python3-gi</id>
-    <id>python3-pyqt5</id>
-    <id>gtk3</id>
+    <id>gir1.2-gtk-3.0</id>
+    <id>xfce4-panel</id>
   </requires>
 
   <keywords>
     <keyword>theme</keyword>
-    <keyword xml:lang="en">theme</keyword>
     <keyword>themes</keyword>
-    <keyword xml:lang="en">themes</keyword>
-    <keyword>style</keyword>
-    <keyword xml:lang="en">style</keyword>
-    <keyword>appearance</keyword>
-    <keyword xml:lang="en">appearance</keyword>
-    <keyword>customize</keyword>
-    <keyword xml:lang="en">customize</keyword>
     <keyword>xfce</keyword>
-    <keyword xml:lang="en">xfce</keyword>
     <keyword>desktop</keyword>
-    <keyword xml:lang="en">desktop</keyword>
+    <keyword>wallpaper</keyword>
+    <keyword>customize</keyword>
     <keyword>soplos</keyword>
-    <keyword xml:lang="en">soplos</keyword>
     <keyword xml:lang="es">tema</keyword>
     <keyword xml:lang="es">temas</keyword>
-    <keyword xml:lang="es">apariencia</keyword>
-    <keyword xml:lang="es">personalizar</keyword>
     <keyword xml:lang="es">escritorio</keyword>
-    <keyword xml:lang="es">soplos</keyword>
+    <keyword xml:lang="es">fondo</keyword>
+    <keyword xml:lang="es">personalizar</keyword>
     <keyword xml:lang="fr">thème</keyword>
-    <keyword xml:lang="fr">thèmes</keyword>
-    <keyword xml:lang="fr">apparence</keyword>
-    <keyword xml:lang="fr">personnaliser</keyword>
     <keyword xml:lang="fr">bureau</keyword>
-    <keyword xml:lang="fr">soplos</keyword>
+    <keyword xml:lang="fr">fond d'écran</keyword>
+    <keyword xml:lang="fr">personnaliser</keyword>
     <keyword xml:lang="pt">tema</keyword>
-    <keyword xml:lang="pt">temas</keyword>
-    <keyword xml:lang="pt">aparência</keyword>
+    <keyword xml:lang="pt">área de trabalho</keyword>
+    <keyword xml:lang="pt">papel de parede</keyword>
     <keyword xml:lang="pt">personalizar</keyword>
-    <keyword xml:lang="pt">desktop</keyword>
-    <keyword xml:lang="pt">soplos</keyword>
-    <keyword xml:lang="de">thema</keyword>
-    <keyword xml:lang="de">themen</keyword>
-    <keyword xml:lang="de">erscheinungsbild</keyword>
+    <keyword xml:lang="de">Thema</keyword>
+    <keyword xml:lang="de">Desktop</keyword>
+    <keyword xml:lang="de">Hintergrundbild</keyword>
     <keyword xml:lang="de">anpassen</keyword>
-    <keyword xml:lang="de">desktop</keyword>
-    <keyword xml:lang="de">soplos</keyword>
     <keyword xml:lang="it">tema</keyword>
-    <keyword xml:lang="it">temi</keyword>
-    <keyword xml:lang="it">aspetto</keyword>
-    <keyword xml:lang="it">personalizzare</keyword>
     <keyword xml:lang="it">desktop</keyword>
-    <keyword xml:lang="it">soplos</keyword>
+    <keyword xml:lang="it">sfondo</keyword>
+    <keyword xml:lang="it">personalizzare</keyword>
     <keyword xml:lang="ru">тема</keyword>
-    <keyword xml:lang="ru">темы</keyword>
-    <keyword xml:lang="ru">внешний вид</keyword>
-    <keyword xml:lang="ru">настроить</keyword>
     <keyword xml:lang="ru">рабочий стол</keyword>
-    <keyword xml:lang="ru">soplos</keyword>
+    <keyword xml:lang="ru">обои</keyword>
+    <keyword xml:lang="ru">настройка</keyword>
     <keyword xml:lang="ro">temă</keyword>
-    <keyword xml:lang="ro">teme</keyword>
-    <keyword xml:lang="ro">aspect</keyword>
-    <keyword xml:lang="ro">personalizare</keyword>
     <keyword xml:lang="ro">desktop</keyword>
-    <keyword xml:lang="ro">soplos</keyword>
+    <keyword xml:lang="ro">fundal</keyword>
+    <keyword xml:lang="ro">personalizare</keyword>
   </keywords>
 
   <translation type="gettext">
@@ -121,72 +98,58 @@
     <locale>ro</locale>
   </translation>
 
-  <launchable type="desktop-id">com.soplos.thememanager.desktop</launchable>
+  <launchable type="desktop-id">org.soplos.thememanager.desktop</launchable>
 
-  <icon type="stock">soplos-theme-manager</icon>
+  <icon type="stock">org.soplos.thememanager</icon>
   <icon type="remote">
-    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-theme-manager/icons/com.soplos.thememanager.png</url>
+    <url>https://raw.githubusercontent.com/SoplosLinux/soplos-theme-manager/main/assets/icons/org.soplos.thememanager.png</url>
   </icon>
 
   <screenshots>
     <screenshot type="default">
-      <caption>Interfaz del programa</caption>
-      <caption xml:lang="es">Interfaz del programa</caption>
-      <caption xml:lang="en">Program interface</caption>
-      <caption xml:lang="fr">Interface du programme</caption>
-      <caption xml:lang="pt">Interface do programa</caption>
-      <caption xml:lang="de">Programmoberfläche</caption>
-      <caption xml:lang="it">Interfaccia del programma</caption>
-      <caption xml:lang="ru">Интерфейс программы</caption>
-      <caption xml:lang="ro">Interfața programului</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-theme-manager/screenshots/screenshot1.png</image>
+      <caption>Theme gallery with previews</caption>
+      <caption xml:lang="es">Galería de temas con previsualización</caption>
+      <caption xml:lang="fr">Galerie de thèmes avec aperçus</caption>
+      <caption xml:lang="pt">Galeria de temas com visualizações</caption>
+      <caption xml:lang="de">Themen-Galerie mit Vorschauen</caption>
+      <caption xml:lang="it">Galleria dei temi con anteprime</caption>
+      <caption xml:lang="ru">Галерея тем с превью</caption>
+      <caption xml:lang="ro">Galerie de teme cu previzualizări</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-theme-manager/main/assets/screenshots/screenshot1.png</image>
     </screenshot>
-    <screenshot type="normal">
-      <caption>Selector de temas para xfce</caption>
-      <caption xml:lang="es">Selector de temas para xfce</caption>
-      <caption xml:lang="en">Theme selector for xfce</caption>
-      <caption xml:lang="fr">Sélecteur de thèmes pour xfce</caption>
-      <caption xml:lang="pt">Seletor de temas para xfce</caption>
-      <caption xml:lang="de">Themenauswahl für xfce</caption>
-      <caption xml:lang="it">Selettore di temi per xfce</caption>
-      <caption xml:lang="ru">Выбор тем для xfce</caption>
-      <caption xml:lang="ro">Selector de teme pentru xfce</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-theme-manager/screenshots/screenshot2.png</image>
+    <screenshot>
+      <caption>Wallpaper browser</caption>
+      <caption xml:lang="es">Navegador de fondos de pantalla</caption>
+      <caption xml:lang="fr">Navigateur de fonds d'écran</caption>
+      <caption xml:lang="pt">Navegador de papéis de parede</caption>
+      <caption xml:lang="de">Hintergrundbild-Browser</caption>
+      <caption xml:lang="it">Browser degli sfondi</caption>
+      <caption xml:lang="ru">Браузер обоев</caption>
+      <caption xml:lang="ro">Browser de fundaluri</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-theme-manager/main/assets/screenshots/screenshot2.png</image>
     </screenshot>
-    <screenshot type="normal">
-      <caption>Selector para eliminar temas</caption>
-      <caption xml:lang="es">Selector para eliminar temas</caption>
-      <caption xml:lang="en">Theme removal selector</caption>
-      <caption xml:lang="fr">Sélecteur pour supprimer des thèmes</caption>
-      <caption xml:lang="pt">Seletor para remover temas</caption>
-      <caption xml:lang="de">Auswahl zum Entfernen von Themen</caption>
-      <caption xml:lang="it">Selettore per eliminare temi</caption>
-      <caption xml:lang="ru">Выбор для удаления тем</caption>
-      <caption xml:lang="ro">Selector pentru ștergerea temelor</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-theme-manager/screenshots/screenshot3.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Nombrar nuevos temas</caption>
-      <caption xml:lang="es">Nombrar nuevos temas</caption>
-      <caption xml:lang="en">Name new themes</caption>
-      <caption xml:lang="fr">Nommer de nouveaux thèmes</caption>
-      <caption xml:lang="pt">Nomear novos temas</caption>
-      <caption xml:lang="de">Neue Themen benennen</caption>
-      <caption xml:lang="it">Assegnare un nome ai nuovi temi</caption>
-      <caption xml:lang="ru">Назвать новые темы</caption>
-      <caption xml:lang="ro">Denumiți teme noi</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-theme-manager/screenshots/screenshot4.png</image>
+    <screenshot>
+      <caption>Avatar and user data manager</caption>
+      <caption xml:lang="es">Gestor de avatar y datos de usuario</caption>
+      <caption xml:lang="fr">Gestionnaire d'avatar et données utilisateur</caption>
+      <caption xml:lang="pt">Gerenciador de avatar e dados do usuário</caption>
+      <caption xml:lang="de">Avatar- und Benutzerdaten-Manager</caption>
+      <caption xml:lang="it">Gestore avatar e dati utente</caption>
+      <caption xml:lang="ru">Менеджер аватара и данных пользователя</caption>
+      <caption xml:lang="ro">Manager avatar și date utilizator</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-theme-manager/main/assets/screenshots/screenshot3.png</image>
     </screenshot>
   </screenshots>
 
-  <url type="homepage">https://soploslinux.com</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="homepage">https://soplos.org/</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-theme-manager/issues</url>
+  <url type="help">https://soplos.org/wiki</url>
   <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
-  <url type="contact">https://soploslinux.com/foros/</url>
-  <url type="help">https://soploslinux.com</url>
+  <url type="contact">https://soplos.org/</url>
 
-  <developer id="com.soploslinux">
+  <developer id="org.soplos">
     <name>Sergi Perich</name>
+    <name xml:lang="en">Sergi Perich</name>
     <name xml:lang="es">Sergi Perich</name>
     <name xml:lang="fr">Sergi Perich</name>
     <name xml:lang="pt">Sergi Perich</name>
@@ -194,7 +157,7 @@
     <name xml:lang="it">Sergi Perich</name>
     <name xml:lang="ru">Sergi Perich</name>
     <name xml:lang="ro">Sergi Perich</name>
-    <url type="homepage">https://soploslinux.com</url>
+    <url type="homepage">https://soplos.org/</url>
   </developer>
 
   <provides>
@@ -202,42 +165,40 @@
   </provides>
 
   <releases>
+    <release version="2.0.0" date="2026-04-24">
+      <description>
+        <p xml:lang="en">Version 2.0.0 — Complete rewrite with modular architecture. New tabbed interface: Themes, Wallpapers, Avatar, Panel &amp; Dock. Integrated Docklike configuration. Avatar manager replacing Mugshot with crop dialog. Theme export/import as .sth bundles. Screenshot-based previews with desktop minimize. Footer progress bar following Soplos standard.</p>
+        <p xml:lang="es">Versión 2.0.0 — Reescritura completa con arquitectura modular. Nueva interfaz con pestañas: Temas, Fondos de Pantalla, Avatar, Panel y Dock. Configuración Docklike integrada. Gestor de avatar que reemplaza Mugshot con diálogo de recorte. Exportación e importación de temas como bundles .sth. Previsualización mediante capturas de pantalla con minimización del escritorio. Barra de progreso en el footer siguiendo el estándar Soplos.</p>
+        <p xml:lang="fr">Version 2.0.0 — Réécriture complète avec architecture modulaire. Nouvelle interface à onglets : Thèmes, Fonds d'écran, Avatar, Panneau et Dock. Configuration Docklike intégrée. Gestionnaire d'avatar remplaçant Mugshot avec dialogue de recadrage. Export/import de thèmes en bundles .sth. Aperçus par captures d'écran avec minimisation du bureau. Barre de progression dans le pied de page suivant le standard Soplos.</p>
+        <p xml:lang="pt">Versão 2.0.0 — Reescrita completa com arquitetura modular. Nova interface com abas: Temas, Papéis de Parede, Avatar, Painel e Dock. Configuração Docklike integrada. Gerenciador de avatar substituindo Mugshot com diálogo de corte. Exportação/importação de temas como bundles .sth. Pré-visualizações por capturas de tela com minimização da área de trabalho. Barra de progresso no rodapé seguindo o padrão Soplos.</p>
+        <p xml:lang="de">Version 2.0.0 — Vollständige Neuentwicklung mit modularer Architektur. Neue Tab-Oberfläche: Themes, Hintergrundbilder, Avatar, Panel &amp; Dock. Integrierte Docklike-Konfiguration. Avatar-Manager ersetzt Mugshot mit Zuschneidedialog. Theme-Export/-Import als .sth-Bundles. Screenshot-basierte Vorschauen mit Desktop-Minimierung. Fortschrittsbalken in der Fußzeile nach Soplos-Standard.</p>
+        <p xml:lang="it">Versione 2.0.0 — Riscrittura completa con architettura modulare. Nuova interfaccia a schede: Temi, Sfondi, Avatar, Pannello e Dock. Configurazione Docklike integrata. Gestore avatar che sostituisce Mugshot con dialogo di ritaglio. Esportazione/importazione temi come bundle .sth. Anteprime basate su screenshot con minimizzazione del desktop. Barra di avanzamento nel piè di pagina seguendo lo standard Soplos.</p>
+        <p xml:lang="ru">Версия 2.0.0 — Полная переработка с модульной архитектурой. Новый интерфейс с вкладками: Темы, Обои, Аватар, Панель и Dock. Интегрированная конфигурация Docklike. Менеджер аватаров вместо Mugshot с диалогом обрезки. Экспорт/импорт тем в виде .sth-бандлов. Превью на основе скриншотов с минимизацией рабочего стола. Индикатор прогресса в нижнем колонтитуле по стандарту Soplos.</p>
+        <p xml:lang="ro">Versiunea 2.0.0 — Rescrierea completă cu arhitectură modulară. Interfață nouă cu file: Teme, Fundaluri, Avatar, Panou și Dock. Configurare Docklike integrată. Manager avatar înlocuind Mugshot cu dialog de decupare. Export/import teme ca bundle-uri .sth. Previzualizări bazate pe capturi de ecran cu minimizarea desktopului. Bară de progres în subsol urmând standardul Soplos.</p>
+      </description>
+    </release>
     <release version="1.0.3" date="2025-07-27">
       <description>
-        <p>Cambio de icono del programa.</p>
-        <p xml:lang="es">Cambio de icono del programa.</p>
         <p xml:lang="en">Program icon changed.</p>
+        <p xml:lang="es">Cambio de icono del programa.</p>
         <p xml:lang="fr">Changement de l'icône du programme.</p>
         <p xml:lang="pt">Alteração do ícone do programa.</p>
         <p xml:lang="de">Programmicon geändert.</p>
         <p xml:lang="it">Cambiata l'icona del programma.</p>
         <p xml:lang="ru">Изменена иконка программы.</p>
-        <p xml:lang="ro">Schimbare pictogramă a programului.</p>
-      </description>
-    </release>
-    <release version="1.0.2" date="2025-07-18">
-      <description>
-        <p>Actualización de metainfo para cumplir con AppStream/DEP-11.</p>
-        <p xml:lang="es">Actualización de metainfo para cumplir con AppStream/DEP-11.</p>
-        <p xml:lang="en">Metainfo update for AppStream/DEP-11 compliance.</p>
-        <p xml:lang="fr">Mise à jour du metainfo pour la conformité AppStream/DEP-11.</p>
-        <p xml:lang="pt">Atualização do metainfo para conformidade AppStream/DEP-11.</p>
-        <p xml:lang="de">Metainfo-Aktualisierung für AppStream/DEP-11-Konformität.</p>
-        <p xml:lang="it">Aggiornamento del metainfo per la conformità AppStream/DEP-11.</p>
-        <p xml:lang="ru">Обновление метаинформации для соответствия AppStream/DEP-11.</p>
-        <p xml:lang="ro">Actualizare metainfo pentru conformitate AppStream/DEP-11.</p>
+        <p xml:lang="ro">S-a schimbat pictograma programului.</p>
       </description>
     </release>
     <release version="1.0.0" date="2025-05-08">
       <description>
-        <p>Initial release</p>
-        <p xml:lang="es">Versión inicial</p>
-        <p xml:lang="fr">Version initiale</p>
-        <p xml:lang="pt">Versão inicial</p>
-        <p xml:lang="de">Erste Version</p>
-        <p xml:lang="it">Versione iniziale</p>
-        <p xml:lang="ru">Начальная версия</p>
-        <p xml:lang="ro">Versiune inițială</p>
+        <p xml:lang="en">Initial release.</p>
+        <p xml:lang="es">Versión inicial.</p>
+        <p xml:lang="fr">Version initiale.</p>
+        <p xml:lang="pt">Versão inicial.</p>
+        <p xml:lang="de">Erste Version.</p>
+        <p xml:lang="it">Versione iniziale.</p>
+        <p xml:lang="ru">Начальная версия.</p>
+        <p xml:lang="ro">Versiune inițială.</p>
       </description>
     </release>
   </releases>
@@ -251,15 +212,4 @@
     <content_attribute id="money-purchasing">none</content_attribute>
     <content_attribute id="social-chat">none</content_attribute>
   </content_rating>
-
-  <languages>
-    <lang percentage="100">es</lang>
-    <lang percentage="100">en</lang>
-    <lang percentage="100">fr</lang>
-    <lang percentage="100">pt</lang>
-    <lang percentage="100">de</lang>
-    <lang percentage="100">it</lang>
-    <lang percentage="100">ru</lang>
-    <lang percentage="100">ro</lang>
-  </languages>
 </component>
