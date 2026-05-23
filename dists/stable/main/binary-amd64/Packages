@@ -189,16 +189,16 @@ Description: Soplos Plymouth theme.
  Build date: 2025-12-20
 
 Package: soplos-release
-Version: 0.2.9-7
+Version: 0.2.9-8
 Architecture: all
 Maintainer: Sergi Perich
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.2.9-7_all.deb
-Size: 160148
-SHA256: e3653b5f9d57aede50b33d39c19f01e199e44efc60a9dcfe063cba2cb7855453
-SHA1: 15bc9621629cfde88a06f99ac20354e4a93bfd7e
-MD5sum: 4b908a8219221d0b84b07896b9e47dfd
+Filename: pool/main/s/soplos-release/soplos-release_0.2.9-8_all.deb
+Size: 2416268
+SHA256: ba31fae90116b5ce36f72bd17f9c06521c619cb5b2242dc6feb9df5f7f8c13e0
+SHA1: ce82d7a2d890d99bf3c47169eec5ecd34a4811a3
+MD5sum: 3b0b7b40d2a44b7353ab89b402fb776a
 Description: Soplos Linux release information (internal system package)
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
@@ -207,6 +207,7 @@ Description: Soplos Linux release information (internal system package)
  This release corresponds to Soplos Linux Tyron Beta 1.
 Essential: yes
 Replaces: base-files
+Depends: fonts-noto-color-emoji
 Recommends: branding-soplos (>= 0.0.1), soplos-grub-theme (>= 0.0.1), soplos-plymouth-theme (>= 0.0.1), soplos-wallpapers01 (>= 0.0.1), soplos-wallpapers02 (>= 0.0.1), fastfetch-soplos (>= 0.0.1), kitty-soplos (>= 0.0.3)
 
 Package: soplos-repo-selector
