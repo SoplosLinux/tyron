@@ -15,18 +15,8 @@ boot/grub/themes/soploslinux/icons/recovery.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/soplos.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/submenu.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/uefi.png	    misc/soplos-grub-theme
-etc/debian_version	    admin/soplos-release
-etc/issue	    admin/soplos-release
-etc/issue.net	    admin/soplos-release
-etc/lsb-release	    admin/soplos-release
-etc/motd	    admin/soplos-release
-etc/apt/sources.list.d/tyron.sources	    admin/soplos-release
 etc/default/grub	    misc/soplos-grub-theme
 etc/default/grub-btrfs/config	    admin/grub-btrfs
-etc/dracut.conf.d/i18n.conf	    admin/soplos-release
-etc/dracut.conf.d/local.conf	    admin/soplos-release
-etc/dracut.conf.d/soplos.conf	    admin/soplos-release
-etc/fonts/conf.d/75-noto-color-emoji.conf	    admin/soplos-release
 etc/grub.d/05_soplos_theme	    misc/soplos-grub-theme
 etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
 etc/skel/.bashrc	    utils/kitty-soplos
@@ -49,8 +39,6 @@ usr/bin/soplos-theme-manager	    utils/soplos-theme-manager
 usr/bin/soplos-webapp-manager	    utils/soplos-webapp-manager
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
-usr/bin/xfce4-about-soplos	    admin/soplos-release
-usr/lib/os-release	    admin/soplos-release
 usr/lib/systemd/system/grub-btrfsd.service	    admin/grub-btrfs
 usr/share/applications/com.soplos.docklike.desktop	    utils/soplos-docklike
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
@@ -133,8 +121,6 @@ usr/share/doc/soplos-theme-manager/copyright	    utils/soplos-theme-manager
 usr/share/doc/soplos-webapp-manager/copyright	    utils/soplos-webapp-manager
 usr/share/doc/soplos-welcome/copyright	    utils/soplos-welcome
 usr/share/doc/soplos-welcome-live/copyright	    utils/soplos-welcome-live
-usr/share/fonts/truetype/soplos/SymbolsNerdFont-Regular.ttf	    admin/soplos-release
-usr/share/fonts/truetype/soplos/SymbolsNerdFontMono-Regular.ttf	    admin/soplos-release
 usr/share/icons/hicolor/128x128/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/128x128/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/128x128/apps/org.soplos.appimagemanager.png	    utils/soplos-appimage-manager
@@ -148,7 +134,6 @@ usr/share/icons/hicolor/128x128/apps/org.soplos.webappmanager.png	    utils/sopl
 usr/share/icons/hicolor/128x128/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/128x128/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
 usr/share/icons/hicolor/128x128/apps/slide1.png	    utils/soplos-welcome
-usr/share/icons/hicolor/128x128/apps/soplos-logo.png	    admin/soplos-release
 usr/share/icons/hicolor/16x16/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/16x16/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/16x16/apps/org.soplos.appimagemanager.png	    utils/soplos-appimage-manager
@@ -259,7 +244,6 @@ usr/share/metainfo/org.soplos.thememanager.metainfo.xml	    utils/soplos-theme-m
 usr/share/metainfo/org.soplos.webappmanager.metainfo.xml	    utils/soplos-webapp-manager
 usr/share/metainfo/org.soplos.welcome.metainfo.xml	    utils/soplos-welcome
 usr/share/metainfo/org.soplos.welcomelive.metainfo.xml	    utils/soplos-welcome-live
-usr/share/metainfo/org.soploslinux.soplos.metainfo.xml	    admin/soplos-release
 usr/share/msi-keyboard-gui/CHANGELOG.md	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/LICENSE	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/README.md	    utils/msi-keyboard-gui
@@ -308,7 +292,6 @@ usr/share/plymouth/themes/soplos/005.png	    misc/soplos-plymouth-theme
 usr/share/plymouth/themes/soplos/README.md	    misc/soplos-plymouth-theme
 usr/share/plymouth/themes/soplos/soplos.plymouth	    misc/soplos-plymouth-theme
 usr/share/plymouth/themes/soplos/soplos.script	    misc/soplos-plymouth-theme
-usr/share/polkit-1/rules.d/10-soplos-packagekit.rules	    admin/soplos-release
 usr/share/soplos-appimage-manager/CHANGELOG.md	    utils/soplos-appimage-manager
 usr/share/soplos-appimage-manager/LICENSE	    utils/soplos-appimage-manager
 usr/share/soplos-appimage-manager/README.md	    utils/soplos-appimage-manager
@@ -1217,4 +1200,3 @@ usr/share/soplos-welcome-live/utils/language_changer.py	    utils/soplos-welcome
 usr/share/soplos-welcome-live/utils/numlockx_manager.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/session_manager.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/update_gtk_bookmarks.py	    utils/soplos-welcome-live
-usr/share/xfce4/vendorinfo-soplos	    admin/soplos-release
