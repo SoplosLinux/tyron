@@ -239,17 +239,17 @@ MD5sum: 0d85249480eab84648f00e07aaf60bd9
 Description: System cleaner and optimizer for Soplos Linux
 
 Package: soplos-theme-manager
-Version: 2.0.0
+Version: 2.0.0-1
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, imagemagick, libnotify-bin, polkit | policykit-1-gnome | policykit-1, python3-all, python3-gi, python3-setuptools, scrot, tar, wmctrl, xfce4-panel, xfconf, xfdesktop4, xfwm4
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-theme-manager/soplos-theme-manager_2.0.0_all.deb
-Size: 15823612
-SHA256: adcc5187c34baffb8171b3bf69ab259a9643b1e810de7b5e1ffa06e2f673f496
-SHA1: 27c4d8ac8c577ecb48cfdc6417a04e81852144f9
-MD5sum: 35b55faaceb4cec9d8bd03598fae478b
+Filename: pool/main/s/soplos-theme-manager/soplos-theme-manager_2.0.0-1_all.deb
+Size: 16629004
+SHA256: ec48c556fe308b11488b2bc05eca394dd514f4e26293ad6ce736854c07388e9c
+SHA1: f40166afbc1302d4363a2bda0af64460ea3f8348
+MD5sum: 70879a42618bda250c7219e95761d88e
 Description: Desktop theme manager for Soplos Linux Tyron (XFCE)
 
 Package: soplos-wallpapers01
