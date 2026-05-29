@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media
-Time: 20260529T203201
+Time: 20260529T203211
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -866,6 +866,410 @@ Releases:
       it: Versione iniziale di rilascio
       ru: Начальная версия выпуска
       ro: Versiune inițială de lansare
+Component: main
+---
+Type: desktop-application
+ID: org.soplos.thememanager
+ProjectLicense: GPL-3.0+
+Package: soplos-theme-manager
+Name:
+  C: Soplos Theme Manager
+  es: Gestor de Temas Soplos
+  fr: Gestionnaire de Thèmes Soplos
+  pt: Gerenciador de Temas Soplos
+  de: Soplos Theme-Manager
+  it: Gestore Temi Soplos
+  ru: Менеджер Тем Soplos
+  ro: Manager de Teme Soplos
+Summary:
+  C: Desktop theme manager for Soplos Linux Tyron (XFCE)
+  es: Gestor de temas de escritorio para Soplos Linux Tyron (XFCE)
+  fr: Gestionnaire de thèmes de bureau pour Soplos Linux Tyron (XFCE)
+  pt: Gerenciador de temas de área de trabalho para Soplos Linux Tyron (XFCE)
+  de: Desktop-Theme-Manager für Soplos Linux Tyron (XFCE)
+  it: Gestore dei temi del desktop per Soplos Linux Tyron (XFCE)
+  ru: Менеджер тем рабочего стола для Soplos Linux Tyron (XFCE)
+  ro: Manager de teme desktop pentru Soplos Linux Tyron (XFCE)
+Description:
+  C: |-
+    <p>A complete graphical tool to manage XFCE desktop themes in Soplos Linux Tyron. Apply, create, export and import full desktop themes including panel configuration, wallpaper, window decorations and GTK appearance. Also includes a wallpaper browser, avatar manager and panel dock configurator.</p>
+  es: |-
+    <p>Una herramienta gráfica completa para gestionar temas de escritorio XFCE en Soplos Linux Tyron. Aplica, crea, exporta e importa temas de escritorio completos incluyendo configuración del panel, fondo de pantalla, decoraciones de ventana y apariencia GTK. También incluye un navegador de fondos de pantalla, gestor de avatar y configurador del panel dock.</p>
+  fr: |-
+    <p>Un outil graphique complet pour gérer les thèmes de bureau XFCE dans Soplos Linux Tyron. Appliquez, créez, exportez et importez des thèmes de bureau complets incluant la configuration du panneau, le fond d'écran, les décorations de fenêtres et l'apparence GTK. Comprend également un navigateur de fonds d'écran, un gestionnaire d'avatar et un configurateur de panneau dock.</p>
+  pt: |-
+    <p>Uma ferramenta gráfica completa para gerenciar temas de área de trabalho XFCE no Soplos Linux Tyron. Aplique, crie, exporte e importe temas de área de trabalho completos incluindo configuração do painel, papel de parede, decorações de janela e aparência GTK. Também inclui um navegador de papéis de parede, gerenciador de avatar e configurador de painel dock.</p>
+  de: |-
+    <p>Ein vollständiges grafisches Werkzeug zur Verwaltung von XFCE-Desktop-Themes in Soplos Linux Tyron. Wenden Sie vollständige Desktop-Themes an, erstellen, exportieren und importieren Sie sie, einschließlich Panel-Konfiguration, Hintergrundbild, Fensterdekoration und GTK-Erscheinungsbild. Enthält auch einen Hintergrundbild-Browser, Avatar-Manager und Panel-Dock-Konfigurator.</p>
+  it: |-
+    <p>Uno strumento grafico completo per gestire i temi del desktop XFCE in Soplos Linux Tyron. Applica, crea, esporta e importa temi desktop completi inclusi configurazione del pannello, sfondo, decorazioni delle finestre e aspetto GTK. Include anche un browser di sfondi, un gestore di avatar e un configuratore del pannello dock.</p>
+  ru: |-
+    <p>Полный графический инструмент для управления темами рабочего стола XFCE в Soplos Linux Tyron. Применяйте, создавайте, экспортируйте и импортируйте полные темы рабочего стола, включая настройку панели, обои, оформление окон и внешний вид GTK. Также включает браузер обоев, менеджер аватаров и конфигуратор панели dock.</p>
+  ro: |-
+    <p>Un instrument grafic complet pentru gestionarea temelor desktop XFCE în Soplos Linux Tyron. Aplicați, creați, exportați și importați teme desktop complete, inclusiv configurarea panoului, fundalul, decorațiunile ferestrelor și aspectul GTK. Include, de asemenea, un browser de fundaluri, un manager de avatar și un configurator de panou dock.</p>
+Keywords:
+  C:
+    - theme
+    - themes
+    - xfce
+    - desktop
+    - wallpaper
+    - customize
+    - soplos
+  es:
+    - tema
+    - temas
+    - escritorio
+    - fondo
+    - personalizar
+  fr:
+    - thème
+    - bureau
+    - fond d'écran
+    - personnaliser
+  pt:
+    - tema
+    - área de trabalho
+    - papel de parede
+    - personalizar
+  de:
+    - Thema
+    - Desktop
+    - Hintergrundbild
+    - anpassen
+  it:
+    - tema
+    - desktop
+    - sfondo
+    - personalizzare
+  ru:
+    - тема
+    - рабочий стол
+    - обои
+    - настройка
+  ro:
+    - temă
+    - desktop
+    - fundal
+    - personalizare
+Categories:
+  - System
+  - Settings
+  - DesktopSettings
+  - Utility
+Icon:
+  cached:
+    - name: org.soplos.thememanager.png
+      width: 48
+      height: 48
+    - name: org.soplos.thememanager.png
+      width: 64
+      height: 64
+    - name: org.soplos.thememanager.png
+      width: 128
+      height: 128
+  remote:
+    - url: soplos-theme-manager/icons/48x48/org.soplos.thememanager.png
+      width: 48
+      height: 48
+    - url: soplos-theme-manager/icons/64x64/org.soplos.thememanager.png
+      width: 64
+      height: 64
+    - url: soplos-theme-manager/icons/128x128/org.soplos.thememanager.png
+      width: 128
+      height: 128
+Screenshots:
+  - default: true
+    caption:
+      C: Theme gallery with previews
+      es: Galería de temas con previsualización
+      fr: Galerie de thèmes avec aperçus
+      pt: Galeria de temas com visualizações
+      de: Themen-Galerie mit Vorschauen
+      it: Galleria dei temi con anteprime
+      ru: Галерея тем с превью
+      ro: Galerie de teme cu previzualizări
+    source-image:
+      url: soplos-theme-manager/screenshots/screenshot1.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Wallpaper browser
+      es: Navegador de fondos de pantalla
+      fr: Navigateur de fonds d'écran
+      pt: Navegador de papéis de parede
+      de: Hintergrundbild-Browser
+      it: Browser degli sfondi
+      ru: Браузер обоев
+      ro: Browser de fundaluri
+    source-image:
+      url: soplos-theme-manager/screenshots/screenshot2.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Avatar and user data manager
+      es: Gestor de avatar y datos de usuario
+      fr: Gestionnaire d'avatar et données utilisateur
+      pt: Gerenciador de avatar e dados do usuário
+      de: Avatar- und Benutzerdaten-Manager
+      it: Gestore avatar e dati utente
+      ru: Менеджер аватара и данных пользователя
+      ro: Manager avatar și date utilizator
+    source-image:
+      url: soplos-theme-manager/screenshots/screenshot3.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Panel configuration and plugin manager
+      es: Configuración del panel y gestor de plugins
+      fr: Configuration du panneau et gestionnaire de plugins
+      pt: Configuração do painel e gestor de plugins
+      de: Panel-Konfiguration und Plugin-Manager
+      it: Configurazione pannello e gestore plugin
+      ru: Настройка панели и менеджер плагинов
+      ro: Configurare panou și manager de plugin-uri
+    source-image:
+      url: soplos-theme-manager/screenshots/screenshot4.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Dock pinned applications manager
+      es: Gestor de aplicaciones ancladas en el dock
+      fr: Gestionnaire d'applications épinglées dans le dock
+      pt: Gestor de aplicações fixadas no dock
+      de: Manager für angeheftete Dock-Anwendungen
+      it: Gestore applicazioni bloccate nel dock
+      ru: Менеджер закреплённых приложений дока
+      ro: Manager aplicații fixate în dock
+    source-image:
+      url: soplos-theme-manager/screenshots/screenshot5.png
+      width: 1920
+      height: 1080
+      type: image/png
+Launchable:
+  desktop-id:
+    - org.soplos.thememanager.desktop
+Url:
+  homepage: https://soplos.org/
+  bugtracker: https://github.com/SoplosLinux/soplos-theme-manager/issues
+  help: https://soplos.org/wiki
+  donation: https://www.paypal.com/paypalme/isubdes
+  contact: https://soplos.org/
+Developer:
+  id: org.soplos
+  name:
+    C: Soplos Team
+  url: https://soplos.org/
+Provides:
+  - soplos-theme-manager
+Releases:
+  - version: 2.0.0-1
+    date: '2026-05-29'
+    type: stable
+    description:
+      en: |-
+        Bug fix release. Panel: fixed width not respected, alignment combo added, struts for top/bottom panels, delete-all-panels bug fixed (--force-array), plugin ID collision on new panel, windows maximizing under top panel, new panel position calculated from actual screen resolution. Desktop file was empty causing app to be missing from the XFCE menu. Ctrl+Tab and Ctrl+Shift+Tab shortcuts for tab switching. Launcher wrapper simplified to standard Soplos pattern. Theme conf filenames renamed from Spanish to English (theme.conf, wallpaper.conf, shortcuts.conf) with automatic migration on startup. Metainfo screenshots corrected to Tyron repo URLs; Panel and Dock screenshots added.
+      es: |-
+        Versión de corrección de errores. Panel: corregido el ancho no respetado, combo de alineación añadido, struts para paneles superior/inferior, error de eliminación de todos los paneles corregido (--force-array), colisión de IDs de plugins al crear un panel nuevo, ventanas que se maximizan bajo el panel superior, posición del nuevo panel calculada según la resolución real de pantalla. El archivo desktop estaba vacío, lo que impedía que la app apareciera en el menú de XFCE. Atajos Ctrl+Tab y Ctrl+Shift+Tab para cambiar de pestaña. Wrapper simplificado al patrón estándar Soplos. Nombres de archivos .conf renombrados del español al inglés (theme.conf, wallpaper.conf, shortcuts.conf) con migración automática al iniciar. Screenshots del metainfo corregidas a las URLs del repo Tyron; añadidas capturas de Panel y Dock.
+      fr: |-
+        Version de correction de bugs. Panneau : correction de la largeur non respectée, combo d'alignement ajouté, struts pour les panneaux haut/bas, bug de suppression de tous les panneaux corrigé (--force-array), collision d'ID de plugins lors de la création d'un nouveau panneau, fenêtres se maximisant sous le panneau supérieur, position du nouveau panneau calculée selon la résolution réelle de l'écran. Le fichier desktop était vide, empêchant l'app d'apparaître dans le menu XFCE. Raccourcis Ctrl+Tab et Ctrl+Shift+Tab pour changer d'onglet. Wrapper simplifié selon le modèle standard Soplos. Noms des fichiers .conf renommés de l'espagnol vers l'anglais (theme.conf, wallpaper.conf, shortcuts.conf) avec migration automatique au démarrage. Screenshots du metainfo corrigées vers les URLs du dépôt Tyron ; captures Panneau et Dock ajoutées.
+      pt: |-
+        Versão de correção de erros. Painel: corrigida a largura não respeitada, combo de alinhamento adicionado, struts para painéis superior/inferior, bug de exclusão de todos os painéis corrigido (--force-array), colisão de IDs de plugins ao criar novo painel, janelas maximizando sob o painel superior, posição do novo painel calculada pela resolução real do ecrã. O ficheiro desktop estava vazio, impedindo a app de aparecer no menu do XFCE. Atalhos Ctrl+Tab e Ctrl+Shift+Tab para mudar de separador. Wrapper simplificado para o padrão Soplos. Nomes dos ficheiros .conf renomeados do espanhol para inglês (theme.conf, wallpaper.conf, shortcuts.conf) com migração automática no arranque. Screenshots do metainfo corrigidas para URLs do repositório Tyron; capturas de Painel e Dock adicionadas.
+      de: |-
+        Fehlerbehebungs-Release. Panel: Breite wird nun korrekt übernommen, Ausrichtungs-Combo hinzugefügt, Struts für obere/untere Panels, Bug beim Löschen aller Panels behoben (--force-array), Plugin-ID-Kollision beim Erstellen neuer Panels, Fenster maximieren nicht mehr unter das obere Panel, Position des neuen Panels aus tatsächlicher Bildschirmauflösung berechnet. Desktop-Datei war leer und verhinderte das Erscheinen der App im XFCE-Menü. Ctrl+Tab und Ctrl+Shift+Tab Tastenkürzel für Tab-Wechsel. Wrapper auf Standard-Soplos-Muster vereinfacht. Conf-Dateinamen von Spanisch auf Englisch umbenannt (theme.conf, wallpaper.conf, shortcuts.conf) mit automatischer Migration beim Start. Metainfo-Screenshots auf Tyron-Repo-URLs korrigiert; Panel- und Dock-Screenshots hinzugefügt.
+      it: |-
+        Versione di correzione bug. Pannello: larghezza non rispettata corretta, combo allineamento aggiunto, struts per pannelli superiore/inferiore, bug eliminazione tutti i pannelli corretto (--force-array), collisione ID plugin alla creazione di nuovo pannello, finestre che si massimizzano sotto il pannello superiore, posizione del nuovo pannello calcolata dalla risoluzione reale dello schermo. Il file desktop era vuoto, impedendo all'app di apparire nel menu XFCE. Scorciatoie Ctrl+Tab e Ctrl+Shift+Tab per cambiare scheda. Wrapper semplificato al modello standard Soplos. Nomi file .conf rinominati dallo spagnolo all'inglese (theme.conf, wallpaper.conf, shortcuts.conf) con migrazione automatica all'avvio. Screenshot metainfo corretti agli URL del repo Tyron; screenshot Pannello e Dock aggiunti.
+      ru: |-
+        Выпуск с исправлением ошибок. Панель: исправлено игнорирование ширины, добавлен комбо выравнивания, struts для верхней/нижней панели, исправлена ошибка удаления всех панелей (--force-array), коллизия ID плагинов при создании новой панели, окна больше не максимизируются под верхнюю панель, позиция новой панели рассчитывается из реального разрешения экрана. Файл desktop был пустым, из-за чего приложение не отображалось в меню XFCE. Горячие клавиши Ctrl+Tab и Ctrl+Shift+Tab для переключения вкладок. Wrapper упрощён до стандартного шаблона Soplos. Имена файлов .conf переименованы с испанского на английский (theme.conf, wallpaper.conf, shortcuts.conf) с автоматической миграцией при запуске. Скриншоты metainfo исправлены на URL репозитория Tyron; добавлены скриншоты Panel и Dock.
+      ro: |-
+        Versiune de corecție a erorilor. Panou: lățimea ignorată corectată, combo aliniere adăugat, struts pentru panouri sus/jos, bug ștergere toate panourile corectat (--force-array), coliziune ID plugin la crearea panoului nou, ferestre care se maximizau sub panoul superior, poziția panoului nou calculată din rezoluția reală a ecranului. Fișierul desktop era gol, împiedicând aplicația să apară în meniul XFCE. Scurtături Ctrl+Tab și Ctrl+Shift+Tab pentru schimbarea filelor. Wrapper simplificat la modelul standard Soplos. Numele fișierelor .conf redenumite din spaniolă în engleză (theme.conf, wallpaper.conf, shortcuts.conf) cu migrare automată la pornire. Capturile metainfo corectate la URL-urile repo-ului Tyron; capturi Panel și Dock adăugate.
+      C: |-
+        Bug fix release. Panel: fixed width not respected, alignment combo added, struts for top/bottom panels, delete-all-panels bug fixed (--force-array), plugin ID collision on new panel, windows maximizing under top panel, new panel position calculated from actual screen resolution. Desktop file was empty causing app to be missing from the XFCE menu. Ctrl+Tab and Ctrl+Shift+Tab shortcuts for tab switching. Launcher wrapper simplified to standard Soplos pattern. Theme conf filenames renamed from Spanish to English (theme.conf, wallpaper.conf, shortcuts.conf) with automatic migration on startup. Metainfo screenshots corrected to Tyron repo URLs; Panel and Dock screenshots added.
+  - version: 2.0.0
+    date: '2026-04-24'
+    type: stable
+    description:
+      en: |-
+        Version 2.0.0 — Complete rewrite with modular architecture. New tabbed interface: Themes, Wallpapers, User, Panel, Dock. Panel tab: full XFCE panel settings (position, size, icon size, rows, auto-hide, dark mode) and plugin management (add, remove, reorder). Dock tab: dedicated Docklike pinned apps manager. User tab: avatar manager replacing Mugshot with crop dialog, editable user data, and group membership management via checkboxes (polkit). Wallpaper browser with near-instant loading (thumbnail decoding in background thread). Theme export/import as .sth bundles. Screenshot-based previews with desktop minimize. Footer progress bar following Soplos standard.
+      es: |-
+        Versión 2.0.0 — Reescritura completa con arquitectura modular. Nueva interfaz con pestañas: Temas, Fondos de Pantalla, Usuario, Panel y Dock. Pestaña Panel: configuración completa del panel XFCE (posición, tamaño, tamaño de iconos, filas, ocultación automática, modo oscuro) y gestión de plugins (añadir, eliminar, reordenar). Pestaña Dock: gestor dedicado de aplicaciones ancladas en Docklike. Pestaña Usuario: gestor de avatar que reemplaza Mugshot con diálogo de recorte, datos de usuario editables y gestión de pertenencia a grupos mediante casillas de verificación (polkit). Navegador de fondos de pantalla con carga casi instantánea (decodificación de miniaturas en hilo de fondo). Exportación e importación de temas como bundles .sth. Previsualización mediante capturas de pantalla con minimización del escritorio. Barra de progreso en el footer siguiendo el estándar Soplos.
+      fr: |-
+        Version 2.0.0 — Réécriture complète avec architecture modulaire. Nouvelle interface à onglets : Thèmes, Fonds d'écran, Utilisateur, Panneau et Dock. Onglet Panneau : configuration complète du panneau XFCE (position, taille, taille des icônes, rangées, masquage automatique, mode sombre) et gestion des plugins (ajouter, supprimer, réorganiser). Onglet Dock : gestionnaire dédié aux applications épinglées Docklike. Onglet Utilisateur : gestionnaire d'avatar remplaçant Mugshot avec dialogue de recadrage, données utilisateur modifiables et gestion de l'appartenance aux groupes via des cases à cocher (polkit). Navigateur de fonds d'écran avec chargement quasi instantané (décodage des miniatures en thread d'arrière-plan). Export/import de thèmes en bundles .sth. Aperçus par captures d'écran avec minimisation du bureau. Barre de progression dans le pied de page suivant le standard Soplos.
+      pt: |-
+        Versão 2.0.0 — Reescrita completa com arquitetura modular. Nova interface com abas: Temas, Papéis de Parede, Usuário, Painel e Dock. Aba Painel: configuração completa do painel XFCE (posição, tamanho, tamanho dos ícones, linhas, ocultação automática, modo escuro) e gerenciamento de plugins (adicionar, remover, reordenar). Aba Dock: gerenciador dedicado de apps fixados no Docklike. Aba Usuário: gerenciador de avatar substituindo Mugshot com diálogo de corte, dados de usuário editáveis e gerenciamento de participação em grupos por caixas de seleção (polkit). Navegador de papéis de parede com carregamento quase instantâneo (decodificação de miniaturas em thread de fundo). Exportação/importação de temas como bundles .sth. Pré-visualizações por capturas de tela com minimização da área de trabalho. Barra de progresso no rodapé seguindo o padrão Soplos.
+      de: |-
+        Version 2.0.0 — Vollständige Neuentwicklung mit modularer Architektur. Neue Tab-Oberfläche: Themes, Hintergrundbilder, Benutzer, Panel und Dock. Panel-Tab: vollständige XFCE-Panel-Konfiguration (Position, Größe, Symbolgröße, Reihen, Auto-Ausblenden, Dunkelmodus) und Plugin-Verwaltung (hinzufügen, entfernen, neu anordnen). Dock-Tab: dedizierter Manager für angeheftete Docklike-Apps. Benutzer-Tab: Avatar-Manager ersetzt Mugshot mit Zuschneidedialog, bearbeitbare Benutzerdaten und Gruppenmitgliedschaftsverwaltung per Kontrollkästchen (polkit). Hintergrundbild-Browser mit nahezu sofortigem Laden (Miniaturdecodierung im Hintergrund-Thread). Theme-Export/-Import als .sth-Bundles. Screenshot-basierte Vorschauen mit Desktop-Minimierung. Fortschrittsbalken in der Fußzeile nach Soplos-Standard.
+      it: |-
+        Versione 2.0.0 — Riscrittura completa con architettura modulare. Nuova interfaccia a schede: Temi, Sfondi, Utente, Pannello e Dock. Scheda Pannello: configurazione completa del pannello XFCE (posizione, dimensione, dimensione icone, righe, nascondi automaticamente, modalità scura) e gestione plugin (aggiungi, rimuovi, riordina). Scheda Dock: manager dedicato alle app bloccate in Docklike. Scheda Utente: gestore avatar che sostituisce Mugshot con dialogo di ritaglio, dati utente modificabili e gestione dell'appartenenza ai gruppi tramite caselle di controllo (polkit). Browser degli sfondi con caricamento quasi istantaneo (decodifica miniature in thread in background). Esportazione/importazione temi come bundle .sth. Anteprime basate su screenshot con minimizzazione del desktop. Barra di avanzamento nel piè di pagina seguendo lo standard Soplos.
+      ru: |-
+        Версия 2.0.0 — Полная переработка с модульной архитектурой. Новый интерфейс с вкладками: Темы, Обои, Пользователь, Панель и Dock. Вкладка Панель: полная настройка панели XFCE (положение, размер, размер иконок, строки, автоскрытие, тёмный режим) и управление плагинами (добавление, удаление, изменение порядка). Вкладка Dock: выделенный менеджер закреплённых приложений Docklike. Вкладка Пользователь: менеджер аватаров вместо Mugshot с диалогом обрезки, редактируемые данные пользователя и управление членством в группах через флажки (polkit). Браузер обоев с почти мгновенной загрузкой (декодирование миниатюр в фоновом потоке). Экспорт/импорт тем в виде .sth-бандлов. Превью на основе скриншотов с минимизацией рабочего стола. Индикатор прогресса в нижнем колонтитуле по стандарту Soplos.
+      ro: |-
+        Versiunea 2.0.0 — Rescrierea completă cu arhitectură modulară. Interfață nouă cu file: Teme, Fundaluri, Utilizator, Panou și Dock. Fila Panou: configurare completă a panoului XFCE (poziție, dimensiune, dimensiune pictograme, rânduri, ascundere automată, mod întunecat) și gestionarea plugin-urilor (adăugare, eliminare, reordonare). Fila Dock: manager dedicat aplicațiilor fixate în Docklike. Fila Utilizator: manager avatar înlocuind Mugshot cu dialog de decupare, date utilizator editabile și gestionarea apartenenței la grupuri prin casete de selectare (polkit). Browser de fundaluri cu încărcare aproape instantanee (decodare miniaturi în thread de fundal). Export/import teme ca bundle-uri .sth. Previzualizări bazate pe capturi de ecran cu minimizarea desktopului. Bară de progres în subsol urmând standardul Soplos.
+      C: |-
+        Version 2.0.0 — Complete rewrite with modular architecture. New tabbed interface: Themes, Wallpapers, User, Panel, Dock. Panel tab: full XFCE panel settings (position, size, icon size, rows, auto-hide, dark mode) and plugin management (add, remove, reorder). Dock tab: dedicated Docklike pinned apps manager. User tab: avatar manager replacing Mugshot with crop dialog, editable user data, and group membership management via checkboxes (polkit). Wallpaper browser with near-instant loading (thumbnail decoding in background thread). Theme export/import as .sth bundles. Screenshot-based previews with desktop minimize. Footer progress bar following Soplos standard.
+  - version: 1.0.7
+    date: '2025-07-27'
+    type: stable
+    description:
+      en: Program icon updated to new design. Developer updated to Sergi Perich.
+      es: Icono del programa actualizado a nuevo diseño. Desarrollador actualizado
+        a Sergi Perich.
+      fr: 'Icône du programme mise à jour. Développeur mis à jour : Sergi Perich.'
+      pt: Ícone do programa atualizado para novo design. Programador atualizado para
+        Sergi Perich.
+      de: Programmicon auf neues Design aktualisiert. Entwickler auf Sergi Perich
+        aktualisiert.
+      it: Icona del programma aggiornata al nuovo design. Sviluppatore aggiornato
+        a Sergi Perich.
+      ru: 'Иконка программы обновлена до нового дизайна. Разработчик обновлён: Sergi
+        Perich.'
+      ro: 'Pictograma programului actualizată la noul design. Dezvoltator actualizat:
+        Sergi Perich.'
+      C: Program icon updated to new design. Developer updated to Sergi Perich.
+  - version: 1.0.6
+    date: '2025-05-08'
+    type: stable
+    description:
+      en: Reverted icon and desktop file naming back to com.soplos.thememanager convention
+        for consistency.
+      es: Revertida la nomenclatura de iconos y archivo desktop a la convención com.soplos.thememanager.
+      fr: Rétablissement de la convention de nommage com.soplos.thememanager pour
+        les icônes et le fichier desktop.
+      pt: Revertida a nomenclatura de ícones e arquivo desktop para a convenção com.soplos.thememanager.
+      de: Benennung von Icons und Desktop-Datei auf com.soplos.thememanager-Konvention
+        zurückgesetzt.
+      it: Ripristinata la convenzione di denominazione com.soplos.thememanager per
+        icone e file desktop.
+      ru: Возврат к соглашению об именовании com.soplos.thememanager для иконок и
+        desktop-файла.
+      ro: Revenire la convenția de denumire com.soplos.thememanager pentru pictograme
+        și fișierul desktop.
+      C: Reverted icon and desktop file naming back to com.soplos.thememanager convention
+        for consistency.
+  - version: 1.0.5
+    date: '2025-05-07'
+    type: stable
+    description:
+      en: 'Fixed metainfo App ID: restored com.soplos.thememanager (dot notation).'
+      es: 'Corregido el App ID del metainfo: restaurado com.soplos.thememanager (notación
+        con punto).'
+      fr: 'Correction de l''App ID dans le metainfo : com.soplos.thememanager restauré
+        (notation pointée).'
+      pt: 'Corrigido o App ID do metainfo: restaurado com.soplos.thememanager (notação
+        com ponto).'
+      de: 'Metainfo App ID korrigiert: com.soplos.thememanager (Punkt-Notation) wiederhergestellt.'
+      it: 'Corretto l''App ID nel metainfo: ripristinato com.soplos.thememanager (notazione
+        con punto).'
+      ru: 'Исправлен App ID в metainfo: восстановлён com.soplos.thememanager (точечная
+        нотация).'
+      ro: 'Corectat App ID-ul din metainfo: restaurat com.soplos.thememanager (notație
+        cu punct).'
+      C: 'Fixed metainfo App ID: restored com.soplos.thememanager (dot notation).'
+  - version: 1.0.4
+    date: '2025-05-07'
+    type: stable
+    description:
+      en: |-
+        Unified App ID constant in main.py. Added WMCLASS environment variable support and window.realize() call for proper desktop integration.
+      es: |-
+        Constante App ID unificada en main.py. Soporte para variable de entorno WMCLASS y llamada a window.realize() para integración correcta en el escritorio.
+      fr: |-
+        Constante App ID unifiée dans main.py. Ajout du support de la variable d'environnement WMCLASS et de l'appel window.realize() pour une intégration bureau correcte.
+      pt: |-
+        Constante App ID unificada em main.py. Adicionado suporte à variável de ambiente WMCLASS e chamada window.realize() para integração correta no desktop.
+      de: |-
+        App ID-Konstante in main.py vereinheitlicht. WMCLASS-Umgebungsvariable und window.realize()-Aufruf für korrekte Desktop-Integration hinzugefügt.
+      it: |-
+        Costante App ID unificata in main.py. Aggiunto supporto alla variabile d'ambiente WMCLASS e chiamata window.realize() per la corretta integrazione desktop.
+      ru: |-
+        Унифицирована константа App ID в main.py. Добавлена поддержка переменной окружения WMCLASS и вызов window.realize() для корректной интеграции с рабочим столом.
+      ro: |-
+        Constantă App ID unificată în main.py. Adăugat suport pentru variabila de mediu WMCLASS și apel window.realize() pentru integrare corectă în desktop.
+      C: |-
+        Unified App ID constant in main.py. Added WMCLASS environment variable support and window.realize() call for proper desktop integration.
+  - version: 1.0.3
+    date: '2025-05-06'
+    type: stable
+    description:
+      en: Re-injected Soplos Packager App ID block. Corrected base directory path
+        to /usr/share/soplos-theme-manager.
+      es: |-
+        Reinyectado el bloque App ID del Soplos Packager. Corregida la ruta del directorio base a /usr/share/soplos-theme-manager.
+      fr: |-
+        Réinjection du bloc App ID du Soplos Packager. Correction du chemin du répertoire de base vers /usr/share/soplos-theme-manager.
+      pt: |-
+        Reinjetado o bloco App ID do Soplos Packager. Corrigido o caminho do diretório base para /usr/share/soplos-theme-manager.
+      de: Soplos Packager App ID-Block erneut eingefügt. Basisverzeichnispfad auf
+        /usr/share/soplos-theme-manager korrigiert.
+      it: |-
+        Reiniezione del blocco App ID di Soplos Packager. Corretto il percorso della directory base in /usr/share/soplos-theme-manager.
+      ru: Повторная инъекция блока App ID Soplos Packager. Исправлен базовый путь
+        директории на /usr/share/soplos-theme-manager.
+      ro: Reinjec­tat blocul App ID al Soplos Packager. Corectat calea directorului
+        de bază la /usr/share/soplos-theme-manager.
+      C: Re-injected Soplos Packager App ID block. Corrected base directory path to
+        /usr/share/soplos-theme-manager.
+  - version: 1.0.2
+    date: '2025-05-05'
+    type: stable
+    description:
+      en: |-
+        Renamed all assets to soplos-theme-manager convention (desktop file, metainfo, icons, WM_CLASS). Removed debug_wmclass.py.
+      es: |-
+        Renombrados todos los recursos a la convención soplos-theme-manager (archivo desktop, metainfo, iconos, WM_CLASS). Eliminado debug_wmclass.py.
+      fr: |-
+        Renommage de tous les fichiers selon la convention soplos-theme-manager (desktop, metainfo, icônes, WM_CLASS). Suppression de debug_wmclass.py.
+      pt: |-
+        Renomeados todos os recursos para a convenção soplos-theme-manager (arquivo desktop, metainfo, ícones, WM_CLASS). Removido debug_wmclass.py.
+      de: |-
+        Alle Ressourcen auf die soplos-theme-manager-Konvention umbenannt (Desktop-Datei, Metainfo, Icons, WM_CLASS). debug_wmclass.py entfernt.
+      it: |-
+        Rinominati tutti i file secondo la convenzione soplos-theme-manager (desktop, metainfo, icone, WM_CLASS). Rimosso debug_wmclass.py.
+      ru: |-
+        Переименованы все ресурсы в соответствии с соглашением soplos-theme-manager (desktop-файл, metainfo, иконки, WM_CLASS). Удалён debug_wmclass.py.
+      ro: |-
+        Redenumite toate resursele conform convenției soplos-theme-manager (fișier desktop, metainfo, pictograme, WM_CLASS). Eliminat debug_wmclass.py.
+      C: |-
+        Renamed all assets to soplos-theme-manager convention (desktop file, metainfo, icons, WM_CLASS). Removed debug_wmclass.py.
+  - version: 1.0.1
+    date: '2025-05-13'
+    type: stable
+    description:
+      en: 'Desktop file: added OnlyShowIn=XFCE and X-XfcePluggable=true. Updated categories
+        to XFCE-specific settings.'
+      es: 'Archivo desktop: añadido OnlyShowIn=XFCE y X-XfcePluggable=true. Categorías
+        actualizadas a ajustes específicos de XFCE.'
+      fr: |-
+        Fichier desktop : ajout de OnlyShowIn=XFCE et X-XfcePluggable=true. Catégories mises à jour pour les paramètres spécifiques à XFCE.
+      pt: |-
+        Arquivo desktop: adicionado OnlyShowIn=XFCE e X-XfcePluggable=true. Categorias atualizadas para configurações específicas do XFCE.
+      de: |-
+        Desktop-Datei: OnlyShowIn=XFCE und X-XfcePluggable=true hinzugefügt. Kategorien auf XFCE-spezifische Einstellungen aktualisiert.
+      it: |-
+        File desktop: aggiunto OnlyShowIn=XFCE e X-XfcePluggable=true. Categorie aggiornate alle impostazioni specifiche di XFCE.
+      ru: 'Desktop-файл: добавлены OnlyShowIn=XFCE и X-XfcePluggable=true. Категории
+        обновлены до специфичных настроек XFCE.'
+      ro: 'Fișier desktop: adăugat OnlyShowIn=XFCE și X-XfcePluggable=true. Categorii
+        actualizate la setările specifice XFCE.'
+      C: 'Desktop file: added OnlyShowIn=XFCE and X-XfcePluggable=true. Updated categories
+        to XFCE-specific settings.'
+  - version: 1.0.0
+    date: '2025-05-08'
+    type: stable
+    description:
+      en: Initial release.
+      es: Versión inicial.
+      fr: Version initiale.
+      pt: Versão inicial.
+      de: Erste Version.
+      it: Versione iniziale.
+      ru: Начальная версия.
+      ro: Versiune inițială.
+      C: Initial release.
 Component: main
 ---
 Type: desktop-application
