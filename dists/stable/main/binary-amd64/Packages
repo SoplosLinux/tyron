@@ -131,16 +131,16 @@ MD5sum: 605a0777eb956af66ccb17cf943c8d7b
 Description: Advanced GRUB configuration editor with complete internationalization
 
 Package: soplos-grub-theme
-Version: 0.0.6-1
+Version: 0.0.6-2
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.6-1_all.deb
+Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.6-2_all.deb
 Size: 2121308
-SHA256: 6e3b1f9257324c55422080082c9db16cf883b5bdfcdc86951eb576eff9e0d971
-SHA1: 405d0cf0d0622fe4002d0b6feb597ce736bf0fe4
-MD5sum: b6846cc8627d48e6d7f670a301b99094
+SHA256: bca240a5822494266bd7a8f2e2243ee6f099180b7a7b2b21d538098ea11d85d3
+SHA1: ab3eccb529ce4760b6108da43576d28dbceba6a8
+MD5sum: 2aab60fed4470d6242ad3c21229d2d53
 Description: GRUB theme package for Soplos Linux Tyron.
  This package provides the official GRUB theme and related assets for Soplos Linux Tyron.
  Build date: 2026-03-07
