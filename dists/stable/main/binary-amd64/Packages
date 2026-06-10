@@ -225,16 +225,16 @@ Description: Soplos Plymouth theme.
  Build date: 2025-12-20
 
 Package: soplos-release
-Version: 0.3.1
+Version: 0.3.1-1
 Architecture: all
 Maintainer: Sergi Perich
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.3.1_all.deb
-Size: 2416608
-SHA256: ba8604d51ae0bd88ef2bb781ed24bb5626cb660acff0b1b75f714ca79a0aff43
-SHA1: 075e345abc8aa76ffbb017eeb6dd9f1b30e3d134
-MD5sum: d669d9c4101055428ed099c9d716b7df
+Filename: pool/main/s/soplos-release/soplos-release_0.3.1-1_all.deb
+Size: 2416600
+SHA256: 508ba07b414440ec7c8105099a64e7a3178925e47be2925d6e7fc976981ecb40
+SHA1: 12895e4681a4fac9ebe7fc45c8d8e80d8738500a
+MD5sum: 8285a0a56c2c882aeea8198f98782160
 Description: Soplos Linux release information (internal system package)
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
@@ -244,7 +244,7 @@ Description: Soplos Linux release information (internal system package)
 Essential: yes
 Replaces: base-files
 Depends: fonts-noto-color-emoji
-Recommends: branding-soplos (>= 0.0.1), soplos-grub-theme (>= 0.0.1), soplos-plymouth-theme (>= 0.0.1), soplos-wallpapers01 (>= 0.0.1), soplos-wallpapers02 (>= 0.0.1), fastfetch-soplos (>= 0.0.1), ghostty-soplos (>= 0.0.1)
+Recommends: branding-soplos (>= 0.0.1), soplos-grub-theme (>= 0.0.1), soplos-plymouth-theme (>= 0.0.1), soplos-wallpapers01 (>= 0.0.1), soplos-wallpapers02 (>= 0.0.1), fastfetch-soplos (>= 0.0.1)
 
 Package: soplos-repo-selector
 Version: 2.0.2-8
