@@ -91,6 +91,25 @@ Description: Include btrfs snapshots in GRUB menu
  This package includes the grub-btrfsd daemon which automatically updates the
  grub menu when snapshots are created or deleted.
 
+Package: kitty-soplos
+Version: 0.0.4
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: kitty
+Replaces: ghostty-soplos, fish-soplos, bash
+Priority: optional
+Section: utils
+Filename: pool/main/k/kitty-soplos/kitty-soplos_0.0.4_all.deb
+Size: 34368
+SHA256: 513deba8ec8785b572c8cc9b1e8ed57f79947b149d139947dd7dc82860666990
+SHA1: 59db4843034606c78b75c5ef0921b3bdccff5840
+MD5sum: 3c3d535dfd5913ab52007d6e37241a20
+Description: Custom Kitty configuration for SopLOS
+ This package provides a custom Kitty terminal configuration and theming
+ for SopLOS Linux, applied to both new and existing users.
+ .
+ This package includes an enhanced .bashrc with Soplos Linux branding.
+
 Package: msi-keyboard-gui
 Version: 1.0.7
 Architecture: all
