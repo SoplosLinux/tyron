@@ -92,18 +92,18 @@ Description: Include btrfs snapshots in GRUB menu
  grub menu when snapshots are created or deleted.
 
 Package: kitty-soplos
-Version: 0.0.3
+Version: 0.0.4
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: kitty
-Replaces: bash (<< 5.3)
+Replaces: ghostty-soplos, fish-soplos, bash (<< 5.3)
 Priority: optional
 Section: utils
-Filename: pool/main/k/kitty-soplos/kitty-soplos_0.0.3_all.deb
-Size: 34312
-SHA256: 18e9223f38715ab0ecc2922a59885a0c5c5bfcecee3f090c46d0608970c8252e
-SHA1: cceae6864ffa745860ddf82792fd692896ccc81e
-MD5sum: dc2a3da24b7362b6dd5403946ac7f0d8
+Filename: pool/main/k/kitty-soplos/kitty-soplos_0.0.4_all.deb
+Size: 34376
+SHA256: d0738beb7cc110e5e36287df7d9c2628ac9150d6dbf1ae4c3026f239e4d90442
+SHA1: 366511b01c831c80c71e0e89f1f87d4b90ae268c
+MD5sum: 5102211f701268e0fae48cbf25e2cae6
 Description: Custom Kitty configuration for SopLOS
  This package provides a custom Kitty terminal configuration and theming
  for SopLOS Linux, applied to both new and existing users.
