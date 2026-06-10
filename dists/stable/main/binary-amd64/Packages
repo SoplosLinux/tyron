@@ -32,17 +32,17 @@ Description: Custom Fastfetch configuration for SopLOS
  for SopLOS Linux, applied to both new and existing users.
 
 Package: fish-soplos
-Version: 0.0.1
+Version: 0.0.1-1
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: fish
 Priority: optional
 Section: utils
-Filename: pool/main/f/fish-soplos/fish-soplos_0.0.1_all.deb
-Size: 1716
-SHA256: 2ed0ccef1f68a2ed382f8ed63c637e1c8f8d62a37815fc144f8cdaf6b37e7321
-SHA1: 4b01dd9e3e13511c5a2da9682305b04afc29addc
-MD5sum: bacc215d47f4637b8c9e80a374f95862
+Filename: pool/main/f/fish-soplos/fish-soplos_0.0.1-1_all.deb
+Size: 1732
+SHA256: ff734d4daf03c5219231d9bef11afd75d9ab58230701e29a28b9b29c28c9303e
+SHA1: ca01b2f83b5bd207ec6be2ed341993d1f252287a
+MD5sum: 622e1b257a98ca60ced0bdc3ee2ac2b2
 Description: Fish shell configuration for SopLOS
  This package provides the SopLOS theme and prompt for the Fish shell,
  applied to both new and existing users. Sets Fish as the default shell.
