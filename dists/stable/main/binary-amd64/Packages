@@ -48,18 +48,18 @@ Description: Fish shell configuration for SopLOS
  applied to both new and existing users. Sets Fish as the default shell.
 
 Package: ghostty-soplos
-Version: 0.0.1
+Version: 0.0.1-1
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
-Depends: fish-soplos
+Depends: fish-soplos, ghostty-tip
 Replaces: kitty-soplos
 Priority: optional
 Section: utils
-Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1_all.deb
-Size: 4276
-SHA256: 5eb09e005b23373e8c103a16f521d8e5ebce292c5aa55f43df130d9e97e2c79c
-SHA1: a6785ee60f5a7460b4280621415725f36f7fcc2c
-MD5sum: a06310f84c2fc076e3306fc62e2cd653
+Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-1_all.deb
+Size: 4256
+SHA256: 41ffc5960693680875aab8f9cb3e0fa6fe1894da9963764263f5ab1a065c4c9a
+SHA1: c93303a52ab84bffc39d975fcc8f516da3fca058
+MD5sum: 03a735208a67c7d776ecd971ce623a2d
 Description: Ghostty terminal configuration for SopLOS
  This package provides Ghostty terminal with the SopLOS theme,
  integrates it with XFCE as the default terminal, and adds the
