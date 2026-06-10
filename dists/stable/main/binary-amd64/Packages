@@ -48,7 +48,7 @@ Description: Fish shell configuration for SopLOS
  applied to both new and existing users. Sets Fish as the default shell.
 
 Package: ghostty-soplos
-Version: 0.0.1-5
+Version: 0.0.1-6
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: fish-soplos, ghostty-tip
@@ -56,11 +56,11 @@ Replaces: kitty-soplos
 Conflicts: kitty-soplos
 Priority: optional
 Section: utils
-Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-5_all.deb
-Size: 4280
-SHA256: 2ded938eb15696d56743d4ad4d27476e89f1b5d5992c714537949b7a48472ec1
-SHA1: 14071f8c93511e139d821d7b0a5a886e6b3321f0
-MD5sum: 9e762476a2a68fc7ec1281ead69008f9
+Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-6_all.deb
+Size: 4320
+SHA256: e4f5e272ffa920b15f0c42bc0fa778cdf6c878e49e86475a4a5135b943b9b1ea
+SHA1: 44540e5f42277e6b152e3adc16357c2c5636f012
+MD5sum: c083b5466beb19bdf9d4d26c1a56c723
 Description: Ghostty terminal configuration for SopLOS
  This package provides Ghostty terminal with the SopLOS theme,
  integrates it with XFCE as the default terminal, and adds the
@@ -227,16 +227,16 @@ Description: Soplos Plymouth theme.
  Build date: 2025-12-20
 
 Package: soplos-release
-Version: 0.3.1-1
+Version: 0.3.1-3
 Architecture: all
 Maintainer: Sergi Perich
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.3.1-1_all.deb
-Size: 2416600
-SHA256: 508ba07b414440ec7c8105099a64e7a3178925e47be2925d6e7fc976981ecb40
-SHA1: 12895e4681a4fac9ebe7fc45c8d8e80d8738500a
-MD5sum: 8285a0a56c2c882aeea8198f98782160
+Filename: pool/main/s/soplos-release/soplos-release_0.3.1-3_all.deb
+Size: 2416744
+SHA256: 7fa75c2bff5058d6818a018af3b715c2a2c379122f4d063782751f44c041dec6
+SHA1: 2a574947c0ed549bdb45184b87af3674d0727764
+MD5sum: f0d712ec00adab5d704dad11ea0951ed
 Description: Soplos Linux release information (internal system package)
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
