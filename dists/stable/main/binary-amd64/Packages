@@ -31,6 +31,43 @@ Description: Custom Fastfetch configuration for SopLOS
  This package provides a custom Fastfetch configuration and branding
  for SopLOS Linux, applied to both new and existing users.
 
+Package: fish-soplos
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: fish
+Priority: optional
+Section: utils
+Filename: pool/main/f/fish-soplos/fish-soplos_0.0.1_all.deb
+Size: 1716
+SHA256: 2ed0ccef1f68a2ed382f8ed63c637e1c8f8d62a37815fc144f8cdaf6b37e7321
+SHA1: 4b01dd9e3e13511c5a2da9682305b04afc29addc
+MD5sum: bacc215d47f4637b8c9e80a374f95862
+Description: Fish shell configuration for SopLOS
+ This package provides the SopLOS theme and prompt for the Fish shell,
+ applied to both new and existing users. Sets Fish as the default shell.
+
+Package: ghostty-soplos
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: fish-soplos
+Replaces: kitty-soplos
+Conflicts: kitty-soplos
+Priority: optional
+Section: utils
+Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1_all.deb
+Size: 4280
+SHA256: c8ab0ce69c014a3ee7dc00410c3a693480bf8ccb8bd615265896b908cec7f9e2
+SHA1: 88d5c6659fc601fbe6bef69a0983f0eb209b0ada
+MD5sum: 0d4837caadf9e28ed7eebf1e151b27b4
+Description: Ghostty terminal configuration for SopLOS
+ This package provides Ghostty terminal with the SopLOS theme,
+ integrates it with XFCE as the default terminal, and adds the
+ debian.griffo.io repository to install ghostty-tip.
+ .
+ Replaces kitty-soplos.
+
 Package: grub-btrfs
 Version: 1.0.1
 Architecture: all
@@ -189,16 +226,16 @@ Description: Soplos Plymouth theme.
  Build date: 2025-12-20
 
 Package: soplos-release
-Version: 0.3.0
+Version: 0.3.1
 Architecture: all
 Maintainer: Sergi Perich
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.3.0_all.deb
-Size: 2416604
-SHA256: 60b07aacfc48669aade1fc112c7a2a7736df8316474b0e4fe046ec314460f23b
-SHA1: ac19f46845aa81402f551c7f181ce919db17afa2
-MD5sum: da080bd0c76d7b51808f78740bdcf441
+Filename: pool/main/s/soplos-release/soplos-release_0.3.1_all.deb
+Size: 2416608
+SHA256: ba8604d51ae0bd88ef2bb781ed24bb5626cb660acff0b1b75f714ca79a0aff43
+SHA1: 075e345abc8aa76ffbb017eeb6dd9f1b30e3d134
+MD5sum: d669d9c4101055428ed099c9d716b7df
 Description: Soplos Linux release information (internal system package)
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
@@ -208,7 +245,7 @@ Description: Soplos Linux release information (internal system package)
 Essential: yes
 Replaces: base-files
 Depends: fonts-noto-color-emoji
-Recommends: branding-soplos (>= 0.0.1), soplos-grub-theme (>= 0.0.1), soplos-plymouth-theme (>= 0.0.1), soplos-wallpapers01 (>= 0.0.1), soplos-wallpapers02 (>= 0.0.1), fastfetch-soplos (>= 0.0.1), kitty-soplos (>= 0.0.3)
+Recommends: branding-soplos (>= 0.0.1), soplos-grub-theme (>= 0.0.1), soplos-plymouth-theme (>= 0.0.1), soplos-wallpapers01 (>= 0.0.1), soplos-wallpapers02 (>= 0.0.1), fastfetch-soplos (>= 0.0.1), ghostty-soplos (>= 0.0.1)
 
 Package: soplos-repo-selector
 Version: 2.0.2-8
