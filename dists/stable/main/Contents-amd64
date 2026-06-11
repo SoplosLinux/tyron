@@ -26,6 +26,7 @@ etc/motd	    admin/soplos-release
 etc/apt/sources.list.d/debian.griffo.io.list	    utils/ghostty-soplos
 etc/apt/sources.list.d/tyron.sources	    admin/soplos-release
 etc/default/grub	    misc/soplos-grub-theme
+etc/default/zramswap	    utils/zram-soplos
 etc/default/grub-btrfs/config	    admin/grub-btrfs
 etc/dracut.conf.d/i18n.conf	    admin/soplos-release
 etc/dracut.conf.d/local.conf	    admin/soplos-release
