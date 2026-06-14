@@ -796,6 +796,7 @@ usr/share/soplos-theme-manager/CHANGELOG.md	    utils/soplos-theme-manager
 usr/share/soplos-theme-manager/LICENSE	    utils/soplos-theme-manager
 usr/share/soplos-theme-manager/README.md	    utils/soplos-theme-manager
 usr/share/soplos-theme-manager/main.py	    utils/soplos-theme-manager
+usr/share/soplos-theme-manager/plan.txt	    utils/soplos-theme-manager
 usr/share/soplos-theme-manager/setup.py	    utils/soplos-theme-manager
 usr/share/soplos-theme-manager/assets/.themes-backup/Classic_Black/panel.conf	    utils/soplos-theme-manager
 usr/share/soplos-theme-manager/assets/.themes-backup/Classic_Black/shortcuts.conf	    utils/soplos-theme-manager
@@ -899,6 +900,12 @@ usr/share/soplos-theme-manager/assets/.themes-backup/Unity/view/preview.png	    
 usr/share/soplos-theme-manager/assets/.themes-backup/Unity/view/preview_full.png	    utils/soplos-theme-manager
 usr/share/soplos-theme-manager/assets/.themes-backup/Unity/view/thumbnail.png	    utils/soplos-theme-manager
 usr/share/soplos-theme-manager/assets/.themes-backup/Unity/wallpaper/004.jpg	    utils/soplos-theme-manager
+usr/share/soplos-theme-manager/assets/base-themes/Soplos2.0.sth	    utils/soplos-theme-manager
+usr/share/soplos-theme-manager/assets/base-themes/soplos-classic-black.sth	    utils/soplos-theme-manager
+usr/share/soplos-theme-manager/assets/base-themes/soplos-classic-white.sth	    utils/soplos-theme-manager
+usr/share/soplos-theme-manager/assets/base-themes/soplos-modern-black.sth	    utils/soplos-theme-manager
+usr/share/soplos-theme-manager/assets/base-themes/soplos-modern-white.sth	    utils/soplos-theme-manager
+usr/share/soplos-theme-manager/assets/base-themes/soplos-unity.sth	    utils/soplos-theme-manager
 usr/share/soplos-theme-manager/assets/icons/org.soplos.thememanager.png	    utils/soplos-theme-manager
 usr/share/soplos-theme-manager/assets/icons/soplos-logo.png	    utils/soplos-theme-manager
 usr/share/soplos-theme-manager/assets/icons/128x128/org.soplos.thememanager.png	    utils/soplos-theme-manager
