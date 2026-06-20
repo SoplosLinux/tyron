@@ -48,19 +48,19 @@ Description: Fish shell configuration for SopLOS
  applied to both new and existing users. Sets Fish as the default shell.
 
 Package: ghostty-soplos
-Version: 0.0.1-7
+Version: 0.0.1-8
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: zsh-soplos, ghostty-tip
-Replaces: kitty-soplos
-Conflicts: kitty-soplos
+Replaces: kitty-soplos, fish-soplos
+Conflicts: kitty-soplos, fish-soplos
 Priority: optional
 Section: utils
-Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-7_all.deb
-Size: 4320
-SHA256: 1d5615104059fc0fbf709bb3b96537e2688655277e44fc7631648821ec0a142d
-SHA1: ac8a46b48fe245b72823e8df682b5b36d6d5aa0b
-MD5sum: 0676a9d3ecc9f3887c707a7ead374152
+Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-8_all.deb
+Size: 4356
+SHA256: 3b44780d5ac76e63e05421a2ab3c4e346783659577d170b49ea6f14c617b1ad1
+SHA1: ec13d898c91bc0ec84deeb505285040c8a20ede0
+MD5sum: 01678ba546f07d08610c54ba433b7d56
 Description: Ghostty terminal configuration for SopLOS
  This package provides Ghostty terminal with the SopLOS theme,
  integrates it with XFCE as the default terminal, and adds the
@@ -393,17 +393,17 @@ Description: ZRAM swap configuration for SopLOS
  for SopLOS Linux, using zstd compression and 50% RAM allocation.
 
 Package: zsh-soplos
-Version: 0.0.1-1
+Version: 0.0.1-2
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: zsh, zsh-syntax-highlighting, zsh-autosuggestions, zsh-theme-powerlevel9k
 Priority: optional
 Section: utils
-Filename: pool/main/z/zsh-soplos/zsh-soplos_0.0.1-1_all.deb
-Size: 1772
-SHA256: 53a94648348638bb1ca5806d381503b60121c67f4937b0643c640261c6930714
-SHA1: f571c0ae041c63298f2285e4d5b2fd5fa6b1e214
-MD5sum: 5ed149b59b6d2255fb379599935c37b1
+Filename: pool/main/z/zsh-soplos/zsh-soplos_0.0.1-2_all.deb
+Size: 1760
+SHA256: 1a9fe0a9cad9e471d2d21fd4c74544413303fd14cd8558a3d1c4c3a9649ad0c8
+SHA1: dad85c46cf6060920a5612cc9f40603d2de2ab31
+MD5sum: 58578013a49625a8939fb5c660e3338f
 Description: Zsh shell configuration for SopLOS
  This package provides the SopLOS theme and prompt for the Zsh shell,
  applied to both new and existing users. Sets Zsh as the default shell.
