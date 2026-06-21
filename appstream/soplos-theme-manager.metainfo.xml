@@ -187,6 +187,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.1-3" date="2026-06-21">
+      <description>
+        <p xml:lang="en">Fixed: polkit dependency updated to polkitd, the correct package name in current Debian. Removed obsolete policykit-1-gnome and policykit-1 alternatives.</p>
+        <p xml:lang="es">Corregido: dependencia polkit actualizada a polkitd, el nombre correcto del paquete en Debian actual. Eliminadas las alternativas obsoletas policykit-1-gnome y policykit-1.</p>
+        <p xml:lang="fr">Correction: dependance polkit mise a jour vers polkitd, le nom correct du paquet dans Debian actuel. Suppression des alternatives obsoletes policykit-1-gnome et policykit-1.</p>
+        <p xml:lang="pt">Corrigido: dependencia polkit atualizada para polkitd, o nome correto do pacote no Debian atual. Removidas as alternativas obsoletas policykit-1-gnome e policykit-1.</p>
+        <p xml:lang="de">Behoben: polkit-Abhangigkeit auf polkitd aktualisiert, den korrekten Paketnamen im aktuellen Debian. Veraltete Alternativen policykit-1-gnome und policykit-1 entfernt.</p>
+        <p xml:lang="it">Corretto: dipendenza polkit aggiornata a polkitd, il nome corretto del pacchetto nel Debian attuale. Rimosse le alternative obsolete policykit-1-gnome e policykit-1.</p>
+        <p xml:lang="ru">Исправлено: зависимость polkit обновлена до polkitd, корректного имени пакета в текущем Debian. Удалены устаревшие альтернативы policykit-1-gnome и policykit-1.</p>
+        <p xml:lang="ro">Corectat: dependenta polkit actualizata la polkitd, numele corect al pachetului in Debian actual. Eliminate alternativele obsolete policykit-1-gnome si policykit-1.</p>
+      </description>
+    </release>
     <release version="2.0.1-2" date="2026-06-19">
       <description>
         <p xml:lang="en">Bundled base themes are now auto-imported on first launch. Deleted base themes are not reimposed — use the new Restore button in the gallery to recover them on demand. Startup: one-time cleanup of v1.x legacy artifacts on upgrade (panel backup dir, old themes dir, legacy logs). Fixed: user-scope install was duplicating system assets (icon themes, GTK themes) to ~/.icons/ and ~/.themes/ even when already present in /usr/share/ — assets that exist at system level are now skipped. Fixed: polkit-related dependencies reduced to just polkit. Fixed: base themes seed used wrong asset path.</p>

@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media
-Time: 20260621T010838
+Time: 20260621T013148
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1147,6 +1147,28 @@ Developer:
 Provides:
   - soplos-theme-manager
 Releases:
+  - version: 2.0.1-3
+    date: '2026-06-21'
+    type: stable
+    description:
+      en: |-
+        Fixed: polkit dependency updated to polkitd, the correct package name in current Debian. Removed obsolete policykit-1-gnome and policykit-1 alternatives.
+      es: |-
+        Corregido: dependencia polkit actualizada a polkitd, el nombre correcto del paquete en Debian actual. Eliminadas las alternativas obsoletas policykit-1-gnome y policykit-1.
+      fr: |-
+        Correction: dependance polkit mise a jour vers polkitd, le nom correct du paquet dans Debian actuel. Suppression des alternatives obsoletes policykit-1-gnome et policykit-1.
+      pt: |-
+        Corrigido: dependencia polkit atualizada para polkitd, o nome correto do pacote no Debian atual. Removidas as alternativas obsoletas policykit-1-gnome e policykit-1.
+      de: |-
+        Behoben: polkit-Abhangigkeit auf polkitd aktualisiert, den korrekten Paketnamen im aktuellen Debian. Veraltete Alternativen policykit-1-gnome und policykit-1 entfernt.
+      it: |-
+        Corretto: dipendenza polkit aggiornata a polkitd, il nome corretto del pacchetto nel Debian attuale. Rimosse le alternative obsolete policykit-1-gnome e policykit-1.
+      ru: |-
+        Исправлено: зависимость polkit обновлена до polkitd, корректного имени пакета в текущем Debian. Удалены устаревшие альтернативы policykit-1-gnome и policykit-1.
+      ro: |-
+        Corectat: dependenta polkit actualizata la polkitd, numele corect al pachetului in Debian actual. Eliminate alternativele obsolete policykit-1-gnome si policykit-1.
+      C: |-
+        Fixed: polkit dependency updated to polkitd, the correct package name in current Debian. Removed obsolete policykit-1-gnome and policykit-1 alternatives.
   - version: 2.0.1-2
     date: '2026-06-19'
     type: stable
