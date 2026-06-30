@@ -44,6 +44,7 @@ etc/skel/.config/kitty/kitty.conf	    utils/kitty-soplos
 etc/skel/.config/kitty/soplos_linux.conf	    utils/kitty-soplos
 etc/skel/.config/xfce4/helpers.rc	    utils/ghostty-soplos,utils/kitty-soplos
 etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml	    utils/ghostty-soplos,utils/kitty-soplos
+etc/xdg/autostart/onboard-soplos.desktop	    utils/tablet-soplos
 usr/bin/grub-btrfsd	    admin/grub-btrfs
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
 usr/bin/soplos-appimage-manager	    utils/soplos-appimage-manager
