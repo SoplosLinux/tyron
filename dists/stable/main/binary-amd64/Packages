@@ -268,20 +268,6 @@ SHA1: b433a8dd076653f830fef3c258b123b94749f0e5
 MD5sum: a368a24bd1a395786cad7155fc5f8ec4
 Description: Graphical manager for systemd services on Soplos Linux
 
-Package: soplos-theme-manager
-Version: 2.0.1-4
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, imagemagick, libnotify-bin, polkitd, python3, python3-gi, python3-setuptools, scrot, wmctrl, xfce4-panel, xfconf, xfdesktop4, xfwm4
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-theme-manager/soplos-theme-manager_2.0.1-4_all.deb
-Size: 54883208
-SHA256: 8e4c199e9d923e80a1ccaf4faa007096a6d73ea10a6be63c819a71a918577127
-SHA1: 1eeca2c3e5fb804bd28bd0357db0662dff5cb851
-MD5sum: f7551b764cc5d6063a7ff0a22a8a8c19
-Description: Desktop theme manager for Soplos Linux Tyron (XFCE)
-
 Package: soplos-wallpapers01
 Version: 0.0.1
 Architecture: all
