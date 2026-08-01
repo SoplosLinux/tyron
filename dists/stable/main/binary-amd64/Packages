@@ -268,6 +268,41 @@ SHA1: b433a8dd076653f830fef3c258b123b94749f0e5
 MD5sum: a368a24bd1a395786cad7155fc5f8ec4
 Description: Graphical manager for systemd services on Soplos Linux
 
+Package: soplos-theme-manager
+Version: 2.0.1-5
+Architecture: all
+Priority: optional
+Section: admin
+Filename: pool/main/s/soplos-theme-manager/soplos-theme-manager_2.0.1-5_all.deb
+Size: 55326340
+SHA256: 4fcfdbe6e3d64305558e20aa9294db37a86502da957cee5020841d81ce3f37a5
+SHA1: a55ceb5b4a3633c0f14aa0d3f82909fc7ff3cdc2
+MD5sum: b8561c266e9cc5bc5729b3863f8aa081
+Description: Soplos Theme Manager
+ A graphical tool to manage desktop themes in Soplos Linux Tyron (XFCE).
+ Features include:
+  * Apply, create, export and import complete XFCE desktop themes
+  * Built-in wallpaper browser and selector
+  * Panel and Dock configuration (Docklike integration)
+  * Theme export/import as .sth bundles
+  * Screenshot-based theme previews
+  * Modern dark interface with multi-language support (8 languages)
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 74236
+Depends: python3-gi (>= 3.0.0),
+         gir1.2-gtk-3.0,
+         xfce4-panel,
+         xfconf,
+         xfwm4,
+         xfdesktop4,
+         scrot,
+         imagemagick,
+         wmctrl,
+         libnotify-bin,
+         polkitd,
+         shared-mime-info,
+         desktop-file-utils
+
 Package: soplos-wallpapers01
 Version: 0.0.1
 Architecture: all
