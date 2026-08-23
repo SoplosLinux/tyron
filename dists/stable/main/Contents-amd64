@@ -36,6 +36,7 @@ etc/skel/.config/xfce4/helpers.rc	    utils/ghostty-soplos,utils/kitty-soplos
 etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml	    utils/ghostty-soplos,utils/kitty-soplos
 etc/xdg/autostart/onboard-soplos.desktop	    utils/tablet-soplos
 usr/bin/grub-btrfsd	    admin/grub-btrfs
+usr/bin/kuteditor	    sound/kuteditor
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
 usr/bin/soplos-appimage-manager	    utils/soplos-appimage-manager
 usr/bin/soplos-debug	    admin/soplos-debug
@@ -50,9 +51,11 @@ usr/bin/soplos-theme-manager	    admin/soplos-theme-manager
 usr/bin/soplos-webapp-manager	    utils/soplos-webapp-manager
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
+usr/lib/kuteditor/libdeepfilter.so.0.5	    sound/kuteditor
 usr/lib/systemd/system/grub-btrfsd.service	    admin/grub-btrfs
 usr/share/applications/com.soplos.docklike.desktop	    utils/soplos-docklike
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
+usr/share/applications/kuteditor.desktop	    sound/kuteditor
 usr/share/applications/org.soplos.appimagemanager.desktop	    utils/soplos-appimage-manager
 usr/share/applications/org.soplos.grubeditor.desktop	    utils/soplos-grub-editor
 usr/share/applications/org.soplos.kernel-installer.desktop	    utils/soplos-kernel-installer
@@ -124,6 +127,8 @@ usr/share/doc/grub-btrfs/README.md.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/changelog.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/copyright	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/initramfs-overlayfs.md	    admin/grub-btrfs
+usr/share/doc/kuteditor/changelog.Debian.gz	    sound/kuteditor
+usr/share/doc/kuteditor/copyright	    sound/kuteditor
 usr/share/doc/soplos-appimage-manager/copyright	    utils/soplos-appimage-manager
 usr/share/doc/soplos-debug/README.md	    admin/soplos-debug
 usr/share/doc/soplos-debug/copyright	    admin/soplos-debug
@@ -243,6 +248,7 @@ usr/share/icons/hicolor/64x64/apps/org.soplos.webappmanager.png	    utils/soplos
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
 usr/share/icons/hicolor/64x64/mimetypes/application-x-soplos-theme.png	    admin/soplos-theme-manager
+usr/share/icons/hicolor/scalable/apps/kuteditor.svg	    sound/kuteditor
 usr/share/licenses/grub-btrfs/LICENSE	    admin/grub-btrfs
 usr/share/man/man1/soplos-appimage-manager.1.gz	    utils/soplos-appimage-manager
 usr/share/man/man1/soplos-grub-editor.1.gz	    utils/soplos-grub-editor
