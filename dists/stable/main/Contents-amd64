@@ -51,6 +51,7 @@ usr/bin/soplos-theme-manager	    admin/soplos-theme-manager
 usr/bin/soplos-webapp-manager	    utils/soplos-webapp-manager
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
+usr/lib/kuteditor/kuteditor	    sound/kuteditor
 usr/lib/kuteditor/libdeepfilter.so.0.5	    sound/kuteditor
 usr/lib/systemd/system/grub-btrfsd.service	    admin/grub-btrfs
 usr/share/applications/com.soplos.docklike.desktop	    utils/soplos-docklike

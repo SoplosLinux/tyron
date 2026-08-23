@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyron/main/media
-Time: 20260823T171338
+Time: 20260823T224151
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
