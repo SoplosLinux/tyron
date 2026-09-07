@@ -782,6 +782,7 @@ usr/share/soplos-system-service/config/__init__.py	    utils/soplos-system-servi
 usr/share/soplos-system-service/core/__init__.py	    utils/soplos-system-service
 usr/share/soplos-system-service/core/application.py	    utils/soplos-system-service
 usr/share/soplos-system-service/core/environment.py	    utils/soplos-system-service
+usr/share/soplos-system-service/core/optimization_rules.py	    utils/soplos-system-service
 usr/share/soplos-system-service/core/theme_manager.py	    utils/soplos-system-service
 usr/share/soplos-system-service/debian/control	    utils/soplos-system-service
 usr/share/soplos-system-service/debian/copyright	    utils/soplos-system-service
@@ -791,10 +792,14 @@ usr/share/soplos-system-service/debian/org.soplos.systemservice.policy	    utils
 usr/share/soplos-system-service/debian/postinst	    utils/soplos-system-service
 usr/share/soplos-system-service/debian/soplos-system-service	    utils/soplos-system-service
 usr/share/soplos-system-service/services/__init__.py	    utils/soplos-system-service
+usr/share/soplos-system-service/services/boot_analysis.py	    utils/soplos-system-service
+usr/share/soplos-system-service/services/hardware.py	    utils/soplos-system-service
+usr/share/soplos-system-service/services/orphans.py	    utils/soplos-system-service
 usr/share/soplos-system-service/services/systemd.py	    utils/soplos-system-service
 usr/share/soplos-system-service/ui/__init__.py	    utils/soplos-system-service
 usr/share/soplos-system-service/ui/logs_view.py	    utils/soplos-system-service
 usr/share/soplos-system-service/ui/main_window.py	    utils/soplos-system-service
+usr/share/soplos-system-service/ui/optimization_view.py	    utils/soplos-system-service
 usr/share/soplos-system-service/ui/services_view.py	    utils/soplos-system-service
 usr/share/soplos-system-service/utils/__init__.py	    utils/soplos-system-service
 usr/share/soplos-system-service/utils/strings.py	    utils/soplos-system-service

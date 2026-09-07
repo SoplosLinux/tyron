@@ -167,6 +167,25 @@
   </keywords>
 
   <releases>
+    <release version="1.0.0-6" date="2026-09-07">
+      <description>
+        <p>New Optimization tab: suggests systemd services to disable or enable to optimize RAM, boot time, power and disk.</p>
+        <p xml:lang="es">Nueva pestana Optimizacion: sugiere servicios systemd para deshabilitar o activar y optimizar RAM, arranque, energia y disco.</p>
+        <p xml:lang="fr">Nouvel onglet Optimisation : suggere des services systemd a desactiver ou activer pour optimiser la RAM, le demarrage, l'energie et le disque.</p>
+        <p xml:lang="de">Neuer Optimierungs-Tab: schlagt systemd-Dienste zum Deaktivieren oder Aktivieren vor, um RAM, Startzeit, Energie und Festplatte zu optimieren.</p>
+        <p xml:lang="it">Nuova scheda Ottimizzazione: suggerisce servizi systemd da disabilitare o abilitare per ottimizzare RAM, avvio, energia e disco.</p>
+        <p xml:lang="pt">Novo separador Otimizacao: sugere servicos systemd para desativar ou ativar para otimizar RAM, arranque, energia e disco.</p>
+        <p xml:lang="ro">Fila noua Optimizare: sugereaza servicii systemd de dezactivat sau activat pentru a optimiza RAM, pornirea, energia si discul.</p>
+        <p xml:lang="ru">Новая вкладка «Оптимизация»: предлагает включить или отключить службы systemd для оптимизации ОЗУ, времени загрузки, энергии и диска.</p>
+        <ul>
+          <li>Detects virtualization guest tools, Bluetooth/Wi-Fi services with no matching hardware, and a redundant PulseAudio service when PipeWire is active</li>
+          <li>Detects dangling systemd enablement symlinks and orphaned services left behind by uninstalled packages, showing the exact symlink path being removed</li>
+          <li>Suggests enabling fstrim.timer on SSD/NVMe systems and disabling NetworkManager-wait-online.service to speed up boot</li>
+          <li>Informational panel listing the slowest-starting services/timers at boot and timers that wake the system frequently</li>
+          <li>Orphan/huerfano scan batched into a handful of subprocess calls instead of one per service, fixing a slow scan on systems with hundreds of services</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0-5" date="2026-06-21">
       <description>
         <p>GNOME crash fix (gdk-pixbuf SVG sandbox).</p>
