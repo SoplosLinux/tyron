@@ -137,23 +137,6 @@ Description: Native podcast editor with multitrack audio and chapters
  implements, so no separate JACK server is required on a PipeWire
  system.
 
-Package: linux-soplos-bore-ntsync-v2
-Version: 7.2.5
-Architecture: amd64
-Maintainer: Soplos Linux Team <info@soplos.org>
-Depends: linux-image-7.2.5-soplos-bore-ntsync-v2, linux-headers-7.2.5-soplos-bore-ntsync-v2
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-soplos-bore-ntsync-v2/linux-soplos-bore-ntsync-v2_7.2.5_amd64.deb
-Size: 832
-SHA256: df0e92f3a9003796e05154abbab1c3eab738414d5b6816a8bf3cf4efc33a5827
-SHA1: 242c6ac936e8724bf0bc7a7d952ef51df869f704
-MD5sum: 5dde71a78e378dd16f25b3dc13c44b7a
-Description: Soplos Bore Ntsync V2 kernel
- Installs the 7.2.5-soplos-bore-ntsync-v2 kernel and its headers.
- When a new version is released, upgrading this package will
- automatically pull in the new kernel.
-
 Package: linux-soplos-rt-v2
 Version: 7.2.5
 Architecture: amd64
