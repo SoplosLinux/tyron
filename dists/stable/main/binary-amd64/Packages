@@ -137,25 +137,6 @@ Description: Native podcast editor with multitrack audio and chapters
  implements, so no separate JACK server is required on a PipeWire
  system.
 
-Package: linux-headers-7.2.5-soplos-bore-ntsync-v2
-Source: linux-upstream
-Version: 1
-Architecture: amd64
-Maintainer: soplos <soplos@soplos-vmware201>
-Installed-Size: 59216
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-7.2.5-soplos-bore-ntsync-v2_1_amd64.deb
-Size: 9901164
-SHA256: e0972d72df29bf38cd9842d3c1966e0790b326e9ae4e3341171ceda1e86e3743
-SHA1: 361d2a485d6ddeb6986d72a505867446c72a8afe
-MD5sum: a05958ef5079f1480193981ff19ad667
-Description: Linux kernel headers for 7.2.5-soplos-bore-ntsync-v2 on amd64
- This package provides kernel header files for 7.2.5-soplos-bore-ntsync-v2 on amd64
- .
- This is useful for people who need to build external modules
-
 Package: linux-headers-7.2.5-soplos-rt-v2
 Source: linux-upstream
 Version: 1
