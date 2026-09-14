@@ -137,25 +137,6 @@ Description: Native podcast editor with multitrack audio and chapters
  implements, so no separate JACK server is required on a PipeWire
  system.
 
-Package: linux-headers-7.2.5-soplos-v2
-Source: linux-upstream
-Version: 1
-Architecture: amd64
-Maintainer: soplos <soplos@soplos-vmware201>
-Installed-Size: 59214
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-7.2.5-soplos-v2_1_amd64.deb
-Size: 9895036
-SHA256: 66b7bad19ee9a76fe2acb8c39bb61a542ec172a21dea7d557c217f38da36af11
-SHA1: 28c25a4f3abf7ff34425f7e76edef5d602210c4f
-MD5sum: f2210a75d53a42e24f2e290b9ffcf885
-Description: Linux kernel headers for 7.2.5-soplos-v2 on amd64
- This package provides kernel header files for 7.2.5-soplos-v2 on amd64
- .
- This is useful for people who need to build external modules
-
 Package: linux-headers-7.2.5-soplos-zen-v2
 Source: linux-upstream
 Version: 1
