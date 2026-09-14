@@ -137,23 +137,6 @@ Description: Native podcast editor with multitrack audio and chapters
  implements, so no separate JACK server is required on a PipeWire
  system.
 
-Package: linux-soplos-zen-v2
-Version: 7.2.5
-Architecture: amd64
-Maintainer: Soplos Linux Team <info@soplos.org>
-Depends: linux-image-7.2.5-soplos-zen-v2, linux-headers-7.2.5-soplos-zen-v2
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-soplos-zen-v2/linux-soplos-zen-v2_7.2.5_amd64.deb
-Size: 824
-SHA256: c4732e329a50e24b8a829d2da9497122b573fd44130bde0586532c538770d828
-SHA1: 3f25078cb00b4626289ff01b6f329b890172d896
-MD5sum: a56900aff1957148e23c452508b2a645
-Description: Soplos ZEN V2 kernel
- Installs the 7.2.5-soplos-zen-v2 kernel and its headers.
- When a new version is released, upgrading this package will
- automatically pull in the new kernel.
-
 Package: msi-keyboard-gui
 Version: 1.0.7
 Architecture: all
