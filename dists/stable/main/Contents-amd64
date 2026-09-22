@@ -46,6 +46,8 @@ etc/skel/.config/xfce4/helpers.rc	    utils/ghostty-soplos,utils/kitty-soplos
 etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml	    utils/ghostty-soplos,utils/kitty-soplos
 etc/update-motd.d/20-soplos-info	    admin/soplos-release
 etc/xdg/autostart/onboard-soplos.desktop	    utils/tablet-soplos
+opt/Telegram/Telegram	    net/telegram-desktop
+opt/Telegram/Updater	    net/telegram-desktop
 usr/bin/grub-btrfsd	    admin/grub-btrfs
 usr/bin/kuteditor	    sound/kuteditor
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
@@ -62,6 +64,7 @@ usr/bin/soplos-theme-manager	    admin/soplos-theme-manager
 usr/bin/soplos-webapp-manager	    utils/soplos-webapp-manager
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
+usr/bin/telegram-desktop	    net/telegram-desktop
 usr/bin/xfce4-about-soplos	    admin/soplos-release
 usr/lib/os-release	    admin/soplos-release
 usr/lib/kuteditor/kuteditor	    sound/kuteditor
@@ -82,6 +85,7 @@ usr/share/applications/org.soplos.webappmanager.desktop	    utils/soplos-webapp-
 usr/share/applications/org.soplos.welcome.desktop	    utils/soplos-welcome
 usr/share/applications/org.soplos.welcomelive.desktop	    utils/soplos-welcome-live
 usr/share/applications/soplos-debug.desktop	    admin/soplos-debug
+usr/share/applications/telegram-desktop.desktop	    net/telegram-desktop
 usr/share/backgrounds/soplos/001.jpg	    x11/soplos-wallpapers01
 usr/share/backgrounds/soplos/002.jpg	    x11/soplos-wallpapers01
 usr/share/backgrounds/soplos/003.jpg	    x11/soplos-wallpapers01
