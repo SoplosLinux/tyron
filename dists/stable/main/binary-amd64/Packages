@@ -69,19 +69,19 @@ Description: Ghostty terminal configuration for SopLOS
  Replaces kitty-soplos.
 
 Package: grub-btrfs
-Version: 1.0.1
+Version: 4.14-1
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
-Installed-Size: 126
+Installed-Size: 124
 Depends: btrfs-progs, grub-common, bash (>= 4.0), inotify-tools, gawk
 Homepage: https://github.com/Antynea/grub-btrfs
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub-btrfs/grub-btrfs_1.0.1_all.deb
-Size: 37072
-SHA256: e96041b9e56b9f2e3246777d26e4a645f70be183744357ef519415618a82a366
-SHA1: 9e01a2fb323dd11e8b9d8a605e62fceeb4995175
-MD5sum: 6f8f648ab68870539b9493c766271ca5
+Filename: pool/main/g/grub-btrfs/grub-btrfs_4.14-1_all.deb
+Size: 36484
+SHA256: 0540dd83913387ea6663d975407decb9eb03e77bfd52a6629e6fa333310721a8
+SHA1: 8042b85a3bd82fbb7347ffde9889f39608fb6e3a
+MD5sum: 36c55d989847e656679aece518fe02c9
 Description: Include btrfs snapshots in GRUB menu
  grub-btrfs improves the grub bootloader by adding a btrfs snapshots sub-menu,
  allowing the user to boot into snapshots.

@@ -142,8 +142,7 @@ usr/share/branding-soplos/soplos/slide1.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/soplos-logo.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/welcome.png	    misc/branding-soplos
 usr/share/doc/grub-btrfs/README.md.gz	    admin/grub-btrfs
-usr/share/doc/grub-btrfs/changelog.gz	    admin/grub-btrfs
-usr/share/doc/grub-btrfs/copyright	    admin/grub-btrfs
+usr/share/doc/grub-btrfs/changelog.Debian.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/initramfs-overlayfs.md	    admin/grub-btrfs
 usr/share/doc/kuteditor/changelog.Debian.gz	    sound/kuteditor
 usr/share/doc/kuteditor/copyright	    sound/kuteditor
