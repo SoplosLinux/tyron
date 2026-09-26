@@ -31,6 +31,7 @@ etc/dracut.conf.d/i18n.conf	    admin/soplos-release
 etc/dracut.conf.d/local.conf	    admin/soplos-release
 etc/dracut.conf.d/soplos.conf	    admin/soplos-release
 etc/fonts/conf.d/75-noto-color-emoji.conf	    admin/soplos-release
+etc/fonts/conf.d/99-soplos-reject-woff.conf	    fonts/soplos-fontconfig-woff-fix
 etc/grub.d/05_soplos_theme	    misc/soplos-grub-theme
 etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
 etc/skel/.zshrc	    utils/zsh-soplos
@@ -160,6 +161,7 @@ usr/share/doc/soplos-theme-manager/copyright	    admin/soplos-theme-manager
 usr/share/doc/soplos-webapp-manager/copyright	    utils/soplos-webapp-manager
 usr/share/doc/soplos-welcome/copyright	    utils/soplos-welcome
 usr/share/doc/soplos-welcome-live/copyright	    utils/soplos-welcome-live
+usr/share/fontconfig/conf.avail/99-soplos-reject-woff.conf	    fonts/soplos-fontconfig-woff-fix
 usr/share/fonts/truetype/soplos/SymbolsNerdFont-Regular.ttf	    admin/soplos-release
 usr/share/fonts/truetype/soplos/SymbolsNerdFontMono-Regular.ttf	    admin/soplos-release
 usr/share/icons/hicolor/128x128/apps/com.soplos.docklike.png	    utils/soplos-docklike
