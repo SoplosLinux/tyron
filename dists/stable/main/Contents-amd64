@@ -71,6 +71,9 @@ usr/lib/os-release	    admin/soplos-release
 usr/lib/kuteditor/kuteditor	    sound/kuteditor
 usr/lib/kuteditor/libdeepfilter.so.0.5	    sound/kuteditor
 usr/lib/systemd/system/grub-btrfsd.service	    admin/grub-btrfs
+usr/lib/systemd/user/soplos-fontcache-guard.path	    fonts/soplos-fontconfig-woff-fix
+usr/lib/systemd/user/soplos-fontcache-guard.service	    fonts/soplos-fontconfig-woff-fix
+usr/libexec/soplos-fontcache-guard	    fonts/soplos-fontconfig-woff-fix
 usr/share/applications/com.soplos.docklike.desktop	    utils/soplos-docklike
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
 usr/share/applications/kuteditor.desktop	    sound/kuteditor
