@@ -47,26 +47,72 @@ Description: Fish shell configuration for SopLOS
  This package provides the SopLOS theme and prompt for the Fish shell,
  applied to both new and existing users. Sets Fish as the default shell.
 
+Package: ghostty
+Version: 1.3.1-1
+Architecture: amd64
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 29371
+Depends: libadwaita-1-0 (>= 1.5~beta), libc6 (>= 2.43), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libglib2.0-0t64 (>= 2.76.0), libgtk-4-1 (>= 4.19.3), libgtk4-layer-shell0 (>= 1.0.2), libharfbuzz0b (>= 0.9.42), libonig5 (>= 6.9.5), libwayland-client0 (>= 1.3.0), libx11-6
+Conflicts: ghostty-tip
+Replaces: ghostty-tip
+Homepage: https://ghostty.org/
+Priority: optional
+Section: utils
+Filename: pool/main/g/ghostty/ghostty_1.3.1-1_amd64.deb
+Size: 16172884
+SHA256: 84462323a33969e3fb3c65bbfaf30e27c1b3340bf090cf7c6fd96d2b1e1d8493
+SHA1: 72d532de2e44d788b0823bf4ff7a49ce4d550245
+MD5sum: e4a0c9447c8c5fcc8cb9a863a0c901dc
+Description: Fast, feature-rich GPU-accelerated terminal emulator
+ Ghostty is a fast, feature-rich and cross-platform terminal emulator
+ that uses platform-native UI and GPU acceleration. On Linux it is built
+ on GTK4 and libadwaita.
+ .
+ This is the stable release build.
+
 Package: ghostty-soplos
-Version: 0.0.1-9
+Version: 0.0.2
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
-Depends: zsh-soplos, ghostty-tip
+Depends: zsh-soplos, ghostty-tip | ghostty
 Replaces: kitty-soplos, fish-soplos
 Conflicts: kitty-soplos, fish-soplos
 Priority: optional
 Section: utils
-Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-9_all.deb
-Size: 4352
-SHA256: 694f38a54af6f6a3821a4a20aa699307d8a6c839f9af125cd0765ac2be98861d
-SHA1: feac2e2f01f1975beb07e245ee002c3db22aa951
-MD5sum: d23d38b8c813d6118ba1b234f95450e8
+Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.2_all.deb
+Size: 4492
+SHA256: 2c7bd9eba5a1101f010c6b55f7068ed26b16832f1c388814e1ae18817fe76f16
+SHA1: f055469253bfe684620e3822efc59661392c185f
+MD5sum: 6ba21c8530dd462d2f67d03026df75c6
 Description: Ghostty terminal configuration for SopLOS
- This package provides Ghostty terminal with the SopLOS theme,
- integrates it with XFCE as the default terminal, and adds the
- debian.griffo.io repository to install ghostty-tip.
+ This package provides Ghostty terminal with the SopLOS theme and
+ integrates it with XFCE as the default terminal.
  .
  Replaces kitty-soplos.
+
+Package: ghostty-tip
+Source: ghostty
+Version: 1.3.2~dev.20260927-1
+Architecture: amd64
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 31446
+Depends: libadwaita-1-0 (>= 1.5~beta), libc6 (>= 2.43), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libglib2.0-0t64 (>= 2.76.0), libgtk-4-1 (>= 4.21.5), libgtk4-layer-shell0 (>= 1.0.2), libharfbuzz0b (>= 0.9.42), libonig5 (>= 6.9.5), libwayland-client0 (>= 1.3.0), libx11-6
+Conflicts: ghostty
+Replaces: ghostty
+Homepage: https://ghostty.org/
+Priority: optional
+Section: utils
+Filename: pool/main/g/ghostty/ghostty-tip_1.3.2~dev.20260927-1_amd64.deb
+Size: 16964512
+SHA256: 43dff3b23b6247d71d748d035a8014bcaa36a966733bd78d100cd84a6717a3aa
+SHA1: 09a2e3adb7c0908500da9db563f4f9d656e8c3ae
+MD5sum: 04dbb221ad2b344270ff2e23988682b5
+Description: Nightly build of the Ghostty terminal emulator
+ Ghostty is a fast, feature-rich and cross-platform terminal emulator
+ that uses platform-native UI and GPU acceleration. On Linux it is built
+ on GTK4 and libadwaita.
+ .
+ Built from the upstream main branch at commit b40acce. It tracks the latest development code and may be unstable. Install the stable ghostty package for a release build.
 
 Package: grub-btrfs
 Version: 4.14-1
