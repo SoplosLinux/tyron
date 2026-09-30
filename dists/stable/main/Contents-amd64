@@ -24,6 +24,7 @@ etc/issue	    admin/soplos-release
 etc/issue.net	    admin/soplos-release
 etc/lsb-release	    admin/soplos-release
 etc/motd	    admin/soplos-release
+etc/os-release	    admin/soplos-release
 etc/apt/sources.list.d/tyron.sources	    admin/soplos-release
 etc/default/grub	    misc/soplos-grub-theme
 etc/default/grub-btrfs/config	    admin/grub-btrfs
