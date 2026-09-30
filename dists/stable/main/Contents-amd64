@@ -34,6 +34,8 @@ etc/dracut.conf.d/soplos.conf	    admin/soplos-release
 etc/fonts/conf.d/75-noto-color-emoji.conf	    admin/soplos-release
 etc/fonts/conf.d/99-soplos-reject-woff.conf	    fonts/soplos-fontconfig-woff-fix
 etc/grub.d/05_soplos_theme	    misc/soplos-grub-theme
+etc/grub.d/29_premount	    admin/btrfs-os-prober
+etc/grub.d/31_premount_cleanup	    admin/btrfs-os-prober
 etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
 etc/kernel/postinst.d/zz-symlinks	    admin/soplos-release
 etc/kernel/postrm.d/zz-symlinks	    admin/soplos-release
@@ -74,6 +76,7 @@ usr/bin/xfce4-about-soplos	    admin/soplos-release
 usr/lib/os-release	    admin/soplos-release
 usr/lib/kuteditor/kuteditor	    sound/kuteditor
 usr/lib/kuteditor/libdeepfilter.so.0.5	    sound/kuteditor
+usr/lib/linux-boot-probes/mounted/40grub2	    admin/btrfs-os-prober
 usr/lib/systemd/system/grub-btrfsd.service	    admin/grub-btrfs
 usr/lib/systemd/user/app-com.mitchellh.ghostty.service	    utils/ghostty,utils/ghostty-tip
 usr/lib/systemd/user/soplos-fontcache-guard.path	    fonts/soplos-fontconfig-woff-fix
@@ -154,6 +157,7 @@ usr/share/branding-soplos/soplos/slide1.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/soplos-logo.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/welcome.png	    misc/branding-soplos
 usr/share/dbus-1/services/com.mitchellh.ghostty.service	    utils/ghostty,utils/ghostty-tip
+usr/share/doc/btrfs-os-prober/copyright	    admin/btrfs-os-prober
 usr/share/doc/ghostty/changelog.Debian.gz	    utils/ghostty
 usr/share/doc/ghostty/copyright	    utils/ghostty
 usr/share/doc/ghostty-tip/changelog.Debian.gz	    utils/ghostty-tip
