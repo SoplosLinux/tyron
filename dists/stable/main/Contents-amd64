@@ -926,6 +926,7 @@ usr/share/icons/hicolor/64x64/apps/org.soplos.welcome.png	    utils/soplos-welco
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
 usr/share/icons/hicolor/64x64/mimetypes/application-x-soplos-theme.png	    admin/soplos-theme-manager
 usr/share/icons/hicolor/scalable/apps/kuteditor.svg	    sound/kuteditor
+usr/share/keyrings/tyron.gpg	    admin/soplos-release
 usr/share/kio/servicemenus/com.mitchellh.ghostty.desktop	    utils/ghostty,utils/ghostty-tip
 usr/share/licenses/grub-btrfs/LICENSE	    admin/grub-btrfs
 usr/share/locale/be/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty-tip
