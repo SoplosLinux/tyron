@@ -51,6 +51,7 @@ etc/skel/.config/kitty/kitty.conf	    utils/kitty-soplos
 etc/skel/.config/kitty/soplos_linux.conf	    utils/kitty-soplos
 etc/skel/.config/xfce4/helpers.rc	    utils/ghostty-soplos,utils/kitty-soplos
 etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml	    utils/ghostty-soplos,utils/kitty-soplos
+etc/tdesktop/externalupdater	    net/telegram-desktop
 etc/update-motd.d/20-soplos-info	    admin/soplos-release
 etc/xdg/autostart/onboard-soplos.desktop	    utils/tablet-soplos
 opt/Telegram/Telegram	    net/telegram-desktop
@@ -83,6 +84,7 @@ usr/lib/systemd/user/app-com.mitchellh.ghostty.service	    utils/ghostty,utils/g
 usr/lib/systemd/user/soplos-fontcache-guard.path	    fonts/soplos-fontconfig-woff-fix
 usr/lib/systemd/user/soplos-fontcache-guard.service	    fonts/soplos-fontconfig-woff-fix
 usr/libexec/soplos-fontcache-guard	    fonts/soplos-fontconfig-woff-fix
+usr/share/TelegramDesktop/externalupdater.d/soplos.conf	    net/telegram-desktop
 usr/share/applications/com.mitchellh.ghostty.desktop	    utils/ghostty,utils/ghostty-tip
 usr/share/applications/com.soplos.docklike.desktop	    utils/soplos-docklike
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
@@ -98,8 +100,8 @@ usr/share/applications/org.soplos.thememanager.desktop	    admin/soplos-theme-ma
 usr/share/applications/org.soplos.webappmanager.desktop	    utils/soplos-webapp-manager
 usr/share/applications/org.soplos.welcome.desktop	    utils/soplos-welcome
 usr/share/applications/org.soplos.welcomelive.desktop	    utils/soplos-welcome-live
+usr/share/applications/org.telegram.desktop.desktop	    net/telegram-desktop
 usr/share/applications/soplos-debug.desktop	    admin/soplos-debug
-usr/share/applications/telegram-desktop.desktop	    net/telegram-desktop
 usr/share/backgrounds/soplos/001.jpg	    x11/soplos-wallpapers01
 usr/share/backgrounds/soplos/002.jpg	    x11/soplos-wallpapers01
 usr/share/backgrounds/soplos/003.jpg	    x11/soplos-wallpapers01
@@ -158,6 +160,7 @@ usr/share/branding-soplos/soplos/slide1.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/soplos-logo.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/welcome.png	    misc/branding-soplos
 usr/share/dbus-1/services/com.mitchellh.ghostty.service	    utils/ghostty,utils/ghostty-tip
+usr/share/dbus-1/services/org.telegram.desktop.service	    net/telegram-desktop
 usr/share/doc/btrfs-os-prober/copyright	    admin/btrfs-os-prober
 usr/share/doc/ghostty/changelog.Debian.gz	    utils/ghostty
 usr/share/doc/ghostty/copyright	    utils/ghostty
@@ -830,6 +833,7 @@ usr/share/icons/hicolor/128x128/apps/org.soplos.thememanager.png	    admin/soplo
 usr/share/icons/hicolor/128x128/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/128x128/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/128x128/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/128x128/apps/org.telegram.desktop.png	    net/telegram-desktop
 usr/share/icons/hicolor/128x128/apps/soplos-logo.png	    admin/soplos-release
 usr/share/icons/hicolor/128x128/mimetypes/application-x-soplos-theme.png	    admin/soplos-theme-manager
 usr/share/icons/hicolor/128x128@2/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
@@ -846,6 +850,7 @@ usr/share/icons/hicolor/16x16/apps/org.soplos.sys-cleaner.png	    utils/soplos-s
 usr/share/icons/hicolor/16x16/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/16x16/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/16x16/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/16x16/apps/org.telegram.desktop.png	    net/telegram-desktop
 usr/share/icons/hicolor/16x16@2/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
 usr/share/icons/hicolor/22x22/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/22x22/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
@@ -884,6 +889,7 @@ usr/share/icons/hicolor/256x256/apps/org.soplos.sys-cleaner.png	    utils/soplos
 usr/share/icons/hicolor/256x256/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/256x256/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/256x256/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/256x256/apps/org.telegram.desktop.png	    net/telegram-desktop
 usr/share/icons/hicolor/256x256@2/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
 usr/share/icons/hicolor/32x32/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
 usr/share/icons/hicolor/32x32/apps/com.soplos.docklike.png	    utils/soplos-docklike
@@ -898,6 +904,7 @@ usr/share/icons/hicolor/32x32/apps/org.soplos.sys-cleaner.png	    utils/soplos-s
 usr/share/icons/hicolor/32x32/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/32x32/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/32x32/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/32x32/apps/org.telegram.desktop.png	    net/telegram-desktop
 usr/share/icons/hicolor/32x32@2/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
 usr/share/icons/hicolor/48x48/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/48x48/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
@@ -913,8 +920,10 @@ usr/share/icons/hicolor/48x48/apps/org.soplos.thememanager.png	    admin/soplos-
 usr/share/icons/hicolor/48x48/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/48x48/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/48x48/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/48x48/apps/org.telegram.desktop.png	    net/telegram-desktop
 usr/share/icons/hicolor/48x48/mimetypes/application-x-soplos-theme.png	    admin/soplos-theme-manager
 usr/share/icons/hicolor/512x512/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
+usr/share/icons/hicolor/512x512/apps/org.telegram.desktop.png	    net/telegram-desktop
 usr/share/icons/hicolor/64x64/apps/com.soplos.docklike.png	    utils/soplos-docklike
 usr/share/icons/hicolor/64x64/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/64x64/apps/org.soplos-systemservice.png	    utils/soplos-system-service
@@ -929,8 +938,12 @@ usr/share/icons/hicolor/64x64/apps/org.soplos.thememanager.png	    admin/soplos-
 usr/share/icons/hicolor/64x64/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/64x64/apps/org.telegram.desktop.png	    net/telegram-desktop
 usr/share/icons/hicolor/64x64/mimetypes/application-x-soplos-theme.png	    admin/soplos-theme-manager
 usr/share/icons/hicolor/scalable/apps/kuteditor.svg	    sound/kuteditor
+usr/share/icons/hicolor/symbolic/apps/org.telegram.desktop-attention-symbolic.svg	    net/telegram-desktop
+usr/share/icons/hicolor/symbolic/apps/org.telegram.desktop-mute-symbolic.svg	    net/telegram-desktop
+usr/share/icons/hicolor/symbolic/apps/org.telegram.desktop-symbolic.svg	    net/telegram-desktop
 usr/share/keyrings/tyron.gpg	    admin/soplos-release
 usr/share/kio/servicemenus/com.mitchellh.ghostty.desktop	    utils/ghostty,utils/ghostty-tip
 usr/share/licenses/grub-btrfs/LICENSE	    admin/grub-btrfs
