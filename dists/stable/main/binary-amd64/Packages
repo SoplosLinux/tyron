@@ -40,17 +40,17 @@ Description: btrfs subvolume detection for GRUB's os-prober on Soplos Linux
  from the other system's own grub.cfg.
 
 Package: fastfetch-soplos
-Version: 0.0.4-3
+Version: 0.0.4-4
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: fastfetch
 Priority: optional
 Section: utils
-Filename: pool/main/f/fastfetch-soplos/fastfetch-soplos_0.0.4-3_all.deb
-Size: 2100
-SHA256: 3372751131594df77f6601221ca28cd6153f3097dc626bbe961c7381823bc839
-SHA1: a055a32b3476d2fd6a5d868d9098f52e774b5d4c
-MD5sum: ff4744706df19f46d6e7eda2c5372acf
+Filename: pool/main/f/fastfetch-soplos/fastfetch-soplos_0.0.4-4_all.deb
+Size: 2120
+SHA256: 94eea9ab5c30f3cd4c5fb22bd2a8712e3535d7a58fd79fcc8779155909afdbaf
+SHA1: 1c2df5897b016d10bbef8387d297286f103e20d0
+MD5sum: 0c5d85c2364060f0cfe6551957cafa2d
 Description: Custom Fastfetch configuration for SopLOS
  This package provides a custom Fastfetch configuration and branding
  for SopLOS Linux, applied to both new and existing users.
