@@ -229,23 +229,6 @@ Description: Native podcast editor with multitrack audio and chapters
  implements, so no separate JACK server is required on a PipeWire
  system.
 
-Package: linux-soplos-lts-v4
-Version: 6.18.59
-Architecture: amd64
-Maintainer: Soplos Linux Team <info@soplos.org>
-Depends: linux-image-6.18.59-soplos-lts-v4, linux-headers-6.18.59-soplos-lts-v4
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-soplos-lts-v4/linux-soplos-lts-v4_6.18.59_amd64.deb
-Size: 824
-SHA256: 420c2c515690ce48246046b786825b80787f8b335d9ef10d2c66ab5048e5b361
-SHA1: 090a8f1825dbf49967d6ee02e6335578ef6ae2a3
-MD5sum: 72618250d37e0a42da8f6916a74337d1
-Description: Soplos LTS V4 kernel
- Installs the 6.18.59-soplos-lts-v4 kernel and its headers.
- When a new version is released, upgrading this package will
- automatically pull in the new kernel.
-
 Package: msi-keyboard-gui
 Version: 1.0.7
 Architecture: all
