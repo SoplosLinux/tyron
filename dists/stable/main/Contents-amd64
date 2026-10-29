@@ -42,6 +42,8 @@ etc/kernel/postinst.d/soplos-vmware-modules	    misc/soplos-vmware-modules
 etc/kernel/postinst.d/zz-symlinks	    admin/soplos-release
 etc/kernel/postrm.d/zz-symlinks	    admin/soplos-release
 etc/kernel/prerm.d/soplos-vmware-modules	    misc/soplos-vmware-modules
+etc/pam.d/polkit-1	    admin/soplos-release
+etc/pam.d/systemd-user	    admin/soplos-release
 etc/skel/.zshrc	    utils/zsh-soplos
 etc/skel/.config/Thunar/uca.xml	    utils/ghostty-soplos,utils/kitty-soplos
 etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
