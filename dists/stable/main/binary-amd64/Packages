@@ -229,24 +229,6 @@ Description: Native podcast editor with multitrack audio and chapters
  implements, so no separate JACK server is required on a PipeWire
  system.
 
-Package: linux-image-6.18.59-soplos-lts-v3
-Source: linux-upstream
-Version: 1
-Architecture: amd64
-Maintainer: soplos <soplos@soplos-vmware201>
-Installed-Size: 104589
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-6.18.59-soplos-lts-v3_1_amd64.deb
-Size: 91743788
-SHA256: fec2ce4a1374eeee859066afe692a3b32535bad2976f5eed3823c6037dc72730
-SHA1: 979231f816d460317b16a577b708e0568789266d
-MD5sum: 5c19db3bbbc173881751fb2602a29aa4
-Description: Linux kernel, version 6.18.59-soplos-lts-v3
- This package contains the Linux kernel, modules and corresponding other
- files, version: 6.18.59-soplos-lts-v3.
-
 Package: linux-image-6.18.59-soplos-lts-v4
 Source: linux-upstream
 Version: 1
