@@ -403,22 +403,22 @@ Description: Soplos Plymouth theme.
  Build date: 2025-12-20
 
 Package: soplos-release
-Version: 1.0.0-8
+Version: 1.0.0-9
 Architecture: all
 Maintainer: Sergi Perich
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_1.0.0-8_all.deb
-Size: 2418648
-SHA256: 9161760830eca45bc9a5aa2457b37a95898edddc5ccdedfb8bd6871c8cac9e10
-SHA1: 26efb475fdd0a1c411b2dbb03a3493577c99a36b
-MD5sum: 3de935897372fd8fb56b42fe7d63ed2b
+Filename: pool/main/s/soplos-release/soplos-release_1.0.0-9_all.deb
+Size: 2418692
+SHA256: 5b157c587d80a1d5aad3aaeca892a6febee98d73144e0a554d784a0f2176850e
+SHA1: e9ad319f5a96315c5c07288a821780fc3b328df6
+MD5sum: 1fd7514f52b5712604384a39d4ed16ac
 Description: Soplos Linux release information (internal system package)
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
  .
  This is an internal system package and does not provide any user interface.
- This release corresponds to Soplos Linux Tyron 2026.10.
+ This release corresponds to Soplos Linux Tyron 2026.11.
 Essential: yes
 Replaces: base-files
 Depends: fonts-noto-color-emoji
