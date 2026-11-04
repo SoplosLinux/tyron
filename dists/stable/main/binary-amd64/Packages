@@ -181,29 +181,6 @@ Description: Custom Kitty configuration for SopLOS
  .
  This package includes an enhanced .bashrc with Soplos Linux branding.
 
-Package: kora-soplos-icons
-Version: 1.0.0-4
-Architecture: all
-Depends: hicolor-icon-theme
-Recommends: breeze-icon-theme
-Maintainer: Sergi Perich <info@soploslinux.com>
-Homepage: https://github.com/SoplosLinux/kora-soplos-icons
-Priority: optional
-Section: x11
-Filename: pool/main/k/kora-soplos-icons/kora-soplos-icons_1.0.0-4_all.deb
-Size: 4904000
-SHA256: 9065d9ceeeda012dd82c19bf62b0da2eb4c418b6a8099ace039dab3c53ad08ce
-SHA1: 0439e11e109fc04a0d380cf24be81c847227a9fc
-MD5sum: 0182e3755b10f5368e1638eb167d71d9
-Description: Kora Soplos icon themes (dark and light) for Soplos Linux.
- Icon themes for Soplos Linux based on the Kora icon theme and recolored
- with the official Soplos palette. Two variants are installed in
- /usr/share/icons: Kora Soplos Dark and Kora Soplos Light.
- .
- Based on Kora (https://github.com/bikass/kora). Soplos modifications by
- Sergi Perich and Simnandez.
- Build date: 2026-11-01
-
 Package: kuteditor
 Version: 2.56-1
 Architecture: amd64
