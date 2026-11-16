@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.thememanager</id>
+  <pkgname>soplos-theme-manager</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <project_group>org.soplos</project_group>
+
+  <name>Soplos Theme Manager</name>
+  <name xml:lang="es">Gestor de Temas Soplos</name>
+  <name xml:lang="fr">Gestionnaire de Thèmes Soplos</name>
+  <name xml:lang="pt">Gerenciador de Temas Soplos</name>
+  <name xml:lang="de">Soplos Theme-Manager</name>
+  <name xml:lang="it">Gestore Temi Soplos</name>
+  <name xml:lang="ru">Менеджер Тем Soplos</name>
+  <name xml:lang="ro">Manager de Teme Soplos</name>
+
+  <summary>Desktop theme manager for Soplos Linux Tyron (Xfce)</summary>
+  <summary xml:lang="es">Gestor de temas de escritorio para Soplos Linux Tyron (Xfce)</summary>
+  <summary xml:lang="fr">Gestionnaire de thèmes de bureau pour Soplos Linux Tyron (Xfce)</summary>
+  <summary xml:lang="pt">Gerenciador de temas de área de trabalho para Soplos Linux Tyron (Xfce)</summary>
+  <summary xml:lang="de">Desktop-Theme-Manager für Soplos Linux Tyron (Xfce)</summary>
+  <summary xml:lang="it">Gestore dei temi del desktop per Soplos Linux Tyron (Xfce)</summary>
+  <summary xml:lang="ru">Менеджер тем рабочего стола для Soplos Linux Tyron (Xfce)</summary>
+  <summary xml:lang="ro">Manager de teme desktop pentru Soplos Linux Tyron (Xfce)</summary>
+
+  <description>
+    <p>
+      Soplos Theme Manager manages the look of Soplos Linux Tyron (Xfce):
+      complete desktop themes with their GTK theme, icons, cursor, fonts, window
+      borders, wallpaper and panel, which can be saved, applied, exported and
+      imported as .sth files. It also has a wallpaper browser, cards for the
+      installed GTK themes, icon themes and cursor themes that apply with a click,
+      an editor for the Xfce panels and for the dock, and the settings of the
+      login screen.
+    </p>
+    <p xml:lang="es">
+      El Gestor de Temas Soplos gestiona el aspecto de Soplos Linux Tyron (Xfce):
+      temas de escritorio completos con su tema GTK, iconos, cursor, fuentes,
+      bordes de ventana, fondo de pantalla y panel, que se pueden guardar,
+      aplicar, exportar e importar como archivos .sth. También tiene un
+      explorador de fondos, tarjetas para los temas GTK, de iconos y de cursores
+      instalados que se aplican con un clic, un editor de los paneles de Xfce y
+      del dock, y los ajustes de la pantalla de inicio de sesión.
+    </p>
+    <p xml:lang="fr">
+      Le Gestionnaire de Thèmes Soplos gère l'apparence de Soplos Linux Tyron
+      (Xfce) : des thèmes de bureau complets avec leur thème GTK, leurs icônes,
+      leur curseur, leurs polices, les bordures de fenêtre, le fond d'écran et le
+      panneau, qui peuvent être enregistrés, appliqués, exportés et importés sous
+      forme de fichiers .sth. Il comprend aussi un navigateur de fonds d'écran,
+      des cartes pour les thèmes GTK, d'icônes et de curseurs installés qui
+      s'appliquent d'un clic, un éditeur des panneaux Xfce et du dock, et les
+      réglages de l'écran de connexion.
+    </p>
+    <p xml:lang="pt">
+      O Gerenciador de Temas Soplos gerencia a aparência do Soplos Linux Tyron
+      (Xfce): temas de área de trabalho completos com o seu tema GTK, ícones,
+      cursor, fontes, bordas de janela, papel de parede e painel, que podem ser
+      guardados, aplicados, exportados e importados como ficheiros .sth. Também
+      tem um navegador de papéis de parede, cartões para os temas GTK, de ícones
+      e de cursores instalados que se aplicam com um clique, um editor dos
+      painéis do Xfce e do dock, e as definições do ecrã de início de sessão.
+    </p>
+    <p xml:lang="de">
+      Der Soplos Theme-Manager verwaltet das Erscheinungsbild von Soplos Linux
+      Tyron (Xfce): vollständige Desktop-Themes mit GTK-Theme, Symbolen, Cursor,
+      Schriften, Fensterrändern, Hintergrundbild und Panel, die als .sth-Dateien
+      gespeichert, angewendet, exportiert und importiert werden können. Außerdem
+      gibt es einen Hintergrundbild-Browser, Karten für die installierten
+      GTK-, Symbol- und Cursor-Themes, die per Klick angewendet werden, einen
+      Editor für die Xfce-Panels und das Dock sowie die Einstellungen des
+      Anmeldebildschirms.
+    </p>
+    <p xml:lang="it">
+      Il Gestore Temi Soplos gestisce l'aspetto di Soplos Linux Tyron (Xfce): temi
+      del desktop completi con il loro tema GTK, icone, cursore, font, bordi delle
+      finestre, sfondo e pannello, che si possono salvare, applicare, esportare e
+      importare come file .sth. Ha anche un browser di sfondi, schede per i temi
+      GTK, di icone e di cursori installati che si applicano con un clic, un
+      editor dei pannelli di Xfce e del dock, e le impostazioni della schermata di
+      accesso.
+    </p>
+    <p xml:lang="ru">
+      Менеджер тем Soplos управляет внешним видом Soplos Linux Tyron (Xfce): полные
+      темы рабочего стола с темой GTK, значками, курсором, шрифтами, рамками окон,
+      обоями и панелью, которые можно сохранять, применять, экспортировать и
+      импортировать в виде файлов .sth. Также есть обозреватель обоев, карточки
+      установленных тем GTK, значков и курсоров, которые применяются щелчком,
+      редактор панелей Xfce и дока, а также настройки экрана входа.
+    </p>
+    <p xml:lang="ro">
+      Managerul de Teme Soplos gestionează aspectul Soplos Linux Tyron (Xfce): teme
+      desktop complete cu tema GTK, pictogramele, cursorul, fonturile, marginile
+      ferestrelor, fundalul și panoul, care se pot salva, aplica, exporta și
+      importa ca fișiere .sth. Are și un browser de fundaluri, carduri pentru
+      temele GTK, de pictograme și de cursor instalate, care se aplică cu un clic,
+      un editor pentru panourile Xfce și pentru dock, și setările ecranului de
+      autentificare.
+    </p>
+  </description>
+
+  <categories>
+    <category>System</category>
+    <category>Settings</category>
+    <category>DesktopSettings</category>
+    <category>Utility</category>
+  </categories>
+
+  <keywords>
+    <keyword>theme</keyword>
+    <keyword>themes</keyword>
+    <keyword>xfce</keyword>
+    <keyword>desktop</keyword>
+    <keyword>wallpaper</keyword>
+    <keyword>customize</keyword>
+    <keyword>soplos</keyword>
+    <keyword xml:lang="es">tema</keyword>
+    <keyword xml:lang="es">temas</keyword>
+    <keyword xml:lang="es">escritorio</keyword>
+    <keyword xml:lang="es">fondo</keyword>
+    <keyword xml:lang="es">personalizar</keyword>
+    <keyword xml:lang="fr">thème</keyword>
+    <keyword xml:lang="fr">bureau</keyword>
+    <keyword xml:lang="fr">fond d'écran</keyword>
+    <keyword xml:lang="fr">personnaliser</keyword>
+    <keyword xml:lang="pt">tema</keyword>
+    <keyword xml:lang="pt">área de trabalho</keyword>
+    <keyword xml:lang="pt">papel de parede</keyword>
+    <keyword xml:lang="pt">personalizar</keyword>
+    <keyword xml:lang="de">Thema</keyword>
+    <keyword xml:lang="de">Desktop</keyword>
+    <keyword xml:lang="de">Hintergrundbild</keyword>
+    <keyword xml:lang="de">anpassen</keyword>
+    <keyword xml:lang="it">tema</keyword>
+    <keyword xml:lang="it">desktop</keyword>
+    <keyword xml:lang="it">sfondo</keyword>
+    <keyword xml:lang="it">personalizzare</keyword>
+    <keyword xml:lang="ru">тема</keyword>
+    <keyword xml:lang="ru">рабочий стол</keyword>
+    <keyword xml:lang="ru">обои</keyword>
+    <keyword xml:lang="ru">настройка</keyword>
+    <keyword xml:lang="ro">temă</keyword>
+    <keyword xml:lang="ro">desktop</keyword>
+    <keyword xml:lang="ro">fundal</keyword>
+    <keyword xml:lang="ro">personalizare</keyword>
+  </keywords>
+
+  <launchable type="desktop-id">soplos-theme-manager.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-theme-manager-3.0/main/src-tauri/resources/screenshots/screenshot01.png</image>
+      <caption>Themes: the complete desktop themes you have saved</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-theme-manager-3.0/main/src-tauri/resources/screenshots/screenshot02.png</image>
+      <caption>Wallpapers: the wallpapers of a folder, set as the wallpaper of every screen</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-theme-manager-3.0/main/src-tauri/resources/screenshots/screenshot03.png</image>
+      <caption>GTK Themes: the installed themes drawn with their colors, applied with a click</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-theme-manager-3.0/main/src-tauri/resources/screenshots/screenshot04.png</image>
+      <caption>Panel: the position, appearance, behavior and plugins of the Xfce panels</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-theme-manager-3.0/main/src-tauri/resources/screenshots/screenshot05.png</image>
+      <caption>Dock: the applications are dragged into the strip of the dock</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-theme-manager-3.0/main/src-tauri/resources/screenshots/screenshot06.png</image>
+      <caption>Login Screen: the background, themes, font and where the login box goes</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-theme-manager-3.0/main/src-tauri/resources/screenshots/screenshot07.png</image>
+      <caption>Icons: the installed icon themes, each with six of its icons</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-theme-manager-3.0/main/src-tauri/resources/screenshots/screenshot08.png</image>
+      <caption>Cursors: the installed cursor themes, each with four of its cursors</caption>
+    </screenshot>
+  </screenshots>
+
+  <provides>
+    <binary>soplos-theme-manager</binary>
+    <mediatype>application/x-soplos-theme</mediatype>
+  </provides>
+
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-theme-manager-3.0/issues</url>
+  <url type="help">https://soplos.org/wiki</url>
+
+  <developer id="org.soplos">
+    <name>Sergi Perich</name>
+  </developer>
+
+  <releases>
+    <release version="3.0.0" date="2026-11-16">
+      <description>
+        <p>First stable release of the 3.0 rewrite. The GTK Themes, Icons and Cursors pages are grids of cards, as in Look Manager, and a click applies the theme. The six base themes are new, with the Tela Soplos icons and the Status Tray in the panel, and they no longer carry the Breeze icons, so the package is about half the size. The wallpaper cards are drawn as soon as each small copy is ready, the copies of pictures with transparency keep their colors, the Panel page applies the changes of every panel at once, and the text of the interface cannot be selected.</p>
+      </description>
+    </release>
+    <release version="3.0.0-4-beta" date="2026-11-12">
+      <description>
+        <p>The Dock page finds the Docklike of every panel, and setting a wallpaper works on computers whose monitors never had one set from Xfce. The wallpaper cards show small copies kept in the cache, installing wallpapers asks where to put them, and a new Docklike starts as a copy of the dock that already exists.</p>
+      </description>
+    </release>
+    <release version="3.0.0-3-beta" date="2026-11-07">
+      <description>
+        <p>The Login Screen page has a new option to choose where the login background comes from, and the login screen no longer stops following the wallpaper after the page is saved.</p>
+      </description>
+    </release>
+    <release version="3.0.0-2-beta" date="2026-11-06">
+      <description>
+        <p>When a wallpaper cannot be set, the status line shows the real error and not a generic message.</p>
+      </description>
+    </release>
+    <release version="3.0.0-1-beta" date="2026-11-06">
+      <description>
+        <p>A panel on the left or the right edge is drawn in the right place and set to the vertical mode. Choosing a wallpaper applies it at once, and the Login Screen page gains the picture of the user and the wallpaper for each user.</p>
+      </description>
+    </release>
+    <release version="3.0.0-beta" date="2026-11-05">
+      <description>
+        <p>First beta: all the pages of 2.x are ported. New base themes, new screenshots taken with the interface in English, a faster export, and a faster restart of the panel when a theme is applied.</p>
+      </description>
+    </release>
+    <release version="3.0.0-alpha" date="2026-11-05">
+      <description>
+        <p>Full rewrite of Soplos Theme Manager, from Python 3 and GTK3 to Tauri 2 with a Rust backend and a Svelte frontend, with a window that has no frame of the system, a light and dark theme that follows Xfce, and the interface in eight languages.</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1" />
+</component>

@@ -1,0 +1,738 @@
+Package: branding-soplos
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Replaces: soplos-release (<= 0.1.4)
+Conflicts: soplos-release (<= 0.1.4)
+Priority: optional
+Section: misc
+Filename: pool/main/b/branding-soplos/branding-soplos_0.0.1_all.deb
+Size: 13852356
+SHA256: 303f32199adfdfc71ad1d8beb9190a6c927765d6b885bb83e3f91cb1f7eefc30
+SHA1: d6fc46fa76e5b776ece8fa476f72d37df2342a62
+MD5sum: 63b50e1b8f410715dd4b4e3be1ae3d70
+Description: Branding y recursos gráficos de SopLOS
+ Este paquete contiene los archivos de branding y recursos gráficos
+ para SopLOS Linux Tyron.
+
+Package: btrfs-os-prober
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: os-prober, grub2-common, btrfs-progs, util-linux, coreutils
+Priority: optional
+Section: admin
+Filename: pool/main/b/btrfs-os-prober/btrfs-os-prober_1.0.0-1_all.deb
+Size: 5440
+SHA256: 9695a1b991da8c5d4416acd081c5cfc03893f0de23f790fbde4ffc739427a32e
+SHA1: b6d6884b106f36a3404698ab075943c843ce4b12
+MD5sum: aaa5ec23285f04d25dbfebddc701c460
+Description: btrfs subvolume detection for GRUB's os-prober on Soplos Linux
+ Soplos installers put the root filesystem in a "@" btrfs subvolume.
+ GRUB's own btrfs filesystem driver only exposes the volume's top level
+ (subvolid 5) to os-prober, so update-grub never finds /etc on another,
+ unmounted Soplos installation and silently leaves it out of the boot
+ menu unless its disk happens to already be mounted.
+ .
+ This package adds two grub.d scripts that mount the right subvolume
+ read-only around os-prober's own pass, and patches a bug in os-prober's
+ stock GRUB probe that otherwise reimports broken memtest86+ entries
+ from the other system's own grub.cfg.
+
+Package: fastfetch-soplos
+Version: 0.0.4-4
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: fastfetch
+Priority: optional
+Section: utils
+Filename: pool/main/f/fastfetch-soplos/fastfetch-soplos_0.0.4-4_all.deb
+Size: 2120
+SHA256: 94eea9ab5c30f3cd4c5fb22bd2a8712e3535d7a58fd79fcc8779155909afdbaf
+SHA1: 1c2df5897b016d10bbef8387d297286f103e20d0
+MD5sum: 0c5d85c2364060f0cfe6551957cafa2d
+Description: Custom Fastfetch configuration for SopLOS
+ This package provides a custom Fastfetch configuration and branding
+ for SopLOS Linux, applied to both new and existing users.
+
+Package: fish-soplos
+Version: 0.0.1-1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: fish
+Priority: optional
+Section: utils
+Filename: pool/main/f/fish-soplos/fish-soplos_0.0.1-1_all.deb
+Size: 1732
+SHA256: ff734d4daf03c5219231d9bef11afd75d9ab58230701e29a28b9b29c28c9303e
+SHA1: ca01b2f83b5bd207ec6be2ed341993d1f252287a
+MD5sum: 622e1b257a98ca60ced0bdc3ee2ac2b2
+Description: Fish shell configuration for SopLOS
+ This package provides the SopLOS theme and prompt for the Fish shell,
+ applied to both new and existing users. Sets Fish as the default shell.
+
+Package: ghostty
+Version: 1.4.0-1
+Architecture: amd64
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 31958
+Depends: libadwaita-1-0 (>= 1.5~beta), libc6 (>= 2.43), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libglib2.0-0t64 (>= 2.76.0), libgtk-4-1 (>= 4.21.5), libgtk4-layer-shell0 (>= 1.0.2), libharfbuzz0b (>= 0.9.42), libonig5 (>= 6.9.5), libwayland-client0 (>= 1.9.91), libx11-6
+Conflicts: ghostty-tip
+Replaces: ghostty-tip
+Homepage: https://ghostty.org/
+Priority: optional
+Section: utils
+Filename: pool/main/g/ghostty/ghostty_1.4.0-1_amd64.deb
+Size: 17031448
+SHA256: fb300237757f81e78ecc79d7d0f255bc8b0f9d643d2b5cef84129303e93110ca
+SHA1: 03c8289bbe8492e81d80769a0925d8497b483d08
+MD5sum: 17855b2392bcd07b50d69594ba2aa312
+Description: Fast, feature-rich GPU-accelerated terminal emulator
+ Ghostty is a fast, feature-rich and cross-platform terminal emulator
+ that uses platform-native UI and GPU acceleration. On Linux it is built
+ on GTK4 and libadwaita.
+ .
+ This is the stable release build.
+
+Package: ghostty-soplos
+Version: 0.0.2
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: zsh-soplos, ghostty-tip | ghostty
+Replaces: kitty-soplos, fish-soplos
+Conflicts: kitty-soplos, fish-soplos
+Priority: optional
+Section: utils
+Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.2_all.deb
+Size: 4492
+SHA256: 2c7bd9eba5a1101f010c6b55f7068ed26b16832f1c388814e1ae18817fe76f16
+SHA1: f055469253bfe684620e3822efc59661392c185f
+MD5sum: 6ba21c8530dd462d2f67d03026df75c6
+Description: Ghostty terminal configuration for SopLOS
+ This package provides Ghostty terminal with the SopLOS theme and
+ integrates it with XFCE as the default terminal.
+ .
+ Replaces kitty-soplos.
+
+Package: ghostty-tip
+Version: 1.4.1~dev.20261106-1
+Architecture: amd64
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 32032
+Depends: libadwaita-1-0 (>= 1.5~beta), libc6 (>= 2.43), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libglib2.0-0t64 (>= 2.76.0), libgtk-4-1 (>= 4.21.5), libgtk4-layer-shell0 (>= 1.0.2), libharfbuzz0b (>= 0.9.42), libonig5 (>= 6.9.5), libwayland-client0 (>= 1.9.91), libx11-6
+Conflicts: ghostty
+Replaces: ghostty
+Homepage: https://ghostty.org/
+Priority: optional
+Section: utils
+Filename: pool/main/g/ghostty-tip/ghostty-tip_1.4.1~dev.20261106-1_amd64.deb
+Size: 17047420
+SHA256: cac99d718441501f1749872dcfa9b083dab0413d20cdd177174dcb66c4df384c
+SHA1: 695a6ac2ae2de491986c292fbd8869bbcdda384a
+MD5sum: f7a4aa195aa2077a2e18acea26533bf0
+Description: Nightly build of the Ghostty terminal emulator
+ Ghostty is a fast, feature-rich and cross-platform terminal emulator
+ that uses platform-native UI and GPU acceleration. On Linux it is built
+ on GTK4 and libadwaita.
+ .
+ Built from the upstream main branch at commit 8a5d14b. It tracks the latest development code and may be unstable. Install the stable ghostty package for a release build.
+
+Package: grub-btrfs
+Version: 4.14-1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 124
+Depends: btrfs-progs, grub-common, bash (>= 4.0), inotify-tools, gawk
+Homepage: https://github.com/Antynea/grub-btrfs
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub-btrfs/grub-btrfs_4.14-1_all.deb
+Size: 36484
+SHA256: 0540dd83913387ea6663d975407decb9eb03e77bfd52a6629e6fa333310721a8
+SHA1: 8042b85a3bd82fbb7347ffde9889f39608fb6e3a
+MD5sum: 36c55d989847e656679aece518fe02c9
+Description: Include btrfs snapshots in GRUB menu
+ grub-btrfs improves the grub bootloader by adding a btrfs snapshots sub-menu,
+ allowing the user to boot into snapshots.
+ .
+ It supports manual snapshots as well as snapper, timeshift, and yabsnap created
+ snapshots.
+ .
+ This package includes the grub-btrfsd daemon which automatically updates the
+ grub menu when snapshots are created or deleted.
+
+Package: kitty-soplos
+Version: 0.0.5-1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: kitty
+Replaces: ghostty-soplos, fish-soplos
+Conflicts: ghostty-soplos
+Priority: optional
+Section: utils
+Filename: pool/main/k/kitty-soplos/kitty-soplos_0.0.5-1_all.deb
+Size: 32488
+SHA256: a5df55724fc9962be33e50532e95318412f0b3e829df764a7d3300deb944ece3
+SHA1: 1dc17d14743aec926d79a25bb72b4faeeb8f27c8
+MD5sum: 34b9d10cb64d25778915fce5c1353684
+Description: Custom Kitty configuration for SopLOS
+ This package provides a custom Kitty terminal configuration and theming
+ for SopLOS Linux, applied to both new and existing users.
+ .
+ This package includes an enhanced .bashrc with Soplos Linux branding.
+
+Package: kora-soplos-icons
+Version: 1.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://github.com/SoplosLinux/kora-soplos-icons
+Priority: optional
+Section: x11
+Filename: pool/main/k/kora-soplos-icons/kora-soplos-icons_1.0.1_all.deb
+Size: 4886152
+SHA256: beaa28d01435d0bc705fb9b45520d978fe9d8ee30c1e7ef0ffa5acc709d9bb7d
+SHA1: 6b15b6173d287345f65b107d55202ca962342bd9
+MD5sum: f372c2e64c1b9c58b600ec4bc7b6d98f
+Description: Kora Soplos icon themes (dark and light) for Soplos Linux.
+ Icon themes for Soplos Linux based on the Kora icon theme and recolored
+ with the official Soplos palette. Two variants are installed in
+ /usr/share/icons: Kora Soplos Dark and Kora Soplos Light.
+ .
+ Based on Kora (https://github.com/bikass/kora). Soplos modifications by
+ Sergi Perich and Simnandez.
+ Build date: 2026-11-16
+
+Package: kuteditor
+Version: 2.71-1
+Architecture: amd64
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 16756
+Depends: libc6 (>= 2.43), libgcc-s1 (>= 4.2), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), librnnoise0 (>= 0.2+ds), libsamplerate0 (>= 0.1.7), libstdc++6 (>= 11), libtag2 (>= 2.0), qt6-base-private-abi (= 6.11.2), qt6-declarative-private-abi (= 6.11.2), pipewire-jack, qml6-module-qtqml, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, qml6-module-qtquick-dialogs, qml6-module-qt-labs-platform, libqt6svg6
+Homepage: https://github.com/ernestoacostame/kuteditor
+Priority: optional
+Section: sound
+Filename: pool/main/k/kuteditor/kuteditor_2.71-1_amd64.deb
+Size: 3898212
+SHA256: 079590318d3c62776eac0a62aece4926bc4fa28412dbda3cf1c8a22e2a8da7fa
+SHA1: 8c2fa3398485d175dbc6e139083ee24842115b9b
+MD5sum: 901d2493f6b590fe5bed66a333b451bb
+Description: Native podcast editor with multitrack audio and chapters
+ KutEditor is a Qt6/QML podcast editor with multitrack recording and
+ editing, a per-track effects chain (compressor, limiter, equaliser,
+ noise gate, de-esser, auto-duck), noise reduction through RNNoise and
+ DeepFilterNet, and Podcasting 2.0 chapter markers written as ID3v2
+ CHAP frames.
+ .
+ Audio input and output go through the JACK API, which PipeWire
+ implements, so no separate JACK server is required on a PipeWire
+ system.
+
+Package: limine
+Version: 12.9.6-0soplos1
+Architecture: amd64
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 1265
+Depends: libc6 (>= 2.34)
+Homepage: https://github.com/Limine-Bootloader/Limine
+Priority: optional
+Section: admin
+Filename: pool/main/l/limine/limine_12.9.6-0soplos1_amd64.deb
+Size: 525752
+SHA256: e9f0e287123f1f34c512228f581c3e608083f4dec21e9e06b259fee437f73a8b
+SHA1: 6a8c41dd528ddab80b3ddd1b555cc2e2916ca84d
+MD5sum: af8862b434b2da31f99f2c7ffeb6464d
+Description: modern, advanced, portable, multiprotocol bootloader
+ Limine is a modern, advanced, portable, multiprotocol bootloader and boot
+ manager. It boots Linux and other kernels on UEFI and legacy BIOS systems
+ and reads its own files, its configuration and the kernels from FAT
+ partitions.
+ .
+ This package ships the limine host tool and the x86 BIOS, x86-64 UEFI and
+ IA-32 UEFI ports, unmodified from upstream. It does not install anything
+ to a disk by itself: the limine-soplos package installs Limine on the
+ boot disk and keeps its menu in step with the installed kernels.
+
+Package: limine-soplos
+Version: 1.0.0
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: limine (>= 12), bash, coreutils, util-linux, mount, efibootmgr
+Recommends: os-prober
+Priority: optional
+Section: admin
+Filename: pool/main/l/limine-soplos/limine-soplos_1.0.0_all.deb
+Size: 11340
+SHA256: 630047984f9683824806f1280805882f3a407c16e79d7d1a32a33689fd6ab822
+SHA1: 81df4d2eb452b0863566d3539261fe7387f1f538
+MD5sum: 819c1933f1499e5a882fdb7a9c736ab7
+Description: Limine boot loader integration for Soplos Linux
+ Limine only reads FAT, so the kernels in /boot cannot be booted as they
+ are. This package keeps a copy of every installed kernel and its initrd
+ on the FAT partition Limine boots from, and writes limine.conf, whenever
+ a kernel is installed or removed or dracut rebuilds an initrd.
+ .
+ limine-install puts Limine on the boot disk (UEFI or BIOS) and
+ limine-update rewrites its menu: one entry per kernel with its recovery
+ mode, and the other systems found on the disks. The kernel command line
+ is read from /etc/kernel/cmdline and the settings from
+ /etc/default/limine. Nothing is changed on the disk until limine-install
+ is run.
+
+Package: msi-keyboard-gui
+Version: 1.0.7
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gdk-3.0, gir1.2-gdkpixbuf-2.0, gir1.2-gtk-3.0, msi-keyboard, msi-keyboard-gui, python3-all, python3-dev, python3-gi, python3-gi-cairo, python3-setuptools
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/m/msi-keyboard-gui/msi-keyboard-gui_1.0.7_all.deb
+Size: 986356
+SHA256: b2479fdd8391cc6fc8671264b0dd1b7b80352d905224de754c0dad254ad4631f
+SHA1: 745f03a6fab520d42771784b81b60603524f0285
+MD5sum: 86f457b421b2b575b7a45e047d1ff96c
+Description: Configure MSI keyboard RGB lighting
+
+Package: soplos-appimage-manager
+Version: 1.0.1-2
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3, python3-gi, python3-gi-cairo, python3-setuptools
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-appimage-manager/soplos-appimage-manager_1.0.1-2_all.deb
+Size: 660568
+SHA256: 293b072098e10003bf331e9e11d8c6d4d4cf083aa4f6e230a3c4dc7ccd6d5758
+SHA1: 9d540dfa10fc3dc34291389f3092191f23a12bd5
+MD5sum: 887ff2a767b107324eec9d97d759e567
+Description: Manage AppImage applications on Soplos Linux
+
+Package: soplos-debug
+Version: 1.0.0-3
+Architecture: all
+Depends: bash (>= 5.0), coreutils, util-linux, pciutils, usbutils, dmidecode, pkexec, polkitd
+Recommends: smartmontools, efibootmgr, mokutil, lm-sensors, network-manager, btrfs-progs
+Suggests: vulkan-tools, mesa-utils-extra, dkms
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: admin
+Filename: pool/main/s/soplos-debug/soplos-debug_1.0.0-3_all.deb
+Size: 23044
+SHA256: fc305fd9156c031d25c88a95320df33e8c6bd2a01b0585d678037a95122b1897
+SHA1: eb07802f28cb08c4e4cbbb6db4e1c40e05ae70fa
+MD5sum: ba7c6748e35ca30bd8e3c42e5a1b79d0
+Description: Informe de diagnóstico del sistema para Soplos Linux
+ Recoge un retrato completo del hardware de la máquina y de sus fallos en un
+ único archivo de texto que el usuario puede adjuntar a una petición de soporte.
+ .
+ Está pensado para el caso en que todavía nadie sabe qué está roto: en lugar de
+ responder a una pregunta concreta, informa de qué hardware hay, qué controlador
+ ha cargado el núcleo para cada dispositivo y qué ha fallado. El informe empieza
+ con la lista de anomalías detectadas, de modo que puede valorarse de un vistazo
+ sin necesidad de leer el resto.
+ .
+ Cubre placa base y BIOS, CPU, memoria, almacenamiento con estado SMART, el árbol
+ completo de dispositivos PCI y USB, firmware ausente, errores del núcleo,
+ gráficos, red, sonido, energía y temperaturas, arranque y paquetes. En una sesión
+ live recoge además el registro de Calamares.
+ .
+ Los datos personales (direcciones MAC, nombres de redes inalámbricas, números de
+ serie y ruta personal del usuario) se enmascaran antes de escribir el archivo,
+ porque estos informes acaban compartiéndose en canales públicos. No se envía
+ nada a ningún sitio.
+
+Package: soplos-docklike
+Version: 1.0.4
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, dbus-x11, debhelper-compat, dh-python, gettext, gir1.2-gtk-3.0, python3-all, python3-cairo, python3-dbus, python3-gi, python3-setuptools, xfce4-docklike-plugin, xfce4-panel (>= 4.14) | xfce4-panel (<< 4.21), xfconf
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-docklike/soplos-docklike_1.0.4_all.deb
+Size: 985748
+SHA256: dcfd759b3c5d3a0a90d5702588df83d5e505426bcd7582b6d60bc5234b49457e
+SHA1: e816f248e4d59c70fc6b9459ddf5325cfe9dc372
+MD5sum: 358e5470dbdfe18d0e02c527d0944e91
+Description: XFCE Dock icon manager
+
+Package: soplos-fontconfig-woff-fix
+Version: 1.0.0-2
+Architecture: all
+Depends: fontconfig-config, fontconfig
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: fonts
+Filename: pool/main/s/soplos-fontconfig-woff-fix/soplos-fontconfig-woff-fix_1.0.0-2_all.deb
+Size: 2332
+SHA256: e79ac8811fb6a9b61120da26972560bfbc8ad21ef7689df40ac695fb517c4914
+SHA1: d0a7d1960520b04de4937b81ae488a9964099db6
+MD5sum: ee009c4ce919ed3b9ac0030681c2d132
+Description: Reject WOFF/WOFF2 web fonts in fontconfig
+ Workaround for fontconfig issue #565: applications bundling fontconfig
+ 2.18.3 (Chrome 154, Brave 1.96) replace the user's cache-9 files with
+ symlinks to cache-12. The host fontconfig 2.17 then exposes WOFF/WOFF2
+ fonts without family or charset, which win font matching and crash
+ Qt applications in FcCharSetHasChar. Rejecting these web fonts avoids
+ the crash. TTF/OTF versions of the same fonts are not affected.
+ .
+ A systemd user unit also removes the foreign cache-9 symlinks from the
+ user font cache as soon as they appear and rebuilds the host cache. This
+ protects Flatpak applications, which do not read the host fontconfig
+ configuration, and restores Type1 fonts.
+
+Package: soplos-grub-editor
+Version: 2.0.2-8
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_2.0.2-8_all.deb
+Size: 1197856
+SHA256: b1bfd9f4f0ffaa703a6777cfc49c8bdf6fd6601e0e2a2f480ace9412ffb471c1
+SHA1: ae9297b78318533e79eb6e66071b0f0943f60ec7
+MD5sum: eae0ca25e8702faa824e13dae73d13bd
+Description: Advanced GRUB configuration editor with complete internationalization
+
+Package: soplos-grub-theme
+Version: 0.0.7-1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.7-1_all.deb
+Size: 2145824
+SHA256: 24a4bab68369567feb8c06c4fe1a58c8902c9d1181bc25db3a31c6fc82f1f588
+SHA1: 6596fa6d2a449167c82f2d3aa87cc6b23cea9d87
+MD5sum: 5239bd3ee03a1b28285fba047d7f5cc2
+Description: GRUB theme package for Soplos Linux Tyron.
+ This package provides the official GRUB theme and related assets for Soplos Linux Tyron.
+ Build date: 2026-09-28
+
+Package: soplos-kernel-installer
+Version: 1.0.3-6
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, bc, binutils, bison, build-essential, coreutils, cpio, curl, debhelper-compat, dkms, dracut, fakeroot, flex, g++, gettext, gir1.2-gtk-3.0, git, grub-common, kmod, libelf-dev, libncurses-dev, libssl-dev, linux-libc-dev, mokutil, pahole | dwarves, patch, pciutils, pkg-config, pkgconf, python3, python3-gi, python3-gi-cairo, python3-setuptools, rsync, sbsigntool, tar, wget, xz-utils, zstd
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-kernel-installer/soplos-kernel-installer_1.0.3-6_all.deb
+Size: 985100
+SHA256: a3aedb366f5335f3279f1a615cedd2baddaeac0f08c10ae1d0d1fb9f79a1eac1
+SHA1: ca2e8b2a6da5dc547e3d342331e58ad90f5a1550
+MD5sum: d0da54cb763dab8c1213d4e3aa112ac8
+Description: Advanced graphical kernel manager for Soplos Linux
+
+Package: soplos-limine-theme
+Version: 1.0.0
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: limine-soplos
+Priority: optional
+Section: admin
+Filename: pool/main/s/soplos-limine-theme/soplos-limine-theme_1.0.0_all.deb
+Size: 2006224
+SHA256: 12e0e717e2dc3d69f87ebb487af4c1b51ff5ea956a43852897b5147786e9a1f8
+SHA1: cb6b5f1f43a0c732e584f1c5abd5d2eb9cb9b7af
+MD5sum: c13a3c7d34afc35c30a0e01d419aad71
+Description: Soplos Linux look for the Limine boot menu
+ The background and the colours of the Soplos GRUB theme for the Limine
+ boot menu. limine-soplos reads them from /etc/limine-soplos/theme.conf
+ and copies the background to the FAT partition Limine boots from.
+
+Package: soplos-plymouth-manager
+Version: 2.0.0-8
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, plymouth, plymouth-x11, polkitd, procps, python3, python3-dbus, python3-gi, python3-pil | python3-pillow, python3-psutil, python3-setuptools, python3-xdg, scrot | imagemagick, tar, unzip, x11-utils, xdotool, xserver-xephyr, xterm
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_2.0.0-8_all.deb
+Size: 951428
+SHA256: a783d29a9f92c0be1e899c637f4723f2069c22dae6890d6f71e1db7d8cf66b10
+SHA1: 20c34b03a27b2cde192b4ebd8a3256c7720561d0
+MD5sum: e06fcb5dd42e3242c51d39e85dce1cbf
+Description: Plymouth boot splash theme manager for Soplos Linux
+
+Package: soplos-plymouth-theme
+Version: 0.0.2
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-plymouth-theme/soplos-plymouth-theme_0.0.2_all.deb
+Size: 666400
+SHA256: 0316b4990db173efd5d33f27f4df09a76b4be6e6f8c33731efd6b84abda88c50
+SHA1: 27cada32ca112fd74dd78e7b08cb78ddc83f87ed
+MD5sum: 97e29bbd869f19fbf8cfd2b4596a775f
+Description: Soplos Plymouth theme.
+ This package provides the Soplos Plymouth theme, including all required images and configuration for Plymouth boot splash.
+ Build date: 2025-12-20
+
+Package: soplos-release
+Version: 1.0.0-9
+Architecture: all
+Maintainer: Sergi Perich
+Priority: required
+Section: admin
+Filename: pool/main/s/soplos-release/soplos-release_1.0.0-9_all.deb
+Size: 2418692
+SHA256: 5b157c587d80a1d5aad3aaeca892a6febee98d73144e0a554d784a0f2176850e
+SHA1: e9ad319f5a96315c5c07288a821780fc3b328df6
+MD5sum: 1fd7514f52b5712604384a39d4ed16ac
+Description: Soplos Linux release information (internal system package)
+ This package contains release information and version files for Soplos Linux.
+ It is essential for operating system identification.
+ .
+ This is an internal system package and does not provide any user interface.
+ This release corresponds to Soplos Linux Tyron 2026.11.
+Essential: yes
+Replaces: base-files
+Depends: fonts-noto-color-emoji
+Recommends: branding-soplos (>= 0.0.1), soplos-grub-theme (>= 0.0.1), soplos-plymouth-theme (>= 0.0.1), soplos-wallpapers01 (>= 0.0.1), soplos-wallpapers02 (>= 0.0.1), fastfetch-soplos (>= 0.0.1)
+
+Package: soplos-repo-selector
+Version: 2.0.3-1
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3, python3-apt, python3-gi, python3-gi-cairo, python3-pillow, python3-psutil, python3-setuptools, python3-xdg, wget
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_2.0.3-1_all.deb
+Size: 1199368
+SHA256: 932ad35ea1ba67b37a4d7e8aaeb1e9a1048c40255d66df4d810c2a1b2c739e72
+SHA1: f53920e2f335dd58cf5793cc79b16ab13de8c1b1
+MD5sum: a3aef252642a88f8a6cf8cf8eea53484
+Description: Advanced APT repository manager for Soplos Linux
+
+Package: soplos-sys-cleaner
+Version: 1.0.3-4
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-sys-cleaner/soplos-sys-cleaner_1.0.3-4_all.deb
+Size: 1124324
+SHA256: 5c657e327188f77989104b1a420a7099dc7120bcea831da43508c5eb234db276
+SHA1: b9ea6b52a5558ee1a5a99c16ff34ee5f003dc236
+MD5sum: 7c36ad4e7cdc7cc6bc165eb090141a37
+Description: System cleaner and optimizer for Soplos Linux
+
+Package: soplos-system-service
+Version: 1.0.0-6
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-gtk-3.0, pkexec, policykit-1 | polkitd, python3, python3-gi, python3-gi-cairo, systemd
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-system-service/soplos-system-service_1.0.0-6_all.deb
+Size: 698132
+SHA256: 2574ae88cd2756697bee46a5ec65bba519908490b72ad15bcf3f98fd3857a790
+SHA1: 067d327b34eedb5d60102cd59df6c811ba022033
+MD5sum: c9c644b1fa6cfbe56bba5ca43d5ec985
+Description: Graphical manager for systemd services on Soplos Linux
+
+Package: soplos-theme-manager
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 77582
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: xfconf, pkexec, libwebkit2gtk-4.1-0, libgtk-3-0
+Recommends: scrot, imagemagick, wmctrl, libnotify-bin
+Priority: optional
+Section: x11
+Filename: pool/main/s/soplos-theme-manager/soplos-theme-manager_3.0.0_amd64.deb
+Size: 75056550
+SHA256: 7b84f24f7a92c6cdd06f34133dcdc00bdbc48787e399410cd0a6a0781bb865e2
+SHA1: 1c1196e334227c5f38cc1d08ca13d11fbe497110
+MD5sum: e10d8e80296135865283db8f2e963cb7
+Description: Theme manager for Soplos Linux Tyron
+ Manage the themes, wallpapers, GTK themes, icons and cursors, panel, dock and login screen of Soplos Linux Tyron (Xfce).
+
+Package: soplos-vmware-modules
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 24
+Depends: make, gcc, tar, kmod, coreutils
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-vmware-modules/soplos-vmware-modules_1.0.0_amd64.deb
+Size: 4248
+SHA256: 569851991ab68ba3d70ed54346be83b98e189ec5e7f7f0a463a7f4ce3d438137
+SHA1: 26c48e95ccfbbd5ec1275f0f3b94a36aaa593ae3
+MD5sum: a6d7b3ed81c5f260713ee22537ad838c
+Description: VMware kernel modules builder for Soplos Linux
+ Builds and installs VMware Workstation host kernel modules (vmmon and
+ vmnet) for all installed kernels on Soplos Linux. The vmw_vmci module
+ is provided by the Soplos kernel itself.
+ .
+ Includes a hook in /etc/kernel/postinst.d/ that automatically rebuilds
+ the modules when a new kernel is installed, and a hook in
+ /etc/kernel/prerm.d/ that cleans up when a kernel is removed.
+ .
+ Also configures VMware module autoloading at boot and enables the
+ vmware.service systemd unit.
+
+Package: soplos-wallpapers01
+Version: 0.0.1
+Architecture: all
+Maintainer: SopLOS <info@soploslinux.com>
+Priority: optional
+Section: x11
+Filename: pool/main/s/soplos-wallpapers01/soplos-wallpapers01_0.0.1_all.deb
+Size: 34258712
+SHA256: de1b14e1e7c7985f03cbd3df3943e08b3b3931a2798d1d0fc83ccbde57364cac
+SHA1: 0ed56c7530ae03877191055ced5effcf9219b665
+MD5sum: 5981661af383d6a6ebb52e7043818e00
+Description: Fondos de pantalla para SopLOS
+ Este paquete contiene una colección de fondos de pantalla 
+ para el sistema operativo Soplos Linux Tyron.
+
+Package: soplos-wallpapers02
+Version: 0.0.1
+Architecture: all
+Maintainer: SopLOS <info@soploslinux.com>
+Priority: optional
+Section: x11
+Filename: pool/main/s/soplos-wallpapers02/soplos-wallpapers02_0.0.1_all.deb
+Size: 32270188
+SHA256: be8d5deb8a3004827e008f7173d43dec870ab23e472839df3716c04bf07d2c15
+SHA1: 10dc1586089e14fd6f1bb7847c3ea8726fafde4e
+MD5sum: e55be1e665fa0ddbd6a2e83d006f8933
+Description: Fondos de pantalla para SopLOS
+ Este paquete contiene una colección de fondos de pantalla 
+ para el sistema operativo Soplos Linux Tyron.
+
+Package: soplos-webapp-manager
+Version: 1.0.0-5
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3, python3-gi, python3-gi-cairo, python3-setuptools
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-webapp-manager/soplos-webapp-manager_1.0.0-5_all.deb
+Size: 542540
+SHA256: 21def305c61ecea08c18d614e92b35b725df2c93797bec35a103509d147650ae
+SHA1: 30651433c658d5261cc1b27ffdf397b6a660949a
+MD5sum: 256cdd00a4b79cdd5025b5208eaffed4
+Description: Create and manage isolated Web Applications
+
+Package: soplos-welcome
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 65789
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: curl, wget, pkexec | policykit-1, libwebkit2gtk-4.1-0, libgtk-3-0
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-welcome/soplos-welcome_3.0.0_amd64.deb
+Size: 61946904
+SHA256: 0178ba3d7faa76a812a2e1a27224e36b738f2b7de2235e260d1a2aa8c50391ab
+SHA1: 56b47037a2963d5c4da046c20cef3f39bfa2b366
+MD5sum: 22b6bb7cdd636a676b394ec81ce3f3e8
+Description: Welcome screen for Soplos Linux
+ A welcome application for new users of Soplos Linux. Provides easy access to common system configuration and software installation tasks.
+
+Package: soplos-welcome-live
+Version: 2.0.2-8
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, locales, python3, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, x11-xkb-utils
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_2.0.2-8_all.deb
+Size: 1261656
+SHA256: f3529d11ac7b4e1ff2b99ebc2cace194c05a54d76ad49e555c88fa09c19266b5
+SHA1: ab35b0974fcf55beb8f8fa66fe5638c9ec0fa88f
+MD5sum: 32d3cc6eaf26c93338a6980db3286e38
+Description: Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support
+
+Package: tablet-soplos
+Version: 0.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: iio-sensor-proxy, onboard
+Priority: optional
+Section: utils
+Filename: pool/main/t/tablet-soplos/tablet-soplos_0.0.1_all.deb
+Size: 1280
+SHA256: c26ac5c8ef58b38d48093d0c34513de07a950229e8bf6effdf01ed2bba91c986
+SHA1: 7370f09c63eda14df992191f3249e3048c634b07
+MD5sum: 7bd42155029949e1f1f63305d3b6aed4
+Description: Tablet and hybrid device support for Soplos Linux Tyron
+ This package provides support for hybrid and tablet devices on Soplos Linux
+ Tyron. Enables screen rotation via accelerometer and configures the Onboard
+ on-screen keyboard to start automatically with XFCE.
+
+Package: tela-soplos-icons
+Version: 1.0.0-6
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://github.com/SoplosLinux/tela-soplos-icons
+Priority: optional
+Section: x11
+Filename: pool/main/t/tela-soplos-icons/tela-soplos-icons_1.0.0-6_all.deb
+Size: 2765848
+SHA256: 4731e8b5fc04751e3dad0e5086f1eb1a8a1b8f2311655746f7d74a7de8ce9687
+SHA1: adba01fb83e005d4a2261c0fa380cded4d371c3b
+MD5sum: b56f4e6e8103c246e2b501a1e3843f18
+Description: Tela Soplos icon themes (default, dark and light) for Soplos Linux.
+ Icon themes for Soplos Linux based on the Tela ubuntu icon theme and
+ recolored with the official Soplos palette. Three variants are installed in
+ /usr/share/icons: Tela Soplos, Tela Soplos Dark and Tela Soplos Light.
+ .
+ Based on Tela (https://github.com/vinceliuice/Tela-icon-theme). Soplos
+ modifications by Sergi Perich and Simnandez.
+ Build date: 2026-11-16
+
+Package: telegram-desktop
+Version: 7.4.0-1
+Architecture: amd64
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 266056
+Depends: libc6, libatomic1, libblkid1, libbrotli1, libbz2-1.0, libcairo2, libdatrie1, libexpat1, libffi8, libfontconfig1, libfreetype6, libfribidi0, libglib2.0-0t64, libgraphite2-3, libharfbuzz0b, libmount1, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre2-8-0, libpixman-1-0, libpng16-16t64, libselinux1, libsystemd0, libthai0, libx11-6, libxau6, libxcb1, libxcb-render0, libxcb-shm0, libxdmcp6, libxext6, libxrender1, zlib1g
+Priority: optional
+Section: net
+Filename: pool/main/t/telegram-desktop/telegram-desktop_7.4.0-1_amd64.deb
+Size: 90583332
+SHA256: c96f9ed7accebb9a2be80628b825262b93b56a1b0549e366c59b0d7d63ef34dc
+SHA1: f9d8a53dc98b55cce43fb236bda0fbdef3be5316
+MD5sum: 6589406240beae5338088d56247d4439
+Description: Telegram Desktop
+ Official Telegram Desktop client for Linux.
+
+Package: zram-soplos
+Version: 0.0.1-2
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: zram-tools
+Priority: optional
+Section: utils
+Filename: pool/main/z/zram-soplos/zram-soplos_0.0.1-2_all.deb
+Size: 1400
+SHA256: 9d7d57fc844b64f9e34d3c0977d04003c1903545e2da3dbfee16c6ff80ee146a
+SHA1: f4be54b1fc10d70c72e65bf0358b5181a32cb8b0
+MD5sum: c069fb50b705fe2920084a0e8dc89b80
+Description: ZRAM swap configuration for SopLOS
+ This package installs and configures zram-tools with optimized settings
+ for SopLOS Linux, using zstd compression and 50% RAM allocation.
+
+Package: zsh-soplos
+Version: 0.0.1-4
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: zsh, zsh-syntax-highlighting, zsh-autosuggestions
+Priority: optional
+Section: utils
+Filename: pool/main/z/zsh-soplos/zsh-soplos_0.0.1-4_all.deb
+Size: 1880
+SHA256: 47b46aea95e65e6fa80155b1b0c9052ab3ba77d2374487acf5ae6c2ffc4c0cc2
+SHA1: 0cace452e932e1b4938161ab74a66c2be345f29b
+MD5sum: d7d881fb837f5e593e2addeda2220af6
+Description: Zsh shell configuration for SopLOS
+ This package provides the SopLOS theme and prompt for the Zsh shell,
+ applied to both new and existing users. Sets Zsh as the default shell.
+

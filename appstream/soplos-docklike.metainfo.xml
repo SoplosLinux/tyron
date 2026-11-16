@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.soplos.docklike.desktop</id>
+  <pkgname>soplos-docklike</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <project_group>com.soploslinux</project_group>
+  <name>Application Manager for Docklike</name>
+  <name xml:lang="es">Gestor de aplicaciones para Docklike</name>
+  <name xml:lang="fr">Gestionnaire d'applications pour Docklike</name>
+  <name xml:lang="pt">Gerenciador de aplicações para Docklike</name>
+  <name xml:lang="de">Anwendungsmanager für Docklike</name>
+  <name xml:lang="it">Gestore applicazioni per Docklike</name>
+  <name xml:lang="ru">Менеджер приложений для Docklike</name>
+  <name xml:lang="ro">Manager de aplicații pentru Docklike</name>
+  
+  <summary>XFCE Dock icon manager</summary>
+  <summary xml:lang="es">Gestor de iconos para el dock de XFCE</summary>
+  <summary xml:lang="fr">Gestionnaire d'icônes pour le plugin Docklike XFCE</summary>
+  <summary xml:lang="pt">Gerenciador de ícones para o plugin Docklike do XFCE</summary>
+  <summary xml:lang="de">Icon-Manager für das XFCE Docklike Plugin</summary>
+  <summary xml:lang="it">Gestore delle icone per il plugin Docklike di XFCE</summary>
+  <summary xml:lang="ru">Менеджер значков для плагина Docklike XFCE</summary>
+  <summary xml:lang="ro">Manager de pictograme pentru plugin-ul Docklike XFCE</summary>
+
+  <description>
+    <p>A graphical tool to manage and organize icons in the XFCE panel's Docklike plugin.</p>
+    <p xml:lang="es">Una herramienta gráfica para gestionar y organizar los iconos en el plugin Docklike del panel de XFCE.</p>
+    <p xml:lang="fr">Un outil graphique pour gérer et organiser les icônes dans le plugin Docklike du panneau XFCE.</p>
+    <p xml:lang="pt">Uma ferramenta gráfica para gerenciar e organizar ícones no plugin Docklike do painel XFCE.</p>
+    <p xml:lang="de">Ein grafisches Tool zur Verwaltung und Organisation von Icons im Docklike-Plugin des XFCE-Panels.</p>
+    <p xml:lang="it">Uno strumento grafico per gestire e organizzare le icone nel plugin Docklike del pannello XFCE.</p>
+    <p xml:lang="ru">Графический инструмент для управления и организации значков в плагине Docklike панели XFCE.</p>
+    <p xml:lang="ro">Un instrument grafic pentru gestionarea și organizarea pictogramelor în plugin-ul Docklike al panoului XFCE.</p>
+  </description>
+
+  <categories>
+    <category>System</category>
+    <category>Settings</category>
+    <category>Utility</category>
+    <category>DesktopSettings</category>
+  </categories>
+
+  <requires>
+    <id>python3</id>
+    <id>python3-gi</id>
+    <id>gir1.2-gtk-3.0</id>
+    <id>xfce4-docklike-plugin</id>
+  </requires>
+
+  <translation type="gettext">
+    <locale>es</locale>
+    <locale>en</locale>
+    <locale>fr</locale>
+    <locale>pt</locale>
+    <locale>de</locale>
+    <locale>it</locale>
+    <locale>ru</locale>
+    <locale>ro</locale>
+  </translation>
+
+  <launchable type="desktop-id">com.soplos.docklike.desktop</launchable>
+
+  <icon type="stock">soplos-docklike</icon>
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-docklike/icons/com.soplos.docklike.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Interface window of Soplos Docklike</caption>
+      <caption xml:lang="es">Ventana de interfaz de Soplos Docklike</caption>
+      <caption xml:lang="fr">Fenêtre d'interface de Soplos Docklike</caption>
+      <caption xml:lang="pt">Janela de interface do Soplos Docklike</caption>
+      <caption xml:lang="de">Soplos Docklike Interface-Fenster</caption>
+      <caption xml:lang="it">Finestra dell'interfaccia di Soplos Docklike</caption>
+      <caption xml:lang="ru">Окно интерфейса Soplos Docklike</caption>
+      <caption xml:lang="ro">Fereastra de interfață Soplos Docklike</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-docklike/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Application selector</caption>
+      <caption xml:lang="es">Selector de aplicaciones</caption>
+      <caption xml:lang="fr">Sélecteur d'applications</caption>
+      <caption xml:lang="pt">Seletor de aplicações</caption>
+      <caption xml:lang="de">Anwendungsauswahl</caption>
+      <caption xml:lang="it">Selettore di applicazioni</caption>
+      <caption xml:lang="ru">Выбор приложений</caption>
+      <caption xml:lang="ro">Selector de aplicații</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-docklike/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Changed applications</caption>
+      <caption xml:lang="es">Aplicaciones cambiadas</caption>
+      <caption xml:lang="fr">Applications modifiées</caption>
+      <caption xml:lang="pt">Aplicações alteradas</caption>
+      <caption xml:lang="de">Geänderte Anwendungen</caption>
+      <caption xml:lang="it">Applicazioni modificate</caption>
+      <caption xml:lang="ru">Изменённые приложения</caption>
+      <caption xml:lang="ro">Aplicații modificate</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-docklike/screenshots/screenshot3.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soploslinux.com</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
+  <url type="contact">https://soploslinux.com/foros/</url>
+
+  <developer id="com.soploslinux">
+    <name>Sergi Perich</name>
+    <url>https://soploslinux.com</url>
+  </developer>
+
+  <provides>
+    <binary>soplos-docklike</binary>
+  </provides>
+
+  <releases>
+    <release version="1.0.4" date="2025-07-27">
+      <description>
+        <p>Cambio de icono del programa.</p>
+        <p xml:lang="es">Cambio de icono del programa.</p>
+        <p xml:lang="en">Program icon changed.</p>
+        <p xml:lang="fr">Changement de l'icône du programme.</p>
+        <p xml:lang="pt">Alteração do ícone do programa.</p>
+        <p xml:lang="de">Programm-Icon geändert.</p>
+        <p xml:lang="it">Cambiata l'icona del programma.</p>
+        <p xml:lang="ru">Изменена иконка программы.</p>
+        <p xml:lang="ro">S-a schimbat pictograma programului.</p>
+      </description>
+    </release>
+    <release version="1.0.3" date="2025-07-18">
+      <description>
+        <p>Actualización de versión y metainfo para AppStream/DEP-11.</p>
+        <p xml:lang="es">Actualización de versión y metainfo para AppStream/DEP-11.</p>
+        <p xml:lang="en">Version and metainfo update for AppStream/DEP-11.</p>
+        <p xml:lang="fr">Mise à jour de la version et du metainfo pour AppStream/DEP-11.</p>
+        <p xml:lang="pt">Atualização de versão e metainfo para AppStream/DEP-11.</p>
+        <p xml:lang="de">Versions- and Metainfo-Aktualisierung für AppStream/DEP-11.</p>
+        <p xml:lang="it">Aggiornamento versione e metainfo per AppStream/DEP-11.</p>
+        <p xml:lang="ru">Обновление версии и метаинформации для AppStream/DEP-11.</p>
+        <p xml:lang="ro">Actualizare versiune și metainfo pentru AppStream/DEP-11.</p>
+      </description>
+    </release>
+    <release version="1.0.0" date="2025-05-08">
+      <description>
+        <p>Initial release version</p>
+        <p xml:lang="es">Versión inicial de lanzamiento</p>
+        <p xml:lang="fr">Version initiale de lancement</p>
+        <p xml:lang="pt">Versão inicial de lançamento</p>
+        <p xml:lang="de">Erste Veröffentlichungsversion</p>
+        <p xml:lang="it">Versione iniziale di rilascio</p>
+        <p xml:lang="ru">Начальная версия выпуска</p>
+        <p xml:lang="ro">Versiune inițială de lansare</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+  </content_rating>
+</component>
