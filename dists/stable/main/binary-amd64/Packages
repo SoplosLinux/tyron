@@ -1,16 +1,16 @@
 Package: branding-soplos
-Version: 0.0.1
+Version: 0.0.1-1
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Replaces: soplos-release (<= 0.1.4)
 Conflicts: soplos-release (<= 0.1.4)
 Priority: optional
 Section: misc
-Filename: pool/main/b/branding-soplos/branding-soplos_0.0.1_all.deb
-Size: 13852356
-SHA256: 303f32199adfdfc71ad1d8beb9190a6c927765d6b885bb83e3f91cb1f7eefc30
-SHA1: d6fc46fa76e5b776ece8fa476f72d37df2342a62
-MD5sum: 63b50e1b8f410715dd4b4e3be1ae3d70
+Filename: pool/main/b/branding-soplos/branding-soplos_0.0.1-1_all.deb
+Size: 13856272
+SHA256: d470064d7e6c2c6b2a474ba1b913b70d6b8971302c39649a3f6fcfb557e2f461
+SHA1: 834be8479c20845fa97e3d16bc979a71fa1bb083
+MD5sum: c74960f620823df5a081d0cb5c52ee01
 Description: Branding y recursos gráficos de SopLOS
  Este paquete contiene los archivos de branding y recursos gráficos
  para SopLOS Linux Tyron.

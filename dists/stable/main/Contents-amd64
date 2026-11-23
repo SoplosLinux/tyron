@@ -25,6 +25,7 @@ etc/issue.net	    admin/soplos-release
 etc/lsb-release	    admin/soplos-release
 etc/motd	    admin/soplos-release
 etc/os-release	    admin/soplos-release
+etc/apparmor.d/abstractions/glycin.d/branding-soplos	    misc/branding-soplos
 etc/apt/apt.conf.d/20soplos-store	    admin/soplos-store
 etc/apt/sources.list.d/tyron.sources	    admin/soplos-release
 etc/default/grub	    misc/soplos-grub-theme
