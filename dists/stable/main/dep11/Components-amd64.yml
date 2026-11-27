@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: "SoplosLinux"
 MediaBaseUrl: "https://raw.githubusercontent.com/SoplosLinux/tyron/main/media"
-Time: 20261127T180554
+Time: 20261127T180807
 ---
 Type: desktop-application
 ID: "com.mitchellh.ghostty"
@@ -1780,34 +1780,6 @@ Releases:
       C: "<p>First alpha of the rewrite of Soplos Plymouth Manager, from Python 3 and GTK3 to Tauri 2 with a Rust backend and a Svelte frontend. It applies, previews, installs and removes themes for real, with dracut or initramfs-tools, on X11 and Wayland. It has not yet been tested on real hardware.</p>"
 ContentRating:
   oars-1.1: {}
----
-Type: operating-system
-ID: "org.soploslinux.soplos"
-Package: "soplos-release"
-Name:
-  C: "Soplos Linux"
-Summary:
-  C: "GNU/Linux distribution focused on usability and modern desktop experience"
-Description:
-  C: "<p>Soplos Linux is a modern, user-friendly GNU/Linux distribution with a focus on simplicity, performance, and a great out-of-the-box experience.</p>"
-ProjectLicense: "GPL-3.0+"
-DeveloperName:
-  C: "Sergi Perich"
-Url:
-  homepage: "https://soplos.org"
-Icon:
-  cached:
-    - name: "soplos-logo.png"
-      width: 128
-      height: 128
-  remote:
-    - url: "soplos-release/icons/128x128/soplos-logo.png"
-      width: 128
-      height: 128
-Releases:
-  - version: "2026.11"
-    type: stable
-    unix-timestamp: 1793491200
 ---
 Type: desktop-application
 ID: "org.soplos.reposelector"
