@@ -1,16 +1,16 @@
 Package: branding-soplos
-Version: 0.0.1-2
+Version: 0.0.4
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Replaces: soplos-release (<= 0.1.4)
 Conflicts: soplos-release (<= 0.1.4)
 Priority: optional
 Section: misc
-Filename: pool/main/b/branding-soplos/branding-soplos_0.0.1-2_all.deb
-Size: 8234672
-SHA256: 2bbff176955cec13c35f501e7aa4c2596efab63232d26879acb80630967e8dc2
-SHA1: 7fceb2f9e2e7e50d66de1b4743f82854e3d7218e
-MD5sum: 682f2215bae887b474bf46bbd9e91739
+Filename: pool/main/b/branding-soplos/branding-soplos_0.0.4_all.deb
+Size: 8234824
+SHA256: 06b616df6df0de610aee37279cbad5c0c1b88dea22402a0dc40535abae834377
+SHA1: de18ca2b05fb01e36415b0857ac81ad1d38bdc31
+MD5sum: ef447e3a7c8837d908dbc936915e4d7d
 Description: Branding y recursos gráficos de SopLOS
  Este paquete contiene los archivos de branding y recursos gráficos
  para SopLOS Linux Tyron.
@@ -747,6 +747,20 @@ MD5sum: e55be1e665fa0ddbd6a2e83d006f8933
 Description: Fondos de pantalla para SopLOS
  Este paquete contiene una colección de fondos de pantalla 
  para el sistema operativo Soplos Linux Tyron.
+
+Package: soplos-wallpapers2027
+Version: 1.0.0
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: x11
+Filename: pool/main/s/soplos-wallpapers2027/soplos-wallpapers2027_1.0.0_all.deb
+Size: 24704348
+SHA256: 569d88b9fa9e602d5049a8f84094f89d9ccfeaf5855c8a5f93b94df82dc13ad9
+SHA1: 5df0e8ade89e47fe7eed3523b82a4841f3e75931
+MD5sum: bb07c049bbcaf93cceda4e4f64b9891f
+Description: Soplos Linux 2027 wallpapers
+ Extra pack of ten wallpapers in 3840x2160 for Soplos Linux Tyron.
 
 Package: soplos-webapp-manager
 Version: 3.0.0

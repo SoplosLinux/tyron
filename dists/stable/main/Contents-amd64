@@ -177,6 +177,16 @@ usr/share/applications/soplos-theme-manager.desktop	    x11/soplos-theme-manager
 usr/share/applications/soplos-webapp-manager.desktop	    utils/soplos-webapp-manager
 usr/share/applications/soplos-welcome-live.desktop	    utils/soplos-welcome-live
 usr/share/applications/soplos-welcome.desktop	    utils/soplos-welcome
+usr/share/backgrounds/2027/amber-river.jpg	    x11/soplos-wallpapers2027
+usr/share/backgrounds/2027/citrus-flow.jpg	    x11/soplos-wallpapers2027
+usr/share/backgrounds/2027/comet-drift.jpg	    x11/soplos-wallpapers2027
+usr/share/backgrounds/2027/ember-strata.jpg	    x11/soplos-wallpapers2027
+usr/share/backgrounds/2027/golden-buttons.jpg	    x11/soplos-wallpapers2027
+usr/share/backgrounds/2027/lava-wave.jpg	    x11/soplos-wallpapers2027
+usr/share/backgrounds/2027/liquid-amber.jpg	    x11/soplos-wallpapers2027
+usr/share/backgrounds/2027/molten-orbs.jpg	    x11/soplos-wallpapers2027
+usr/share/backgrounds/2027/orbit-capsules.jpg	    x11/soplos-wallpapers2027
+usr/share/backgrounds/2027/sunset-clouds.jpg	    x11/soplos-wallpapers2027
 usr/share/backgrounds/soplos/001.jpg	    x11/soplos-wallpapers01
 usr/share/backgrounds/soplos/002.jpg	    x11/soplos-wallpapers01
 usr/share/backgrounds/soplos/003.jpg	    x11/soplos-wallpapers01
