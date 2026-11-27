@@ -67,6 +67,7 @@ etc/xdg/autostart/onboard-soplos.desktop	    utils/tablet-soplos
 etc/xdg/autostart/soplos-store-tray.desktop	    admin/soplos-store
 opt/Telegram/Telegram	    net/telegram-desktop
 opt/Telegram/Updater	    net/telegram-desktop
+opt/Telegram/TelegramHelpers/TelegramWidgetHelper	    net/telegram-desktop
 usr/bin/ghostty	    utils/ghostty,utils/ghostty-tip
 usr/bin/grub-btrfsd	    admin/grub-btrfs
 usr/bin/kuteditor	    sound/kuteditor
